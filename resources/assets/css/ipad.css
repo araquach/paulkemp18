@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.csstransitions .teamprice, .csstransitions .pteamprice {
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity : 1;
+	}
+
+.teamprice {
+	display: block;
+	padding-top:220px;
+	width: 350px;
+	height: 30px;
+	position: absolute;
+	top: -10px;
+	left: 50px;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	
+}
+
+.pteamprice {
+	
+	display: block;
+	padding-top:220px;
+	width: 400px;
+	height: 30px;
+	position: absolute;
+	top: 175px;
+	left: 450px;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	
+}
+
+.teamprice:hover, .pteamprice:hover {
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+}
