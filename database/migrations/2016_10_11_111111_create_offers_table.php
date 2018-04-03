@@ -22,7 +22,7 @@ class CreateOffersTable extends Migration
             $table->string('email');
             $table->string('gender');
             $table->string('stylist_level');
-            $table->boolean('opt_out');
+            $table->boolean('opt_out')->nullable();
             $table->timestamps();
         });
     }

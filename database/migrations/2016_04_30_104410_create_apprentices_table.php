@@ -14,12 +14,13 @@ class CreateApprenticesTable extends Migration
     {
         Schema::create('apprentices', function (Blueprint $table) {
             $table->increments('id');
-			$table->dateTime('date');
+            $table->integer('salon_id');
 			$table->string('first_name');
 			$table->string('second_name');
 			$table->integer('age');
 			$table->string('address1');
 			$table->string('address2');
+			$table->string('town');
 			$table->string('postcode');
 			$table->string('email');
 			$table->string('phone');
@@ -37,9 +38,9 @@ class CreateApprenticesTable extends Migration
 			$table->integer('chem_straightening');
 			$table->integer('brazil_blow');
 			$table->integer('hair_up');
-			$table->string('about');
-			$table->string('why_hairdressing');
-			$table->string('why_pk');
+			$table->text('about');
+			$table->text('why_hairdressing');
+			$table->text('why_us');
 			$table->timestamps();
         });
     }

@@ -22,7 +22,7 @@ class OffersTableSeeder extends Seeder
             'email' => 'adam@jakatasalon.co.uk',
             'gender' => 'm',
             'stylist_level' => 'ss',
-            'opt_out' => '',
+            'opt_out' => '0',
             'created_at' => Carbon::now(),
         ]);
         
@@ -36,7 +36,7 @@ class OffersTableSeeder extends Seeder
             'email' => 'helen@jones.com',
             'gender' => 'f',
             'stylist_level' => 's',
-            'opt_out' => '',
+            'opt_out' => '0',
             'created_at' => Carbon::now(),
         ]);
         
@@ -50,7 +50,7 @@ class OffersTableSeeder extends Seeder
             'email' => 'sharon@smith.com',
             'gender' => 'f',
             'stylist_level' => 'g',
-            'opt_out' => '',
+            'opt_out' => '0',
             'created_at' => Carbon::now(),
         ]);
     }

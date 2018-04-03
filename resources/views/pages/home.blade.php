@@ -36,7 +36,7 @@
     </section>
     
     <div id="home_news">
-		@foreach($blogs	as $blog)
+		@foreach($blogs as $blog)
 			<a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
 				<aside class="home_news">
 					<div class="home_news_pic" style="background: url('{{ $blog->paras()->first()->para_pic }}') no-repeat center center rgba(249, 249, 250, 0.8); background-size: cover;"></div>

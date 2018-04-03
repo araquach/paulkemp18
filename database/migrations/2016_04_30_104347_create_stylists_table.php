@@ -14,11 +14,12 @@ class CreateStylistsTable extends Migration
     {
         Schema::create('stylists', function (Blueprint $table) {
             $table->increments('id');
-			$table->dateTime('date');
+            $table->integer('salon_id');
 			$table->string('first_name');
 			$table->string('second_name');
 			$table->string('address1');
 			$table->string('address2');
+			$table->string('town');
 			$table->string('postcode');
 			$table->string('email');
 			$table->string('phone');
@@ -40,15 +41,16 @@ class CreateStylistsTable extends Migration
 			$table->integer('cutting_skills');
 			$table->integer('colour_knowledge');
 			$table->integer('colour_skills');
+			$table->integer('hair_up');
 			$table->integer('men');
 			$table->integer('extensions_weave');
 			$table->integer('extensions_other');
 			$table->integer('chem_straighten');
 			$table->integer('braz_blow');
-			$table->integer('awards');
-			$table->string('about_you');
-			$table->string('why_hairdressing');
-			$table->string('why_pk');
+			$table->text('awards');
+			$table->text('about_you');
+			$table->text('why_hairdressing');
+			$table->text('why_us');
             $table->timestamps();
         });
     }

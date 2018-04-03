@@ -25,8 +25,8 @@ class CreateProspectsTable extends Migration
             $table->boolean('regular');
             $table->string('texture');
             $table->string('condition');
-            $table->string('cut_spend');
-            $table->string('colour_spend');
+            $table->integer('cut_spend');
+            $table->integer('colour_spend');
             $table->string('gender');
             $table->timestamps();
         });
