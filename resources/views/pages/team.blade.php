@@ -18,7 +18,7 @@
 <section id="team">
 	<ul>
 		<li>
-			<p class="up">Shell 1</p>
+			<p class="up">Shell</p>
 		</li>
 		<li>
 			<p>Kel</p>
