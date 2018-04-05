@@ -32,7 +32,7 @@
 	<p>Izzy has quickly established herself as an extremely sought after stylist.</p>
 	<p>Her natural flair with creating beautiful, wearable styles has built her a strong following. </p>
 	<p>Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Izzy : &pound;114*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Izzy : &pound;125*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

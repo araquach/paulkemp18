@@ -29,7 +29,7 @@
 	<h2>Michelle Railton</h2>
 	<p>Michelle is a highly skilled Senior Stylist with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. </p>
 	<p>She especially loves soft, natural styles and men's indie/mod cutting.</p> 
-	<p class="team_ind_price">Average Cut &amp; Colour price with Michelle : &pound;114*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Michelle : &pound;125*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

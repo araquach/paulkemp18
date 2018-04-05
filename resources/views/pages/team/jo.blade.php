@@ -32,7 +32,7 @@
 	<p>Jo is a fantastic stylist with many years experience, she's a real long standing asset to the team.</p> 
 	<p>Her down to earth nature instantly puts you at ease and her hairdressing skills really shine.</p>
 	<p>She loves doing men and women's hair. Book well in advance - she's a very busy stylist. </p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Jo : &pound;114*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Jo : &pound;125*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

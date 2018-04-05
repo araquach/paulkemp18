@@ -32,7 +32,7 @@
 	<p>Salon manager Kelly has 14 years experience working in Warrington town centre.</p>
 	<p>She is the team leader of the salon.</p> 
 	<p>She specialises in long hair styling and is also one of the extension experts within the salon.</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Kelly : &pound;114*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Kelly : &pound;125*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

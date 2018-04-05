@@ -30,7 +30,7 @@
 	<p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair.</p>
 	<p>He's a big hit in the salon due to his friendly personality.</p>
 	<p>He has grown to be a pivotal member of the team and is fast expanding his ever growing client base.</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Leon : &pound;114*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Leon : &pound;125*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>
