@@ -425,7 +425,7 @@ li.active a {
 }
 
 #feedback_feed_ind {
-	width: auto;	
+	width: 100%;	
 }
 
 @media only screen 
@@ -527,6 +527,29 @@ li.active a {
 }
 
 #shell h3 img {
+	mashellrgin-top: 0px;
+	float: left;
+}
+
+#amy {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#amy img {
+	float: left;
+}
+
+#amy p {
+	font-size: 0.8em;
+}
+
+#amy h3 img {
 	mashellrgin-top: 0px;
 	float: left;
 }
