@@ -29,7 +29,7 @@
 	<h2>Kate O'Halloran</h2>
 	<p>Kate has the ability to put you instantly at ease and with her many years of experience she'll find a look that's perfect for you.</p>
 	<p>Colouring, cutting and long hair styling are her specialities.</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Kate : &pound;96*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Kate : &pound;107*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

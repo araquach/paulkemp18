@@ -1498,10 +1498,32 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#kate {
+#amy {
 	position:absolute;
 	left: 470px;
 	top: 1300px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+}
+
+#amy img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#amy p {
+	font-size: 0.8em;
+}
+
+#amy h3 img {
+	margin-top: 0px;
+}
+
+#kate {
+	position:absolute;
+	left: 40px;
+	top: 1600px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -1517,28 +1539,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #kate h3 img {
-	margin-top: 0px;
-}
-
-#matt {
-	position:absolute;
-	left: 40px;
-	top: 1600px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#matt img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#matt p {
-	font-size: 0.8em;
-}
-
-#matt h3 img {
 	margin-top: 0px;
 }
 
@@ -1694,6 +1694,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #team_michelle {
 	background-image: url('/images/staff/michelle_og.jpg');
+}
+
+#team_amy {
+	background-image: url('/images/staff/amy_og.jpg');
 }
 
 #team_kate {
@@ -4341,6 +4345,11 @@ ul.stylist-filter li.review-leon {
 
 ul.stylist-filter li.review-kate {
 	background: rgb(55, 34, 24) url('/images/reviews/kate.jpg') no-repeat center top;
+	background-size: contain;
+}
+
+ul.stylist-filter li.review-amy {
+	background: rgb(55, 34, 24) url('/images/reviews/amy.jpg') no-repeat center top;
 	background-size: contain;
 }
 

@@ -27,7 +27,7 @@
 	<h2>Abi Clarke</h2>
 	<p>Abi joined the team as an apprentice and is on a fast track route to becoming the next PK stylist.</p>
 	<p>She's currently taking on clients who require more basic levels of cutting &amp; colouring.</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Abi : &pound;35*</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Abi : &pound;50*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>

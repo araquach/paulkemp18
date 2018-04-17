@@ -3,8 +3,8 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She\'s eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
-	'keywords' => 'Louise Bailey, new stylist, graduate stylist, new team member, hairdressing, hairstyling',
+	'description' => 'Louise is one of our more recent addition to the team but is already building up a very strong client base. She\'s a diverse stylist with strong cutting &amp colouring skills. Her background in men\'s hairdressing and barbering means she\'s a grteat choice for gent\'s too',
+	'keywords' => 'Louise Bailey, stylist, hairdressing, hairstyling',
 	'ogtitle' => 'Louise Bailey',
 	'ogdescription' => 'Louise recently joined the team from working in a busy Grappenhall salon. She\'s an extremely skillfull men\'s hairdresser and also talented at womens cutting and styling. She\'s eager to grow her client base quickly - she\'s got some fantastic offers on for a limited time!',
 	'ogimage' => url('/') . '/images/staff/meta/louise.jpg',
@@ -25,11 +25,10 @@
 	
 	<section id="team_ind_copy">
 	<h2>Louise Bailey</h2>
-	<p>Louise recently joined the team from working in a busy Grappenhall salon.</p> 
-	<p>She's an extremely skillfull men's hairdresser and also talented at womens cutting and styling.</p>
-	<p>She's eager to grow her client base quickly - she's got some fantastic offers on for a limited time!</p>
-	<p><a href="{{ URL::to('newstaff') }}"><strong>Click here to see the offers</strong></a></p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;55*</p>
+	<p>Louise is one of our more recent addition to the team but is already building up a very strong client base.</p> 
+	<p>She's a diverse stylist with strong cutting &amp colouring skills.</p>
+	<p>Her background in men's hairdressing and barbering means she's a great choice for gent's too</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Louise : &pound;107*</p>
 	
 	<div id="feedback_feed_ind">
   	<ul>
