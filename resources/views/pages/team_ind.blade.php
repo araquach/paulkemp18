@@ -27,6 +27,7 @@
 		<h2>{{ $team_member->name }}</h2>
 		<p>{{ $team_member->para1 }}</p>
 		<p>{{ $team_member->para2 }}</p>
+		<p>{{ $team_member->para3 }}</p>
 		<p class="team_ind_price">Average Cut &amp; Colour price with {{ $team_member->review_link }} : &pound;{{ $team_member->price }}*</p>
 		
 		<div id="feedback_feed_ind">
