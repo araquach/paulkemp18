@@ -4,6 +4,7 @@ use App\Review;
 use App\FeedbackClient;
 use App\Blog;
 use App\BlogPara;
+use App\TeamMember;
 
 class PagesController extends Controller {
 
@@ -98,7 +99,16 @@ class PagesController extends Controller {
 	
 	public function team()
 	{
-		return view('pages.team');
+		$team_members = TeamMember::where('salon', 2)->get();
+
+		return view('pages.team', compact('team_members'));
+	}
+
+	public function teamInd()
+	{
+		$reviews = Review::where('staff', 'Staff: ' . $team_member->name )->orderByRaw("RAND()")->get();
+		
+		return view('pages.team_ind', compact('team_member', 'reviews'));
 	}
 	
 	public function newstaff()
@@ -126,70 +136,6 @@ class PagesController extends Controller {
 		}
 		
 		return view('pages.reviews', compact('reviews'));
-	}
-	
-	
-	public function kel()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Kellie Reedy')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.kel', compact('reviews'));
-	}
-	
-	public function izzy()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Izzy Lamb')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.izzy', compact('reviews'));
-	}
-	
-	public function jo()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Jo Birchall')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.jo', compact('reviews'));
-	}
-	
-	public function leon()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Leon  Pritchard')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.leon', compact('reviews'));
-	}
-	
-	public function michelle()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Michelle  Railton')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.michelle', compact('reviews'));
-	}
-	
-	public function kate()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Kate  O\'Halleran')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.kate', compact('reviews'));
-	}
-	
-	public function matt()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Matthew Lane')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.matt', compact('reviews'));
-	}
-	
-	public function louise()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Louise Bailey')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.louise', compact('reviews'));
-	}
-	
-	public function abi()
-	{
-		$reviews = Review::where('staff', '=', 'Staff: Abi Clarke')->orderByRaw("RAND()")->get();
-		
-		return view('pages.team.abi', compact('reviews'));
 	}
 
 }

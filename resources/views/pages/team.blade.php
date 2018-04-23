@@ -40,14 +40,19 @@
 		</li>
 	</ul>
 	
-	<a href="{{ URL::to($team_member->class) }}">
-		<section id="{{ $team_member->class }}">
-			<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
-			<p>{{ $team_member->para1 }}</p>
-			<p>{{ $team_member->para2 }}</p>
-			<p class="teamprice">Average Cut &amp; Colour price with Kelly : &pound;{{ $team_member->price }}*</p>
-		</section>
-	</a>
+	@foreach($team_members as $team_member)
+
+		<a href="{{ URL::to($team_member->class) }}">
+			<section id="{{ $team_member->class }}">
+				<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
+				<p>{{ $team_member->para1 }}</p>
+				<p>{{ $team_member->para2 }}</p>
+				<p class="teamprice">Average Cut &amp; Colour price with Kelly : &pound;{{ $team_member->price }}*</p>
+			</section>
+		</a>
+
+	@endforeach
+
 
 </section>
 
