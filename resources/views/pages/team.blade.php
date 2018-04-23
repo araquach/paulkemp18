@@ -25,7 +25,7 @@
 				<section class="team-ind" id="{{ $team_member->class }}">
 					<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
 					<p>{{ $team_member->para1 }}</p>
-					<p>{{ $team_member->para2 }}</p>
+					<p>{{ $team_member->para2 }}. {{ $team_member->para3 }} </p>
 					<p class="teamprice">Average Cut &amp; Colour price with {{ $team_member->review_link}} : &pound;{{ $team_member->price }}*</p>
 				</section>
 			</a>
