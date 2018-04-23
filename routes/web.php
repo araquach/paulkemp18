@@ -28,30 +28,12 @@ Route::get('/salon', 'PagesController@salon');
 Route::get('/booking', 'PagesController@booking');
 Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
+Route::get('/{staff}', 'PagesController@teamInd');
 Route::get('/newstaff', 'PagesController@newstaff');
-Route::get('/ashley', 'PagesController@ashley');
-Route::get('/michelle', 'PagesController@michelle');
-Route::get('/leon', 'PagesController@leon');
-Route::get('/kel', 'PagesController@kel');
-Route::get('/izzy', 'PagesController@izzy');
-Route::get('/jo', 'PagesController@jo');
-Route::get('/kate', 'PagesController@kate');
-Route::get('/matt', 'PagesController@matt');
-Route::get('/louise', 'PagesController@louise');
-Route::get('/abi', 'PagesController@abi');
-Route::get('/tash', 'PagesController@leaver');
 
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 
 Route::get('/news/index', 'NewsController@index');
-Route::get('/news/el17', 'NewsController@news1');
-Route::get('/news/newblondeme', 'NewsController@news2');
-Route::get('/news/3', 'NewsController@news3');
-Route::get('/news/4', 'NewsController@news4');
-Route::get('/news/5', 'NewsController@news5');
-Route::get('/news/6', 'NewsController@news6');
-Route::get('/news/7', 'NewsController@news7');
-Route::get('/news/8', 'NewsController@news8');
 
 Route::get('/admin', 'AdminController@index');
 
