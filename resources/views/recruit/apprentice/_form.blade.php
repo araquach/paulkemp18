@@ -108,7 +108,7 @@
 	</div>
 	
 	<div class="row">
-		{!! Form::label('in_salon', 'Currentin_salon Position') !!}
+		{!! Form::label('in_salon', 'Current Position') !!}
 		{!! Form::select('in_salon', array(
 			'In salon' => 'In Salon',
 			'Other industry' => 'Other Industry',
@@ -216,7 +216,7 @@
 	</div>
 
 	<div class="row">
-		{!! Form::label('why_us', 'What makes you want to join the Paul Kemp HAirdressing Team?') !!}
+		{!! Form::label('why_us', 'What makes you want to join the Paul Kemp Hairdressing Team?') !!}
 		{!! Form::textarea('why_us', old('why_us')) !!}
 		{!! $errors->first('why_us', '<div class="errorMessage">:message</div>') !!}
 	</div>
