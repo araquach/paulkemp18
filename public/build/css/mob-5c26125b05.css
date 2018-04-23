@@ -412,261 +412,8 @@ li.active a {
 	
 }
 
-#team ul {
-	margin: 0;
-	position: relative;
-	top: 0;
-	display: none;
-}
-
-#team section {
-	margin: 20px 0;
-	padding-bottom: 20px;
-}
-
 #feedback_feed_ind {
 	width: 100%;	
-}
-
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 2) { 
-    
-    #team section {
-	margin: 40px 0;
-}
-}
-
-#kel {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#kel img {
-	float: none;
-}
-
-#kel p {
-	font-size: 0.8em;
-}
-
-#kel h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#iz {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#iz img {
-	float: none;
-}
-
-#iz p{
-	font-size: 0.8em;
-}
-
-#iz h3 img{
-	margin-top: 0px;
-	float: left;
-}
-
-#jo {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#jo img {
-	float: none;
-}
-
-#jo p {
-	font-size: 0.8em;
-}
-
-#jo h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#shell {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#shell img {
-	float: left;
-}
-
-#shell p {
-	font-size: 0.8em;
-}
-
-#shell h3 img {
-	mashellrgin-top: 0px;
-	float: left;
-}
-
-#amy {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#amy img {
-	float: left;
-}
-
-#amy p {
-	font-size: 0.8em;
-}
-
-#amy h3 img {
-	mashellrgin-top: 0px;
-	float: left;
-}
-
-#leon {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#leon img {
-	float: left;
-}
-
-#leon p {
-	font-size: 0.8em;
-}
-
-#leon h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#kate {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#kate img {
-	float: left;
-}
-
-#kate p {
-	font-size: 0.8em;
-}
-
-#kate h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#matt {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#kate img {
-	float: left;
-}
-
-#kate p {
-	font-size: 0.8em;
-}
-
-#kate h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#louise {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#louise img {
-	float: none;
-}
-
-#louise p {
-	font-size: 0.8em;
-}
-
-#louise h3 img {
-	margin-top: 0px;
-	float: left;
-}
-
-#abi {
-	position: relative;
-	left: 0;
-	top: 0;
-	width: auto;
-	height: 100%;
-	border-bottom: solid 3px #CCC;
-	padding: 10px;
-}
-
-#abi img {
-	float: none;
-}
-
-#abi p {
-	font-size: 0.8em;
-}
-
-#abi h3 img {
-	margin-top: 0px;
-	float: left;
 }
 
 .csstransitions .teamprice, .csstransitions .pteamprice {
@@ -680,41 +427,40 @@ li.active a {
 	transition: opacity 1s ease;
 }
 
-.teamprice {
-	display: block;
-	padding: 0;
-	width: 70%;
-	height: 100%;
-	margin: auto;
-	position: relative;
-	top: 0;
-	left: 0;
-	font-size: 1em;
-	font-weight: bold;
-	text-align: center;
-	clear: none;
-	-o-opacity: 1;
-	-moz-opacity: 1;
-	-webkit-opacity: 1;
-	opacity: 1;
+#team-list {
+	margin-left: 0;
+	padding: 20px;
+	margin-top: 80px;
 }
 
-.pteamprice {
-	display: block;
-	padding-top:220px;
-	width: 400px;
-	height: 30px;
-	position: absolute;
-	top: 175px;
-	left: 450px;
+.team-ind {
+	position:relative;
+	float: left;
+	width: auto;
+	height: auto;
+	border-bottom: solid 3px #CCC;
+	margin-bottom: 30px;
+	margin-right: 0;
+}
+
+.team-ind img {
+	float: left;
+	margin: 0;
+	padding: 0 10px 10px 0;
+}
+
+.team-ind p {
 	font-size: 1em;
-	font-weight: bold;
-	text-align: center;
-	clear: left;
-	-o-opacity: 1;
-	-moz-opacity: 1;
-	-webkit-opacity: 1;
-	opacity: 1;
+	line-height: 1.2em;
+}
+
+.team-ind h3 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.team-ind h3 img {
+	margin-top: 0px;
 }
 
 #teambottom {
@@ -725,6 +471,26 @@ li.active a {
 	width: 80%;
 	margin: auto;
 	margin-bottom: 40px;
+}
+
+.teamprice {
+	display: block;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	padding-top: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	
 }
 
 /* @group individual team member pages */

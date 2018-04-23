@@ -74,5 +74,21 @@ class TeamMembersTableSeeder extends Seeder
             'class' => 'leon',
             'position' => '4'
         ]);
+
+        DB::table('team_members')->insert([
+            'id' => '5',
+            'salon' => '2',
+            'name' => 'Louise Bailey',
+            'level' => 'Graduate Stylist',
+            'para1' => 'Louise is a super-talented stylist that has built up a strong following over the years he\'s been with us.',
+            'para2' => 'She loves getting stuck into creative fashion colouring, he\'s not afraid to push the boundaries.',
+            'para3' => 'After a short spell at our sister salon PK he has made the move back to rejoin the Jakata team',
+            'fav_style' => 'Creative colour and wavy, textured looks',
+            'fav_prod' => 'Kevin Murphy Doo.Over',
+            'price' => '103',
+            'review_link' => 'Louise',
+            'class' => 'louise',
+            'position' => '5'
+        ]);
     }
 }

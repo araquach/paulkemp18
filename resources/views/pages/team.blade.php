@@ -16,48 +16,28 @@
 @section('content')
 
 <section id="team">
-	<ul>
-		<li>
-			<p class="up">Shell</p>
-		</li>
-		<li>
-			<p>Kel</p>
-		</li>
-		<li>
-			<p class="up">Jo</p>
-		</li>
-		<li>
-			<p>Izzy</p>
-		</li>
-		<li>
-			<p class="up">Kate</p>
-		</li>
-		<li>
-			<p>Tash</p>
-		</li>
-		<li>
-			<p class="up">Leon</p>
-		</li>
-	</ul>
-	
-	@foreach($team_members as $team_member)
 
-		<a href="{{ URL::to($team_member->class) }}">
-			<section id="{{ $team_member->class }}">
-				<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
-				<p>{{ $team_member->para1 }}</p>
-				<p>{{ $team_member->para2 }}</p>
-				<p class="teamprice">Average Cut &amp; Colour price with Kelly : &pound;{{ $team_member->price }}*</p>
-			</section>
-		</a>
+	<div id="team-list">
 
-	@endforeach
+		@foreach($team_members as $team_member)
 
+			<a href="{{ URL::to($team_member->class) }}">
+				<section class="team-ind">
+					<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
+					<p>{{ $team_member->para1 }}</p>
+					<p>{{ $team_member->para2 }}</p>
+					<p class="teamprice">Average Cut &amp; Colour price with {{ $team_member->review_link}} : &pound;{{ $team_member->price }}*</p>
+				</section>
+			</a>
 
-</section>
+		@endforeach
 
-<section id="teambottom">
-	<p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+	</div>
+
+	<div id="teambottom">
+		<p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+	</div>
+
 </section>
 
 @stop
