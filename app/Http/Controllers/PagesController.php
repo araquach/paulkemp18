@@ -104,11 +104,15 @@ class PagesController extends Controller {
 		return view('pages.team', compact('team_members'));
 	}
 
-	public function teamInd()
+	public function teamInd($team)
 	{
-		$reviews = Review::where('staff', 'Staff: ' . $team_member->name )->orderByRaw("RAND()")->get();
+		$team_member = TeamMember::where('class', $team )->first();
+
+		$reviews = Review::where('staff', '=', 'Staff: ' . $team_member->name )->orderByRaw("RAND()")->get();
 		
 		return view('pages.team_ind', compact('team_member', 'reviews'));
+
+		// dd($team_member->name);
 	}
 	
 	public function newstaff()
