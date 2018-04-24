@@ -21,7 +21,7 @@
 
 		@foreach($team_members as $team_member)
 
-			<a href="{{ URL::to($team_member->class) }}">
+			<a href="{{ URL::to('team/' . $team_member->class) }}">
 				<section class="team-ind" id="{{ $team_member->class }}">
 					<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
 					<p>{{ $team_member->para1 }}</p>
