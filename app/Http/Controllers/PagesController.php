@@ -127,6 +127,8 @@ class PagesController extends Controller {
 	
 	public function reviews($stylist = 'all')
 	{
+		$team_members = TeamMember::where('salon', 2)->get();
+
 		if($stylist == 'all')
 		{
 			$reviews = Review::where('salon', '2')
@@ -139,7 +141,7 @@ class PagesController extends Controller {
 			->orderByRaw("RAND()")->limit(9)->get();
 		}
 		
-		return view('pages.reviews', compact('reviews'));
+		return view('pages.reviews', compact('reviews', 'team_members'));
 	}
 
 }
