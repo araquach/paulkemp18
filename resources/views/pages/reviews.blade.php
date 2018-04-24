@@ -27,8 +27,6 @@
 		@endforeach
 	</ul>
 
-	<h2>Reviews</h2>
-
 	@foreach($reviews as $review)
 		<div class="review">
 			<p>"{{ $review->review }}"</p>
