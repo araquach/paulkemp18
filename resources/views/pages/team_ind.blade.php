@@ -6,7 +6,7 @@
 	'description' => 'Meet the Team - ' . $team_member->name,
 	'keywords' => $team_member->name . ', Paul Kemp Hairdressing ' . $team_member->level . ', hairdressers, PK',
 	'ogtitle' => $team_member->name,
-	'ogdescription' => $team_member->para1 . $team_member->para2,
+	'ogdescription' => $team_member->para1 . ' ' . $team_member->para2,
 	'ogimage' => url('/') . '/images/staff/meta/' . $team_member->class . '.jpg',
 	'title' => 'Paul Kemp Hairdressing - ' . $team_member->review_link,
 	])
