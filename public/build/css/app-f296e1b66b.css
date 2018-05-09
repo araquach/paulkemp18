@@ -4282,11 +4282,11 @@ border-top: 3.5px solid #FFF;
 	position: absolute;
 	bottom: 60px;
 	right: 40px;
-	opacity: .8;
+	opacity: 1;
 }
 
 #facebook:hover {
-	opacity: 1;
+	opacity: .6;
 }
 
 #instagram {
@@ -4296,11 +4296,11 @@ border-top: 3.5px solid #FFF;
 	position: absolute;
 	bottom: 60px;
 	right: 90px;
-	opacity: .8;
+	opacity: 1;
 }
 
 #instagram:hover {
-	opacity: 1;
+	opacity: .6;
 }
 
 #twitter {
@@ -4310,11 +4310,11 @@ border-top: 3.5px solid #FFF;
 	position: absolute;
 	bottom: 60px;
 	right: 140px;
-	opacity: .8;
+	opacity: 1;
 }
 
 #twitter:hover {
-	opacity: 1;
+	opacity: .6;
 }
 
 #google {
@@ -4324,11 +4324,11 @@ border-top: 3.5px solid #FFF;
 	position: absolute;
 	bottom: 60px;
 	right: 190px;
-	opacity: .8;
+	opacity: 1;
 }
 
 #google:hover {
-	opacity: 1;
+	opacity: .6;
 }
 
 
