@@ -4254,20 +4254,17 @@ border-top: 3.5px solid #FFF;
 }
 
 #smallabout {
-	width: 700px;
+	width: 600px;
 	float: left;
 	font-size: 0.7em;
 	margin-top: 50px;
 	margin-left: 30px;
-	
 }
 
 #smallabout h2 {
 	text-align: left;
 	font-family: 'PT Sans', sans-serif;
 	font-size: .7em;
-
-
 }
 
 #smallabout li {
@@ -4279,11 +4276,11 @@ border-top: 3.5px solid #FFF;
 }
 
 #facebook {
-	background: url('/images/footer/fb_logo.png') no-repeat left top;
+	background: url('/images/footer/social/fb.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;
-	bottom: 40px;
+	bottom: 60px;
 	right: 40px;
 	opacity: .8;
 }
@@ -4292,13 +4289,27 @@ border-top: 3.5px solid #FFF;
 	opacity: 1;
 }
 
-#twitter {
-	background: url('/images/footer/twitter_logo.png') no-repeat left top;
+#instagram {
+	background: url('/images/footer/social/instagram.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;
-	bottom: 40px;
+	bottom: 60px;
 	right: 90px;
+	opacity: .8;
+}
+
+#instagram:hover {
+	opacity: 1;
+}
+
+#twitter {
+	background: url('/images/footer/social/twitter.png') no-repeat left top;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	bottom: 60px;
+	right: 140px;
 	opacity: .8;
 }
 
@@ -4307,12 +4318,12 @@ border-top: 3.5px solid #FFF;
 }
 
 #google {
-	background: url('/images/footer/google_plus_logo.png') no-repeat left top;
+	background: url('/images/footer/social/gplus.png') no-repeat left top;
 	width: 37px;
 	height: 37px;
 	position: absolute;
-	bottom: 40px;
-	right: 140px;
+	bottom: 60px;
+	right: 190px;
 	opacity: .8;
 }
 
