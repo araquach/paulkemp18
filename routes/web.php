@@ -30,6 +30,7 @@ Route::get('/kebelo', 'PagesController@kebelo');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{staff}', 'PagesController@teamInd');
 Route::get('/newstaff', 'PagesController@newstaff');
+Route::get('/louise', 'PagesController@leaver');
 
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 
