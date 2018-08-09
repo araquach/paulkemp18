@@ -24,7 +24,7 @@
         <p>We have a number of talented stylists that will be able to look after you moving forward. <strong>Abi Clarke</strong> is at the same level as Louise (before Louise got promoted) and she's producing some outstanding work. She has worked closely with Louise over the years so has a similar approach. <strong>Kate O'Halleran</strong> and <strong>Amy Woods</strong> are both great oiptions too. Feel fee to take a look at our team page to see if there's a stylist that you'd like to try. <a href="https://paulkemphairdressing.com/team" target="_blank">Check out the full team here</a></p>
         <p><em>We sincerely hope we can continue to give you the same fantastic service as we really appreciate your loyalty to the salon. We have a great offer to help you transfer across to Abi (or one of our other team members)&hellip;</em></p>
        
-        <p class="offer">We'd like to offer you 15% off your next visit</p>
+        <p class="offer">We'd like to offer you 20% off your next visit</p>
         
         <p>offer applies to any PK stylist on your next visit - just mention the offer when booking or when you're paying</p> <p class="small">(one offer per person, not transferable, ends 30/09/18)</p>
         
