@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Blog;
 use App\BlogPic;
 use App\BlogPara;
+use App\TeamMember;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Carbon\Carbon;
