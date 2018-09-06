@@ -71,6 +71,9 @@ Route::get('contact',
 Route::post('sendEmail', 
   ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);
 
+Route::get('/joinpk', 'PotentialEmployeeController@create');
+Route::post('joinpk/store',
+  ['uses' => 'PotentialEmployeeController@store']);
 
 Route::resource('apprentice', 'ApprenticeController');
 Route::resource('stylist', 'StylistController');
