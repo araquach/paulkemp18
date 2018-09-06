@@ -6,7 +6,7 @@
 	'description' => 'We\'re looking for creative stylists to join our dynamic team. If you\'ve got a passion for hairdressing and want to progress to the next level or if you\'re looking for somewhere new to do what you love then this could be for you',
 	'keywords' => 'hair recruitment warrington, hairdressing jobs warrington, stylist jobs warrington',
 	'ogtitle' => 'Join Our Amazing Team',
-	'ogdescription' => 'We\'re looking for creative stylists to join our dynamic team. If you\'ve got a passion for hairdressing and want to progress to the next level or if you\'re looking for somewhere new to do what you love then this could be for you',
+	'ogdescription' => 'We\'re looking for creative stylists to join our dynamic team. If you\'ve got a passion for hairdressing and want to progress to the next level or if you\'re looking for somewhere new to do what you love then this could be for you!',
 	'ogimage' => url('/') . '/images/potential/potential_fb.jpg',
 	'title' => 'Paul Kemp Hairdressing - Join Our Hairdressing Team - Hairdressers in Warrington'
 	])
