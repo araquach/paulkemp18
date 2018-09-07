@@ -2882,6 +2882,10 @@ span.error {
 	float: left;
 }
 
+#potential h1 {
+	font-size: 2.6em;
+}
+
 #potential a {
 	padding: 10px;
 	color: #FFF;
