@@ -7,7 +7,7 @@
 	'keywords' => 'hair recruitment warrington, hairdressing jobs warrington, stylist jobs warrington',
 	'ogtitle' => 'Join Our Amazing Team',
 	'ogdescription' => 'We\'re looking for creative stylists to join our dynamic team. If you\'ve got a passion for hairdressing and want to progress to the next level or if you\'re looking for somewhere new to do what you love then this could be for you!',
-	'ogimage' => url('/') . '/images/potential/potential_fb.jpg',
+	'ogimage' => url('/') . '/images/potential/potential_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Join Our Hairdressing Team - Hairdressers in Warrington'
 	])
 	
@@ -52,6 +52,15 @@
 			</div>
 			<div class="testimonial">
 				<div class="testimonial-img-3"></div>
+				<div class="testimonial-copy">
+					<h3>Jo Birchall (Senior Stylist)</h3>
+					<p>&quot;
+						Some Text to go here
+					&quot;</p>
+				</div>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-img-4"></div>
 				<div class="testimonial-copy">
 					<h3>Abi Clarke (Graduate Stylist)</h3>
 					<p>&quot;
