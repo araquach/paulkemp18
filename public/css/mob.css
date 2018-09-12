@@ -2918,26 +2918,32 @@ span.error {
 
 .testimonial-img-1,
 .testimonial-img-2,
-.testimonial-img-3 {
+.testimonial-img-3,
+.testimonial-img-4 {
 	float: left;
 	clear: left;
 	width: 70%;
-	height: 300px;
+	height: 350px;
 	margin-bottom: 20px;
 }
 
 .testimonial-img-1 {
-	background: url('/images/potential/laura_h.jpg') no-repeat center top;
+	background: url('/images/potential/kel_recruit.jpg') no-repeat center top;
 	background-size: cover;
 }
 
 .testimonial-img-2 {
-	background: url('/images/potential/jimmy.jpg') no-repeat center top;
+	background: url('/images/potential/iz_recruit.jpg') no-repeat center top;
 	background-size: cover;
 }
 
 .testimonial-img-3 {
-	background: url('/images/potential/layla.jpg') no-repeat center top;
+	background: url('/images/potential/jo_recruit.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+.testimonial-img-4 {
+	background: url('/images/potential/abi_recruit.jpg') no-repeat center top;
 	background-size: cover;
 }
 
