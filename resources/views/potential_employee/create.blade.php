@@ -36,39 +36,36 @@
 				<div class="testimonial-img-1"></div>
 				<div class="testimonial-copy">
 					<h3>Kellie Reedy (Salon Manager)</h3>
-					<p>&quot;
-						Some Text to go here
-					&quot;</p>
+					<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
 				</div>
 				</div>
 			<div class="testimonial">
 				<div class="testimonial-img-2"></div>
 				<div class="testimonial-copy">
 					<h3>Izzy Lamb (Senior Stylist)</h3>
-					<p>&quot;
-						Some Text to go here
-					&quot;</p>
+					<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
 				</div>
 			</div>
-			<div class="testimonial">
-				<div class="testimonial-img-3"></div>
-				<div class="testimonial-copy">
-					<h3>Jo Birchall (Senior Stylist)</h3>
-					<p>&quot;
-						Some Text to go here
-					&quot;</p>
+			
+			{{--  
+				<div class="testimonial">
+					<div class="testimonial-img-3"></div>
+					<div class="testimonial-copy">
+						<h3>Jo Birchall (Senior Stylist)</h3>
+						<p>&quot;Some Text to go here&quot;</p>
+					</div>
 				</div>
-			</div>
+			--}}
+			
 			<div class="testimonial">
 				<div class="testimonial-img-4"></div>
 				<div class="testimonial-copy">
 					<h3>Abi Clarke (Graduate Stylist)</h3>
-					<p>&quot;
-						Some Text to go here
-					&quot;</p>
+					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
 				</div>
 			</div>
 		</div>
+
 		<div class="excitement">
 			<p>Fill in the form below if you're interested - one of our team will be in touch soon.</p>
 			<p class="small">Your information will be used only for this application. All applications will be strictly confidential</p>
