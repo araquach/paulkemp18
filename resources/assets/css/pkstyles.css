@@ -3848,6 +3848,7 @@ footer {
 	height: 270px;
 	width: 950px;
 	clear: both;
+	background-color: rgb(55, 34, 24);
 }
 
 #footer_images {
@@ -3920,59 +3921,61 @@ border-top: 3.5px solid #FFF;
 	border-right: 1px solid #333;
 }
 
-#facebook {
-	background: url('/images/footer/social/fb.png') no-repeat left top;
+#social{
+	
+}
+
+.social_logo {
 	width: 37px;
 	height: 37px;
-	position: absolute;
-	bottom: 60px;
-	right: 40px;
+	position: relative;
+	float: left;
+	margin-right: 
 	opacity: 1;
 }
 
-#facebook:hover {
+.facebook {
+	background: url('/images/footer/social/facebook.png') no-repeat left top;
+	background-size: contain;
+}
+
+.facebook:hover {
 	opacity: .6;
 }
 
-#instagram {
+.instagram {
 	background: url('/images/footer/social/instagram.png') no-repeat left top;
-	width: 37px;
-	height: 37px;
-	position: absolute;
-	bottom: 60px;
-	right: 90px;
-	opacity: 1;
+	background-size: contain;
 }
 
-#instagram:hover {
+.instagram:hover {
 	opacity: .6;
 }
 
-#twitter {
+.twitter {
 	background: url('/images/footer/social/twitter.png') no-repeat left top;
-	width: 37px;
-	height: 37px;
-	position: absolute;
-	bottom: 60px;
-	right: 140px;
-	opacity: 1;
+	background-size: contain;
 }
 
-#twitter:hover {
+.twitter:hover {
 	opacity: .6;
 }
 
-#google {
-	background: url('/images/footer/social/gplus.png') no-repeat left top;
-	width: 37px;
-	height: 37px;
-	position: absolute;
-	bottom: 60px;
-	right: 190px;
-	opacity: 1;
+.google {
+	background: url('/images/footer/social/google.png') no-repeat left top;
+	background-size: contain;
 }
 
-#google:hover {
+.google:hover {
+	opacity: .6;
+}
+
+.google {
+	background: url('/images/footer/social/pinterest.png') no-repeat left top;
+	background-size: contain;
+}
+
+.google:hover {
 	opacity: .6;
 }
 
