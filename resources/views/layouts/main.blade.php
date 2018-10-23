@@ -103,7 +103,7 @@
 				<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank"><div class="social_logo instagram"></div></a>
 				<a href="https://twitter.com/paulkemphair" target="_blank"><div class="social_logo twitter"></div></a>
 				<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div class="social_logo google"></div></a>
-				<a href="" target="_blank"><div class="social_logo pinterest"></div></a>
+				<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank"><div class="social_logo pinterest"></div></a>
 			</div>
 	
 		</footer>
