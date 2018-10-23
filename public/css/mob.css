@@ -165,7 +165,7 @@ li.active a {
 
 #home {
 	width: auto;
-	height: 3000px;
+	height: 3300px;
 	background: none;
 	float: none;
 	padding: 0;
@@ -208,9 +208,9 @@ li.active a {
 
 .home_news {
 	position: relative;
-	width: 250px;
+	width: 350px;
 	margin: auto;
-	height: 480px;
+	height: 550px;
 	float: none;
 	background-color: rgb(55,34,24);
 	-moz-box-shadow: none;
@@ -562,6 +562,10 @@ li.active a {
 	margin-bottom: 1.5em;
 	padding: 0;
 	width: auto;
+}
+
+#blog p {
+	font-size: 1.2em;
 }
 
 #blog article {
@@ -3401,7 +3405,7 @@ ul.stylist-filter {
 /* @group Footer */
 	
 footer {
-	height: 60px;
+	height: 70px;
 	width: auto;
 	background-color: rgb(55, 34, 24);
 }
@@ -3411,45 +3415,13 @@ footer {
 }
 
 #social {
-	margin-top: 50px;
-	margin-left: 20px;
+	margin-top: 15px;
+	margin-left: 40px;
 	float: left;
 }
 
 #smallabout {
 	display: none;
-}
-
-#facebook {
-	background: url('/images/footer/social/fb_m.png') no-repeat left top;
-	position: absolute;
-	bottom: 10px;
-	right: 40px;
-	opacity: 1;
-}
-
-#instagram {
-	background: url('/images/footer/social/instagram_m.png') no-repeat left top;
-	position: absolute;
-	bottom: 10px;
-	right: 100px;
-	opacity: 1;
-}
-
-#twitter {
-	background: url('/images/footer/social/twitter_m.png') no-repeat left top;
-	position: absolute;
-	bottom: 10px;
-	left: 40px;
-	opacity: 1;
-}
-
-#google {
-	background: url('/images/footer/social/gplus_m.png') no-repeat left top;
-	position: absolute;
-	bottom: 10px;
-	left: 100px;
-	opacity: 1;
 }
 
 #fb-like {

@@ -3845,7 +3845,7 @@ ul.stylist-filter li.review-abi {
 /* @group Footer */
 	
 footer {
-	height: 270px;
+	height: 150px;
 	width: 950px;
 	clear: both;
 	background-color: rgb(55, 34, 24);
@@ -3864,53 +3864,50 @@ footer {
 	-webkit-transition: opacity 0.5s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
-	
 }
 
 #footer_images li a img:hover {
 	opacity: 0.6;
 }
 
-
-#social {
-	margin-top: 50px;
-	margin-left: 20px;
-	float: left;
-
+#footer_images {
+	display: none;
 }
 
 #likebox-frame {
-
-border-top: 3.5px solid #FFF;
- border:3px solid #FFF;
- width:905px;
- z-index:10;
- height: 150px;
- overflow: hidden;
- position:relative;
- top:-1px;
- left:-2px;
+	border-top: 3.5px solid #FFF;
+	border:3px solid #FFF;
+	width:905px;
+	z-index:10;
+	height: 150px;
+	overflow: hidden;
+	position:relative;
+	top:-1px;
+	left:-2px;
 }
 
 #likebox-frame iframe{
-  left:-2px;
-  overflow:hidden;
-  position:relative;
-  top:-7px;
+	left:-2px;
+	overflow:hidden;
+	position:relative;
+	top:-7px;
 }
 
 #smallabout {
-	width: 600px;
+	width: 500px;
 	float: left;
 	font-size: 0.7em;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 30px;
+	opacity: .6;
 }
 
 #smallabout h2 {
 	text-align: left;
 	font-family: 'PT Sans', sans-serif;
 	font-size: .7em;
+	color: #FFF;
+
 }
 
 #smallabout li {
@@ -3918,11 +3915,16 @@ border-top: 3.5px solid #FFF;
 	font-family: 'PT Sans', sans-serif;
 	font-size: .7em;
 	padding-right: 5px;
-	border-right: 1px solid #333;
+	border-right: 1px solid #888;
+	color: #FFF;
+
 }
 
-#social{
-	
+#social {
+	width: auto;
+	float: right;
+	margin-right: 40px;
+	margin-top: 60px;
 }
 
 .social_logo {
@@ -3930,7 +3932,7 @@ border-top: 3.5px solid #FFF;
 	height: 37px;
 	position: relative;
 	float: left;
-	margin-right: 
+	margin-right: 25px;
 	opacity: 1;
 }
 
@@ -3970,7 +3972,7 @@ border-top: 3.5px solid #FFF;
 	opacity: .6;
 }
 
-.google {
+.pinterest {
 	background: url('/images/footer/social/pinterest.png') no-repeat left top;
 	background-size: contain;
 }
