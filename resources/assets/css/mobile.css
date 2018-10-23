@@ -210,7 +210,7 @@ li.active a {
 	position: relative;
 	width: 350px;
 	margin: auto;
-	height: 700px;
+	height: 600px;
 	float: none;
 	background-color: rgb(55,34,24);
 	-moz-box-shadow: none;
@@ -253,7 +253,7 @@ li.active a {
 }
 
 .home_news_copy p {
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: normal;
 }
 
