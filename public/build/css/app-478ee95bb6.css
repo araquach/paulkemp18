@@ -1498,8 +1498,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	background-image: url('/images/staff/jo_og.jpg');
 }
 
-#team-leon {
-	background-image: url('/images/staff/leon_og.jpg');
+#team-brad {
+	background-image: url('/images/staff/brad_og.jpg');
 }
 
 #team-michelle {
@@ -1514,8 +1514,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	background-image: url('/images/staff/kate_og.jpg');
 }
 
-#team-louise {
-	background-image: url('/images/staff/louise_og.jpg');
+#team-lauren {
+	background-image: url('/images/staff/lauren_og.jpg');
 }
 
 #team-abi {
@@ -4290,8 +4290,8 @@ ul.stylist-filter li.review-michelle {
 	background-size: contain;
 }
 
-ul.stylist-filter li.review-leon {
-	background: rgb(55, 34, 24) url('/images/reviews/leon.jpg') no-repeat center top;
+ul.stylist-filter li.review-brad {
+	background: rgb(55, 34, 24) url('/images/reviews/brad.jpg') no-repeat center top;
 	background-size: contain;
 }
 
@@ -4310,8 +4310,8 @@ ul.stylist-filter li.review-matt {
 	background-size: contain;
 }
 
-ul.stylist-filter li.review-louise {
-	background: rgb(55, 34, 24) url('/images/reviews/louise.jpg') no-repeat center top;
+ul.stylist-filter li.review-lauren {
+	background: rgb(55, 34, 24) url('/images/reviews/lauren.jpg') no-repeat center top;
 	background-size: contain;
 }
 
