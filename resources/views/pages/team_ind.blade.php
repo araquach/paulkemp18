@@ -38,8 +38,7 @@
 	  	</ul>
 		</div> <!--#feedback_feed-->
 		
-		
-		@if(count($reviews) > 0)
+		@if($reviews->count() > 0)
 			<a href="{{ URL::to('reviews/' . $team_member->class ) }}">More of {{ $team_member->review_link }}'s reviews here &gt;</a>
 		@endif
 		<br>
