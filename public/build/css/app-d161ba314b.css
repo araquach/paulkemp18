@@ -1522,6 +1522,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	background-image: url('/images/staff/abi_og.jpg');
 }
 
+#team-leon {
+	background-image: url('/images/staff/leon_og.jpg');
+}
+
 .team_ind_price {
 	font-size: 1.5em;
 }
