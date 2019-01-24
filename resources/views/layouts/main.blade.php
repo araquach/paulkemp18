@@ -51,9 +51,7 @@
 			@yield('content')
 		</div>
 
-		<div class="clear"></div>
-
-		<footer>
+		<footer class="clear_fix">
 		
 			<ul id="footer_images">
 				<li><a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a></li>
