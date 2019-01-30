@@ -40,7 +40,7 @@
         
         <p><a href="{{ URL::to('booking') }}"" target="_blank">Book in with one of our stylists here ></a></p>
         
-        <p><em>Pictured: Louise Bailey &amp; Abi Clarke</em></p>
+        <p><em>Pictured: Brad &amp; Louise</em></p>
     
     </section> <!--end leavercopy-->
     
