@@ -1510,8 +1510,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	background-image: url('/images/staff/amy_og.jpg');
 }
 
-#team-kate {
-	background-image: url('/images/staff/kate_og.jpg');
+#team-sarah {
+	background-image: url('/images/staff/sarah_og.jpg');
 }
 
 #team-lauren {
@@ -4299,8 +4299,8 @@ ul.stylist-filter li.review-brad {
 	background-size: contain;
 }
 
-ul.stylist-filter li.review-kate {
-	background: rgb(55, 34, 24) url('/images/reviews/kate.jpg') no-repeat center top;
+ul.stylist-filter li.review-sarah {
+	background: rgb(55, 34, 24) url('/images/reviews/sarah.jpg') no-repeat center top;
 	background-size: contain;
 }
 
