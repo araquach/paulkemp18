@@ -1337,6 +1337,27 @@ section#newspage a p:hover {
 
 /* @end */
 
+#ind-offer {
+	width: 850px;
+	background-color: #f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	min-height: 500px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#ind-offer-copy {
+	
+}
+
+#ind-offer-img {
+	width: 800px;
+	height: 800px;
+	background-size: cover;
+}
+
 /* @group Offers */
 
 /* Singular Offer Styling */
