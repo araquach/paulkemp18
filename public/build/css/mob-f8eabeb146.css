@@ -855,6 +855,10 @@ section#newspage a p:hover {
 	background-size: contain;
 }
 
+#ind-offer #fb-like {
+	padding-left: 20px;
+}
+
 /* @group Offers */
 
 /* Singular Offer Styling */

@@ -33,6 +33,10 @@
 		<p class="link"><a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank">Click here to find out more about her &gt;</a></p>
 	</div>
 
+	<div id="fb-like">
+		<div class="fb-like" data-href="{{ URL::to('offer/sarah') }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+	</div>
+
 </section> <!--end #offers-->
 
 @stop

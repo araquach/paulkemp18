@@ -19,12 +19,22 @@
 
 <section id="ind-offer">
 
-	<div id="ind-offer-copy">
-		
+	<div class="ind-offer-copy">
+		<h1>Special introductory offer with our latest Addition to the team</h1>
+		<p>Our latest <strong>Senior Stylist</strong> has over 12 years experience and is a seriously skilled hairdresser!</p>
+		<p>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</p>
 	</div>
 
-	<div id="ind-offer-pic">
-		
+	<div id="ind-offer-img-sarah"></div>
+
+	<div class="ind-offer-copy">
+		<p><strong>Come in for a FREE consultation and if you like the ideas Sarah comes up with then book in to get 20% off your visit!</strong></p>
+		<p><strong>Call 01925 444488 to book</strong><br>or use our online booking (link at top of page)</p>
+		<p class="link"><a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank">Click here to find out more about her &gt;</a></p>
+	</div>
+
+	<div id="fb-like">
+		<div class="fb-like" data-href="{{ URL::to('offer/abi) }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
 	</div>
 
 </section> <!--end #offers-->
