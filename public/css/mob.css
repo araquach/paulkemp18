@@ -799,6 +799,62 @@ section#newspage a p:hover {
 
 /* @end */
 
+#ind-offer {
+	width: auto;
+	height: 1500px;
+	background: none;
+	float: none;
+	padding: 0;
+}
+
+#ind-offer a {
+	font-size: 1.1em;
+}
+ 
+#content #ind-offer h1 {
+	margin: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	width: auto;
+}
+
+.ind-offer-copy {
+	font-family: Helvetica, Verdana, Arial;
+	width: auto;
+	font-size: 1.2em;
+	padding: 0 20px;
+}
+
+#ind-offer-img-sarah {
+	background: url('/images/offer/individual/sarah_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 700px;
+	background-size: contain;
+}
+
+#ind-offer-img-brad {
+	background: url('/images/offer/individual/brad_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 770px;
+	background-size: contain;
+}
+
+#ind-offer-img-abi {
+	background: url('/images/offer/individual/abi_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 770px;
+	background-size: contain;
+}
+
+#ind-offer-img-lauren {
+	background: url('/images/offer/individual/lauren_montage_tall.png') no-repeat left top #f5f5f5;
+	width: auto;
+	height: 770px;
+	background-size: contain;
+}
+
 /* @group Offers */
 
 /* Singular Offer Styling */
