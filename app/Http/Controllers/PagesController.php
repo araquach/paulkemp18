@@ -144,4 +144,24 @@ class PagesController extends Controller {
 		return view('pages.reviews', compact('reviews', 'team_members'));
 	}
 
+	public function offerSarah()
+	{
+		return view('pages.offers.sarah');
+	}
+
+	public function offerBrad()
+	{
+		return view('pages.offers.brad');
+	}
+
+	public function offerAbi()
+	{
+		return view('pages.offers.abi');
+	}
+
+	public function offerLauren()
+	{
+		return view('pages.offers.lauren');
+	}
+
 }

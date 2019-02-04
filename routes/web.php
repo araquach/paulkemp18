@@ -26,11 +26,16 @@ Route::get('/prices', 'PagesController@prices');
 Route::get('/apprenticeprices', 'PagesController@apprenticePrices');
 Route::get('/salon', 'PagesController@salon');
 Route::get('/booking', 'PagesController@booking');
-Route::get('/kebelo', 'PagesController@kebelo');
+Route::get('/kebelo', 'PagesController@offerBrad');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{staff}', 'PagesController@teamInd');
 Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/kate', 'PagesController@leaver');
+
+Route::get('/offer/sarah', 'PagesController@offerSarah');
+Route::get('/offer/brad', 'PagesController@offerBrad');
+Route::get('/offer/abi', 'PagesController@offerAbi');
+Route::get('/offer/lauren', 'PagesController@offerLauren');
 
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 
@@ -89,6 +94,7 @@ Route::get('offer2/{client}',
   ['uses' => 'OfferController@show2']);
 Route::patch('offer/{client}',
   ['as' => 'offerUpdate', 'uses' => 'OfferController@update']);
+
   
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');
