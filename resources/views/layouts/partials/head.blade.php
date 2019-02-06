@@ -25,24 +25,7 @@
   		ga('create', 'UA-2487518-1', 'auto');
   		ga('send', 'pageview');
 	</script>
-	
-	<!-- Facebook Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-	document,'script','https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '1876118849307800'); // Insert your pixel ID here.
-	fbq('track', 'PageView');
-	</script>
-	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=1876118849307800&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- DO NOT MODIFY -->
-	<!-- End Facebook Pixel Code -->
 
-	
 
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
 	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/mob.css') }}"
@@ -68,6 +51,24 @@
 	<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('scripts/mootools.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('scripts/modernizr.js') }}"></script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '424944681577370');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=424944681577370&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
 
 	<title>{{ $title or 'Paul Kemp Hairdressingg - Hairdressers in Warrington' }}</title>
 
