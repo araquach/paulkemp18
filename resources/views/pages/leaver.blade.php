@@ -6,7 +6,7 @@
 	'description' => 'Kate is no longer at PK',
 	'ogtitle' => 'Kate is no longer at PK',
 	'ogdescription' => 'We\'re sorry to inform you that Kate no longer at PK. She has decided it was time to move on',
-	'ogimage' => url('/') . '/images/ogimage/kate_meta.jpg',
+	'ogimage' => url('/') . '/images/leaver/Brad_sarah_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing -  Hairdressers in Warrington'
 	])
 	
