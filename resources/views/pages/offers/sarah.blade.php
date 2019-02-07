@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special introductory offer with Sarah - our latest Senior Stylist',
 	'ogdescription' => 'Looking for a new stylist? Give our latest addition to the team a try. Here\'s a special intro offer for her',
-	'ogimage' => url('/') . '/images/offer/sarah_offer.jpg',
+	'ogimage' => url('/') . '/images/offer/individual/sarah_montage_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Offer with Sarah - Hairdressers in Warrington'
 	])
 	
@@ -20,7 +20,7 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Special introductory offer with our latest Addition to the team</h1>
+		<h1>Special introductory offer with Sarah - our latest Addition to the team</h1>
 		<p>Our latest <strong>Senior Stylist</strong> has over 12 years experience and is a seriously skilled hairdresser!</p>
 		<p>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</p>
 	</div>

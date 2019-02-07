@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special introductory offer with our talented stylist Brad',
 	'ogdescription' => 'Looking for a new stylist? Give Brad, our recent addition to the team a try. Here\'s a special intro offer with him',
-	'ogimage' => url('/') . '/images/offer/brad_offer.jpg',
+	'ogimage' => url('/') . '/images/offer/individual/brad_montage_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Offer with Brad - Hairdressers in Warrington'
 	])
 	
@@ -20,7 +20,7 @@
 <section id="ind-offer">
 
 	<div class="ind-offer-copy">
-		<h1>Special introductory offer with Brad - a recent addition to the team</h1>
+		<h1>Special introductory offer with Bradley Ryan - a recent addition to the team</h1>
 		<p>Brad recently joined us - he has a heap of experience and is a seriously skilled hairdresser! Check out his work in the pics!</p>
 		<p><strong>If you're considering a new stylist then take advantage of this great intro offer with him&hellip;</strong></p>
 	</div>
