@@ -164,4 +164,9 @@ class PagesController extends Controller {
 		return view('pages.offers.lauren');
 	}
 
+	public function bulma()
+	{
+		return view('layouts.bulma');
+	}
+
 }
