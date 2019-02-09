@@ -12390,10 +12390,12 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
-.news {
-  height: 10rem;
+.main .card {
   background-color: brown;
-  margin: 10px;
+  color: #FFF;
+}
+
+.main .card p {
   color: #FFF;
 }
 
