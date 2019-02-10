@@ -166,7 +166,7 @@ class PagesController extends Controller {
 
 	public function bulma()
 	{
-		return view('layouts.bulma');
+		return view('pages.bulma');
 	}
 
 }

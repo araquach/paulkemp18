@@ -1,8 +1,28 @@
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: rgb(55,34,24);
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+$family-sans-serif: "PT Sans";
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $brown;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
 @import "~bulma/bulma.sass";
 
 .main .card {
-	background-color: brown;
+	background-color: $brown;
 	color: #FFF;
+	border-radius: 10px;
 
 	p {
 		color: #FFF;
