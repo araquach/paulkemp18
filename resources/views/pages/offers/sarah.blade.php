@@ -8,8 +8,8 @@
 	'ogtitle' => 'A special introductory offer with Sarah - our latest Senior Stylist',
 	'ogdescription' => 'Looking for a new stylist? Give our latest addition to the team a try. Here\'s a special intro offer for her',
 	'ogimage' => url('/') . '/images/offer/individual/sarah_montage_meta.jpg',
-	'ogimagewidth' => '1400px',
-	'ogimageheight' => '1200px',
+	'ogimagewidth' => '1400',
+	'ogimageheight' => '1200',
 	'title' => 'Paul Kemp Hairdressing - Offer with Sarah - Hairdressers in Warrington'
 	])
 	
