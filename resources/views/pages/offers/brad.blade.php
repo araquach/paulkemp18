@@ -8,6 +8,8 @@
 	'ogtitle' => 'A special introductory offer with our talented stylist Brad',
 	'ogdescription' => 'Looking for a new stylist? Give Brad, our recent addition to the team a try. Here\'s a special intro offer with him',
 	'ogimage' => url('/') . '/images/offer/individual/brad_montage_meta.jpg',
+	'ogimagewidth' => '1400px',
+	'ogimageheight' => '1200px',
 	'title' => 'Paul Kemp Hairdressing - Offer with Brad - Hairdressers in Warrington'
 	])
 	
