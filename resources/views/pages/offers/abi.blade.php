@@ -9,7 +9,7 @@
 	'ogdescription' => 'Looking for a new stylist? Give Abi a go - you won\'t be dissapointed. Here\'s a special offer with her',
 	'ogimage' => url('/') . '/images/offer/abi_offer.jpg',
 	'ogimagewidth' => '1400px',
-	'ogimagegeight' => '1200px',
+	'ogimageheight' => '1200px',
 	'title' => 'Paul Kemp Hairdressing - Offer with Abi - Hairdressers in Warrington'
 	])
 	
