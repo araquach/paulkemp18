@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special offer with Abi',
 	'ogdescription' => 'Looking for a new stylist? Give Abi a go - you won\'t be dissapointed. Here\'s a special offer with her',
-	'ogimage' => url('/') . '/images/offer/abi_offer.jpg',
+	'ogimage' => url('/') . '/images/offer/individual/abi_montage_meta.jpg',
 	'ogimagewidth' => '1400px',
 	'ogimageheight' => '1200px',
 	'title' => 'Paul Kemp Hairdressing - Offer with Abi - Hairdressers in Warrington'
