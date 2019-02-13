@@ -7,9 +7,9 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special introductory offer with our talented stylist Brad',
 	'ogdescription' => 'Looking for a new stylist? Give Brad, our recent addition to the team a try. Here\'s a special intro offer with him',
-	'ogimage' => url('/') . '/images/offer/individual/brad_montage_meta.jpg',
-	'ogimagewidth' => '1400',
-	'ogimageheight' => '1200',
+	'ogimage' => url('/') . '/images/offer/individual/brad_montage_fb.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offer with Brad - Hairdressers in Warrington'
 	])
 	
