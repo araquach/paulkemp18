@@ -46,7 +46,7 @@
 		<a href="{{ URL::to('team') }}#{{ $team_member->class}}">Click here to see the full team &gt;</a>
 		
 		<div id="fb-like">
-			<div class="fb-like" data-href="http://www.paulkemphairdressing.com/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+			<div class="fb-like" data-href="http://www.paulkemphairdressing.com/team/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 		</div>
 	
 	</section> <!--team_ind_copy-->
