@@ -7,7 +7,9 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special introductory offer with our talented stylist Brad',
 	'ogdescription' => 'Looking for a new stylist? Give Brad, our recent addition to the team a try. Here\'s a special intro offer with him',
-	'ogimage' => url('/') . '/images/offer/individual/brad_montage_meta.jpg',
+	'ogimage' => url('/') . '/images/offer/individual/brad_montage_fb.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offer with Brad - Hairdressers in Warrington'
 	])
 	
@@ -28,7 +30,7 @@
 	<div id="ind-offer-img-brad"></div>
 
 	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Brad comes up with then book in to get 20% off your visit!</strong></p>
+		<p><strong>Come in for a FREE consultation and if you like the ideas Brad comes up with then book in to get 20% off your visit with him!</strong></p>
 		<p><strong>Call 01925 444488 to book</strong><br>or use our online booking (link at top of page)</p>
 		<p>Just mention the offer at the time of your visit</p>
 		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>

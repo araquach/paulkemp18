@@ -828,30 +828,30 @@ section#newspage a p:hover {
 }
 
 #ind-offer-img-sarah {
-	background: url('/images/offer/individual/sarah_montage_tall.png') no-repeat left top #f5f5f5;
+	background: url('/images/offer/individual/sarah_montage_tall.png') no-repeat center top #f5f5f5;
 	width: auto;
 	height: 700px;
 	background-size: contain;
 }
 
 #ind-offer-img-brad {
-	background: url('/images/offer/individual/brad_montage_tall.png') no-repeat left top #f5f5f5;
+	background: url('/images/offer/individual/brad_montage_tall.png') no-repeat center top #f5f5f5;
 	width: auto;
-	height: 770px;
+	height: 700px;
 	background-size: contain;
 }
 
 #ind-offer-img-abi {
-	background: url('/images/offer/individual/abi_montage_tall.png') no-repeat left top #f5f5f5;
+	background: url('/images/offer/individual/abi_montage_tall.png') no-repeat center top #f5f5f5;
 	width: auto;
-	height: 770px;
+	height: 700px;
 	background-size: contain;
 }
 
 #ind-offer-img-lauren {
-	background: url('/images/offer/individual/lauren_montage_tall.png') no-repeat left top #f5f5f5;
+	background: url('/images/offer/individual/lauren_montage_tall.png') no-repeat center top #f5f5f5;
 	width: auto;
-	height: 770px;
+	height: 700px;
 	background-size: contain;
 }
 

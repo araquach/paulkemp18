@@ -9,6 +9,8 @@
 	<meta property="og:title" content="{{ $ogtitle or 'Paul Kemp Hairdressing' }}">
     <meta property="og:description" content="{{ $ogdescription or 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre' }}">
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
+	<meta property="og:image:width" content="{{ $ogimagewidth or '1025' }}">
+	<meta property="og:image:height" content="{{ $ogimageheight or '1025' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
 	<!-- Pintrest -->
@@ -22,7 +24,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-2487518-1', 'auto');
+  		ga('create', 'UA-2487518-2', 'auto');
   		ga('send', 'pageview');
 	</script>
 
