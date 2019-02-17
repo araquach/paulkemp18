@@ -1,6 +1,7 @@
 <head>
 	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre. Sister salon to the award winning Jakata Hair and Beauty team, the stunning new hairdressers opened back in June 2011 with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise. The salons talented hairdressers are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing by highly qualified hairdressers.">
 	<meta name="keywords" content="Paul Kemp Hairdressing, hairdressers, hairdressing, hair salons Warrington, salon, salons, salon Warrington, salons warrington, hairdressing jobs warrington, fashion colour, mens hairdressing, brazilian blowdry, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
 	<meta name="author" content="Paul Kemp Hairdressing Ltd">
@@ -10,6 +11,9 @@
     <meta property="og:description" content="{{ $ogdescription or 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre' }}">
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
+
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	
 	<!-- Pintrest -->
 	<meta name="p:domain_verify" content="847aad26875d4681b6b0d5074f5e9deb"/>
@@ -27,9 +31,7 @@
 	</script>
 
 
-	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/mob.css') }}"
-	/>
+	<link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/xsn2rce.css">
 	
 	{{-- Phorest online booking styling --}}
@@ -49,8 +51,6 @@
     </style>
 	
 	<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('scripts/mootools.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('scripts/modernizr.js') }}"></script>
 
 	<!-- Facebook Pixel Code -->
 	<script>
