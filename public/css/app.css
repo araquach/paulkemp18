@@ -11314,13 +11314,13 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
-.main .card {
+#home .card {
   background-color: #372218;
   color: #FFF;
   border-radius: 10px;
 }
 
-.main .card p {
+#home .card p {
   color: #FFF;
 }
 
