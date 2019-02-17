@@ -17,6 +17,8 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+$footer-background-colour: $primary;
+
 @import "~bulma/bulma.sass";
 
 .main .card {
