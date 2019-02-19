@@ -17,24 +17,33 @@
 
 <section id="team">
 
-	<div id="team-list">
-
 		@foreach($team_members as $team_member)
 
-			<a href="{{ URL::to('team/' . $team_member->class) }}">
-				<section class="team-ind" id="{{ $team_member->class }}">
-					<h3>{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }} {{ $team_member->name }} - {{ $team_member->level }}</h3>
-					<p>{{ $team_member->para1 }}</p>
+		<a href="{{ URL::to('team/' . $team_member->class) }}">
+			<div class="card">
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+				</div>
+				<div class="card-content">
+						<div class="media-content">
+							<p class="title is-4">{{ $team_member->name }}</p>
+							<p class="subtitle is-6">{{ $team_member->level }}</p>
+						</div>
+					</div>
+
+					<div class="content">
+						<p>{{ $team_member->para1 }}</p>
 					<p>{{ $team_member->para2 }} {{ $team_member->para3 }} </p>
 					<p class="teamprice">Average Cut &amp; Colour price with {{ $team_member->review_link}} : &pound;{{ $team_member->price }}*</p>
-				</section>
-			</a>
+					</div>
+				</div>
+		</a>
 
 		@endforeach
 
-	</div>
-
-	<div id="teambottom">
+	<div>
 		<p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
 	</div>
 

@@ -11365,3 +11365,9 @@ label.panel-block:hover {
   background-size: cover;
 }
 
+/* Team Page */
+
+#team {
+  background: url(/images/pk_team_2015.jpg) center top no-repeat;
+}
+
