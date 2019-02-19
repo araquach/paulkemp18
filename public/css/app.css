@@ -11314,10 +11314,16 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.inner.container {
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 #home .card {
   background-color: #372218;
   color: #FFF;
   border-radius: 10px;
+  height: 100%;
 }
 
 #home .card p {
