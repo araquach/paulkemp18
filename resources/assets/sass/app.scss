@@ -21,27 +21,14 @@ $footer-background-colour: $primary;
 
 @import "~bulma/bulma.sass";
 
+/* General */
+
 .inner.container {
 	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .navbar-item img {
 	max-height: 4rem;
-}
-
-#home {
-	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
-}
-
-#home .card {
-	background-color: $brown;
-	color: #FFF;
-	border-radius: 10px;
-	height: 100%;
-
-	p {
-		color: #FFF;
-	}
 }
 
 .navbar-dropdown {
@@ -59,3 +46,30 @@ $footer-background-colour: $primary;
 .footer {
 	padding-bottom: 0;
 }
+
+/* Home Page */
+
+#home {
+	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
+}
+
+#home .card {
+	background-color: $brown;
+	color: #FFF;
+	border-radius: 10px;
+	height: 100%;
+
+	p {
+		color: #FFF;
+	}
+}
+
+/* Salon Page */
+
+.salon-image {
+	background: url(/images/salon/salon_main.jpg) no-repeat left top #f5f5f5;
+	background-size: cover; 
+}
+
+
+
