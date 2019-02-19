@@ -11319,6 +11319,14 @@ label.panel-block:hover {
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+.navbar-item img {
+  max-height: 4rem;
+}
+
+#home {
+  background: url("/images/home/katharina.jpg") no-repeat left top #f5f5f5;
+}
+
 #home .card {
   background-color: #372218;
   color: #FFF;
@@ -11332,5 +11340,17 @@ label.panel-block:hover {
 
 .navbar-dropdown {
   background-color: #372218;
+}
+
+.social {
+  background-color: #372218;
+}
+
+.social .column {
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 0;
 }
 

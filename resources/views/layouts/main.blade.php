@@ -14,7 +14,7 @@
 					<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
 							<a class="navbar-item" href="{{ URL::to('/') }}">
-								<img src="{{ asset('images/main/pk_logo.png') }}" width="100">
+								<img src="{{ asset('images/logos/pk_logo_white.png') }}" width="200">
 							</a>
 
 							<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -83,7 +83,7 @@
 			</div>
 
 			<footer class="footer">
-				<div class="container">
+				
 					<div class="columns">
 						<div class="column">
 							<a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a>
@@ -98,21 +98,29 @@
 							<a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}</a>
 						</div>
 						<div class="column">
-							<a href="http://www.ghdhair.com/" target="_blank">{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}</a></li>
+							<a href="http://www.ghdhair.com/" target="_blank">{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}</a>
 						</div>
 						<div class="column">
 							<a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}</a>
 						</div>
 					</div>
-
-					<div id="social">
-						<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><div class="social_logo facebook"></div></a>
-						<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank"><div class="social_logo instagram"></div></a>
-						<a href="https://twitter.com/paulkemphair" target="_blank"><div class="social_logo twitter"></div></a>
-						<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div class="social_logo google"></div></a>
-						<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank"><div class="social_logo pinterest"></div></a>
+				
+					<div class="section social columns">
+						<div class="column">
+							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><img src="{{ asset('images/footer/social/facebook.png') }}" width="50"></a>
+						</div>
+						<div class="column">
+							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank"><img src="{{ asset('images/footer/social/instagram.png') }}" width="50"></a>
+						</div>
+						<div class="column">
+							<a href="https://twitter.com/paulkemphair" target="_blank"><img src="{{ asset('images/footer/social/twitter.png') }}" width="50"></a>
+						</div>
+						<div class="column">
+							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank"><img src="{{ asset('images/footer/social/pinterest.png') }}" width="50"></a>
+						</div>
 					</div>
-				</div>
+			
+			
 			</footer>
 		</div>
 	</div>
