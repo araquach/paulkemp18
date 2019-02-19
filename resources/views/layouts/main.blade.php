@@ -9,37 +9,73 @@
 
 	<div class="container">
 
-		<header>
+		<header class="hero is-primary">
+			<div class="hero-body">
+				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+					<div class="navbar-brand">
+						<a class="navbar-item" href="{{ URL::to('/') }}">
+							<img src="{{ asset('images/main/pk_logo.png') }}" width="100">
+						</a>
 
-			<section class="hero is-primary">
-			  <div class="hero-body">
-			    <div class="container">
-			      <h1 class="title">
-			        Paul Kemp Hairdressing
-			      </h1>
-			      <h2 class="subtitle">
-			        Hairdressers in Warrington
-			      </h2>
-			    </div>
-			    <nav class="nav">					
-					<ul>
-						<li class="button is-link">{!! link_to('/', 'Home') !!}</li>
-						<!--<li>{!! link_to('offers', 'Offers') !!}</li>-->
-						<li class="button is-link">{!! link_to('salon', 'The Salon') !!}</li>
-						<li class="button is-link">{!! link_to('team', 'Team') !!}</li>
-						<li class="button is-link">{!! link_to('blog', 'Blog') !!}</li>
-						<li class="button is-link">{!! link_to('recruitment', 'Recruitment') !!}</li>
-						<li class="button is-link">{!! link_to('men', 'Men') !!}</li>
-						<li class="button is-link">{!! link_to('prices', 'Prices') !!}</li>
-						<li class="button is-link">{!! link_to('contact', 'Contact') !!}</li>
-					</ul>
-					@if(!Request::is('booking'))
-						{!! link_to('booking', 'Book Now', ['class' => 'book-now']) !!}
-					@endif
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-start">
+							<a class="navbar-item" href="{!! URL::to('/') !!}">
+								Home
+							</a>
+
+							<a class="navbar-item" href="{!! URL::to('salon') !!}">
+								Salon
+							</a>
+
+							<a class="navbar-item" href="{!! URL::to('team') !!}">
+								Team
+							</a>
+
+							<a class="navbar-item" href="{!! URL::to('team') !!}">
+								Blog
+							</a>
+
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link">
+									More
+								</a>
+
+								<div class="navbar-dropdown">
+									<a class="navbar-item" href="{!! URL::to('recruitment') !!}">
+										Recruitment
+									</a>
+									<a class="navbar-item" href="{!! URL::to('men') !!}">
+										Men
+									</a>
+									<a class="navbar-item" href="{!! URL::to('prices') !!}">
+										Prices
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="navbar-end">
+							<div class="navbar-item">
+								<div class="buttons">
+									<a class="button is-primary" href="contact">
+										<strong>Contact Us</strong>
+									</a>
+									<a class="button is-light" href="{!! URL::to('booking') !!}">
+										Book Now
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</nav>
-			  </div>
-			</section>
-			
+			</div>
 		</header>
 
 		<div>

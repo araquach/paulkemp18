@@ -49,8 +49,6 @@
         height: 100%;
       }
     </style>
-	
-	<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 
 	<!-- Facebook Pixel Code -->
 	<script>
