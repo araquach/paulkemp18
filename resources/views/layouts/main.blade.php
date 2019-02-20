@@ -86,37 +86,77 @@
 				
 					<div class="columns">
 						<div class="column">
-							<a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a>
+							<a href="http://www.schwarzkopf-professional.com/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}
+								</figure>
+							</a>
 						</div>
 						<div class="column">
-							<a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}</a>
+							<a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}
+								</figure>
+							</a>
 						</div>
 						<div class="column">
-							<a href="http://www.catwalkbytigi.com" target="_blank">{{ Html::image('images/footer/catwalk.png', 'Tigi Catwalk') }}</a>
+							<a href="http://www.catwalkbytigi.com" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/catwalk.png', 'Tigi Catwalk') }}
+								</figure>
+							</a>
 						</div>
 						<div class="column">
-							<a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}</a>
+							<a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}
+								</figure>
+							</a>
 						</div>
 						<div class="column">
-							<a href="http://www.ghdhair.com/" target="_blank">{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}</a>
+							<a href="http://www.ghdhair.com/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}
+								</figure>
+							</a>
 						</div>
 						<div class="column">
-							<a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}</a>
+							<a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}
+								</figure>
+							</a>
 						</div>
 					</div>
 				
 					<div class="section social columns">
-						<div class="column">
-							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><img src="{{ asset('images/footer/social/facebook.png') }}" width="50"></a>
+						<div class="column is-narrow">
+							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">
+								<figure class="image is-61x61">
+									<img src="{{ asset('images/footer/social/facebook.png') }}">
+								</figure>
+							</a>
 						</div>
-						<div class="column">
-							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank"><img src="{{ asset('images/footer/social/instagram.png') }}" width="50"></a>
+						<div class="column is-narrow">
+							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank">
+								<figure class="image is-61x61">
+									<img src="{{ asset('images/footer/social/instagram.png') }}">
+								</figure>
+							</a>
 						</div>
-						<div class="column">
-							<a href="https://twitter.com/paulkemphair" target="_blank"><img src="{{ asset('images/footer/social/twitter.png') }}" width="50"></a>
+						<div class="column is-narrow">
+							<a href="https://twitter.com/paulkemphair" target="_blank">
+								<figure class="image is-61x61">
+									<img src="{{ asset('images/footer/social/twitter.png') }}">
+								</figure>
+							</a>
 						</div>
-						<div class="column">
-							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank"><img src="{{ asset('images/footer/social/pinterest.png') }}" width="50"></a>
+						<div class="column is-narrow">
+							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank">
+								<figure class="image is-61x61">
+									<img src="{{ asset('images/footer/social/pinterest.png') }}">
+								</figure>
+							</a>
 						</div>
 					</div>
 			

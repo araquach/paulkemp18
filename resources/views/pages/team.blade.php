@@ -16,35 +16,51 @@
 @section('content')
 
 <section id="team">
+	<section class="hero is-large team-image">
+        <div class="hero-body">
+        </div>
+    </section>
 
-		@foreach($team_members as $team_member)
-
-		<a href="{{ URL::to('team/' . $team_member->class) }}">
-			<div class="card">
-				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="card-content">
-						<div class="media-content">
-							<p class="title is-4">{{ $team_member->name }}</p>
-							<p class="subtitle is-6">{{ $team_member->level }}</p>
+		<div class="section columns is-multiline">
+	
+				@foreach($team_members as $team_member)
+				<div class="column is-4">
+					
+					<a href="{{ URL::to('team/' . $team_member->class) }}">
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-square">
+									<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+								</figure>
+							</div>
+							<div class="card-content">
+								<div class="media">
+									<div class="media-content">
+										<p class="title is-3 has-text-primary">{{ $team_member->name }}</p>
+										<p class="subtitle has-text-primary">{{ $team_member->level }}</p>
+									</div>
+								</div>
+								<div class="content">
+									<p>{{ $team_member->para1 }}</p>
+									<p>{{ $team_member->para2 }}</p>
+									<p>{{ $team_member->para3 }}</p>
+									<p class="price">Average Cut &amp; Colour price with {{ $team_member->review_link}} : &pound;{{ $team_member->price }}*</p>
+								</div>
+							</div>
 						</div>
-					</div>
-
-					<div class="content">
-						<p>{{ $team_member->para1 }}</p>
-					<p>{{ $team_member->para2 }} {{ $team_member->para3 }} </p>
-					<p class="teamprice">Average Cut &amp; Colour price with {{ $team_member->review_link}} : &pound;{{ $team_member->price }}*</p>
-					</div>
+					</a>
+					
 				</div>
-		</a>
+				@endforeach	
 
-		@endforeach
+		</div>
 
-	<div>
-		<p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+		
+
+		
+
+	<div class="level">
+		<p class="level-item"><strong class="price">*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</strong></p>
 	</div>
 
 </section>
