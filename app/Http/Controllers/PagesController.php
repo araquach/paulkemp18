@@ -106,9 +106,9 @@ class PagesController extends Controller {
 
 	public function teamInd($team)
 	{
-		$team_member = TeamMember::where('class', $team )->first();
+		$team_member = TeamMember::where('salon', 2)->where('class', $team )->first();
 
-		$reviews = Review::where('staff', 'LIKE', '%' . $team . '%')->orderByRaw("RAND()")->get();
+		$reviews = Review::where('salon', 2)->where('staff', 'LIKE', '%' . $team . '%')->orderByRaw("RAND()")->get();
 		
 		return view('pages.team_ind', compact('team_member', 'reviews'));
 
