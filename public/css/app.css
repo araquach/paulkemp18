@@ -11394,3 +11394,9 @@ label.panel-block:hover {
   background-size: cover;
 }
 
+/* Price Page */
+
+#price-page {
+  background-color: #FFF;
+}
+
