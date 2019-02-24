@@ -1411,9 +1411,9 @@ a.has-text-danger:focus {
 
 .box {
   background-color: white;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  border-radius: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #372218;
   display: block;
   padding: 1.25rem;
@@ -11316,6 +11316,10 @@ label.panel-block:hover {
 
 /* General */
 
+.box {
+  border: 1px solid #372218;
+}
+
 .inner.container {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -11375,5 +11379,11 @@ label.panel-block:hover {
 .price {
   text-align: center;
   color: #f9a602;
+}
+
+/* Blog Page */
+
+#blog .box {
+  margin-bottom: 1.5rem;
 }
 

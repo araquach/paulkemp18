@@ -38,7 +38,7 @@
 									Team
 								</a>
 
-								<a class="navbar-item" href="{!! URL::to('team') !!}">
+								<a class="navbar-item" href="{!! URL::to('blog') !!}">
 									Blog
 								</a>
 
@@ -84,7 +84,7 @@
 
 			<footer class="footer">
 				
-					<div class="columns">
+					<div class="columns is-mobile">
 						<div class="column">
 							<a href="http://www.schwarzkopf-professional.com/" target="_blank">
 								<figure class="image is-110x80">
@@ -129,33 +129,33 @@
 						</div>
 					</div>
 				
-					<div class="section social columns">
-						<div class="column is-narrow">
+					<div class="section social columns is-mobile">
+						<div class="column">
 							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">
-								<figure class="image is-61x61">
+								
 									<img src="{{ asset('images/footer/social/facebook.png') }}">
-								</figure>
+								
 							</a>
 						</div>
-						<div class="column is-narrow">
+						<div class="column">
 							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank">
-								<figure class="image is-61x61">
+								
 									<img src="{{ asset('images/footer/social/instagram.png') }}">
-								</figure>
+								
 							</a>
 						</div>
-						<div class="column is-narrow">
+						<div class="column">
 							<a href="https://twitter.com/paulkemphair" target="_blank">
-								<figure class="image is-61x61">
+								
 									<img src="{{ asset('images/footer/social/twitter.png') }}">
-								</figure>
+								
 							</a>
 						</div>
-						<div class="column is-narrow">
+						<div class="column">
 							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank">
-								<figure class="image is-61x61">
+								
 									<img src="{{ asset('images/footer/social/pinterest.png') }}">
-								</figure>
+								
 							</a>
 						</div>
 					</div>
