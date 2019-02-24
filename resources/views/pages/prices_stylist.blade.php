@@ -23,7 +23,7 @@
 	</section>
 
 	<div class="section">
-		<h3>Stylist/Senior Stylists</h3>
+		<h3 class="title is-5">Stylist/Senior Stylists</h3>
 
 		<table class="table is-fullwidth">
 			<tr>
@@ -43,10 +43,10 @@
 	<div class="section">
 		<table class="table is-fullwidth">
 			<tr>
-				<th class="firstcolumn"><h3>Colour, Cut &amp; Style</h3></th>
-				<th><h4 class="experience">Director</h4></th>
-				<th><h4 class="experience">Senior Stylists</h4></th>
-				<th><h4 class="experience">Stylists</h4></th>
+				<th>Colour, Cut &amp; Style</th>
+				<th>Director</th>
+				<th>Senior Stylists</th>
+				<th>Stylists</th>
 			</tr>
 		<tr>
 			<td><img src="/images/prices/numbers-01.png" alt="No 1"></td>
@@ -102,15 +102,9 @@
 		<table class="table is-fullwidth">
 			<tr>
 				<th>&nbsp;</th>
-				<th>
-					<h4 class="experience">Director</h4>
-				</th>
-				<th>
-					<h4 class="experience">Senior Stylists</h4>
-				</th>
-				<th>
-					<h4 class="experience">Stylists</h4>
-				</th>
+				<th>Director</th>
+				<th>Senior Stylists</th>
+				<th>Stylists</th>
 			</tr>
 			<tr>
 				<td>
