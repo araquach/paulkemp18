@@ -129,33 +129,25 @@
 						</div>
 					</div>
 				
-					<div class="section social columns is-mobile">
+					<div class="social columns is-mobile">
 						<div class="column">
 							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">
-								
-									<img src="{{ asset('images/footer/social/facebook.png') }}">
-								
+								<img src="{{ asset('images/footer/social/facebook.png') }}">
 							</a>
 						</div>
 						<div class="column">
 							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank">
-								
-									<img src="{{ asset('images/footer/social/instagram.png') }}">
-								
+								<img src="{{ asset('images/footer/social/instagram.png') }}">
 							</a>
 						</div>
 						<div class="column">
 							<a href="https://twitter.com/paulkemphair" target="_blank">
-								
-									<img src="{{ asset('images/footer/social/twitter.png') }}">
-								
+								<img src="{{ asset('images/footer/social/twitter.png') }}">
 							</a>
 						</div>
 						<div class="column">
 							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank">
-								
-									<img src="{{ asset('images/footer/social/pinterest.png') }}">
-								
+								<img src="{{ asset('images/footer/social/pinterest.png') }}">
 							</a>
 						</div>
 					</div>

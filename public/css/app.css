@@ -11387,3 +11387,10 @@ label.panel-block:hover {
   margin-bottom: 1.5rem;
 }
 
+/* Men Page */
+
+.men-image {
+  background: url(/images/men/men-group.jpg) no-repeat top center;
+  background-size: cover;
+}
+
