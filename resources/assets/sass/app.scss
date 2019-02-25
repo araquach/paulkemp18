@@ -56,6 +56,16 @@ $footer-background-colour: $primary;
 
 #home {
 	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
+	background-size: cover;
+
+	@include until($tablet) {
+    	background: url('') no-repeat left top #f5f5f5;
+  	}
+}
+
+.home-image-mobile {
+	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
+	background-size: cover;
 }
 
 #home .card {

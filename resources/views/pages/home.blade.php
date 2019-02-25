@@ -11,7 +11,10 @@
 @section('content')
 
 <section id="home">
-
+<div class="hero home-image-mobile is-fullheight is-hidden-tablet">
+  <div class="hero-body">
+  </div>
+</div>
  <div class="columns">
   <div class="column is-5 is-offset-7">
     <section class="section">

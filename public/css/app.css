@@ -11349,6 +11349,18 @@ label.panel-block:hover {
 
 #home {
   background: url("/images/home/katharina.jpg") no-repeat left top #f5f5f5;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    background: url("") no-repeat left top #f5f5f5;
+  }
+}
+
+.home-image-mobile {
+  background: url("/images/home/katharina.jpg") no-repeat left top #f5f5f5;
+  background-size: cover;
 }
 
 #home .card {
