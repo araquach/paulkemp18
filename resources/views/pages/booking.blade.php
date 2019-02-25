@@ -14,7 +14,7 @@
 
 @section('content')
 
-<section id="bookings">
+<div id="bookings">
 
     <h1>Make a booking</h1>
     
@@ -24,6 +24,6 @@
         </div>
     </section>
 
-</section>
+</div>
 
 @stop

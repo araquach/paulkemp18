@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section id="recruitment">
+<div id="recruitment">
 
 <h1>Join the Team</h1>
 
@@ -33,6 +33,6 @@
 
 <p class="fancy">An amazing career <br>starts here</p>
 
-</section> <!--end #recruitment-->
+</div> <!--end #recruitment-->
 
 @stop

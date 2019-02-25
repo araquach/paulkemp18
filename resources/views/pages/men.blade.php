@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section id="men">
+<div id="men">
     <section class="hero is-large men-image">
         <div class="hero-body">
         </div>
@@ -56,6 +56,6 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 @stop

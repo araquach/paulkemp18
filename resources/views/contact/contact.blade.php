@@ -14,24 +14,27 @@
 
 @section('content')
 
-<section id="contact" class="group">
-    <section id="locmap">
-    <a id="map"></a>
-    <h2>Contact Us</h2>
+<div id="contact">
 
-    <h3>How to find us:</h3>
-    <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
-    (opposite the Golden Gates).</p>
-   
-    <div class="address"><h3>Address:</h3>
-    <p>83 Sankey Street<br>
-      Warrington<br>
-      WA1 1SL
-    </p>
-    <p><strong>01925 444488</strong></p>
-    </div> <!--address-->
+    <a id="map"></a>
     
-    <div id="map"></div>
+	<section class="section">
+	    <h2>Contact Us</h2>
+
+	    <h3>How to find us:</h3>
+	    <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
+	    (opposite the Golden Gates).</p>
+	   
+	    <div>
+	    	<h3>Address:</h3>
+	    	<p>83 Sankey Street<br>
+	      	Warrington<br>
+	      	WA1 1SL</p>
+	    	<p><strong>01925 444488</strong></p>
+	    </div> <!--address-->
+	    
+	    <div><img src=""></div>
+    </section>
     
     <p>The closest parking is available at the <em>Town Hall car park </em>across the road from us. The entrance is 
   	immediately after the Golden Gates. It's pay and display at a very reasonable rate.</p>		

@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section id="reviews">
+<div id="reviews">
 	
 	<h1>Some of our recent client reviews</h1>
 	
@@ -35,6 +35,6 @@
 		</div>
 	@endforeach
 	
-</section>
+</div>
 
 @stop

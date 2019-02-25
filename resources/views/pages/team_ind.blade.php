@@ -20,7 +20,7 @@
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
 
-<section id="team_ind">
+<div id="team_ind">
 <div id="team-{{ $team_member->class }}" class="team_pic"></div>
 
 	<section id="team_ind_copy">
@@ -54,6 +54,6 @@
 <section id="teambottom">
     <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
 </section>
-</section> <!--team_ind-->
+</div> <!--team_ind-->
 
 @stop

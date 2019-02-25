@@ -19,7 +19,7 @@
 
 @section('content')
 
-<section id="new">
+<div id="new">
 	
 	<section id="new_copy">
 	
@@ -44,6 +44,6 @@
 
 	</section> <!--#new_copy-->
 
-</section> <!--end #new-->
+</div> <!--end #new-->
 
 @stop

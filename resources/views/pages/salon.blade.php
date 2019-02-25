@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section id="salon">
+<div id="salon">
     <section class="hero is-large salon-image">
         <div class="hero-body">
         </div>
@@ -69,6 +69,6 @@
     </div>
 
 
-</section>
+</div>
 
 @stop

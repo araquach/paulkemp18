@@ -14,7 +14,7 @@
 
 @section('content')
 
-<section id="price-page" class="section">
+<div id="price-page" class="section">
 	
 	<section class="section">
 		<h2 class="title is-2">Graduate/Junior Prices</h2>
@@ -158,6 +158,6 @@
 		<p>New clients require a skin test 48 hours prior to any colour service. It's a simple procedure that only takes a minute or two. Please mention when booking your appointment</p>
 	</section>
 
-</section>
+</div>
 
 @stop

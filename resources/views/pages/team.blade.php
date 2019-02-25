@@ -15,7 +15,7 @@
 
 @section('content')
 
-<section id="team">
+<div id="team">
 	<section class="hero is-large team-image">
         <div class="hero-body">
         </div>
@@ -63,6 +63,6 @@
 		<p class="level-item"><strong class="price">*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</strong></p>
 	</div>
 
-</section>
+</div>
 
 @stop
