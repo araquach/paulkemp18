@@ -14,7 +14,7 @@
 
 @section('content')
 
-<section id="blog" class="section">
+<div id="blog" class="section">
     
     @foreach($blogs as $blog)
         <div class="columns box has-margin-3">
@@ -34,6 +34,6 @@
         </div>
     @endforeach
     
-</section>
+</div>
 
 @stop

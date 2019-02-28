@@ -14,7 +14,7 @@
 					<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
 							<a class="navbar-item" href="{{ URL::to('/') }}">
-								<img src="{{ asset('images/logos/pk_logo_white.png') }}" width="200">
+								<img src="{{ asset('images/logos/pk_logo_white.png') }}">
 							</a>
 
 							<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
