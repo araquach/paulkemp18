@@ -7,7 +7,7 @@
 	'keywords' => 'skilled stylists, talented hairdressers, qualified hairdressers, professional stylists',
 	'ogtitle' => 'Meet the PK Team',
 	'ogdescription' => 'The Paul Kemp Hairdressing team comprises of 8 highly skilled stylists in all areas of hairdressing. Cutting, Colouring, Blowdrying plus specialist services like Kebelo and Opti-Smooth. You know you\'re in good hands',
-	'ogimage' => url('/') . '/images/ogimage/myimage.png',
+	'ogimage' => url('/') . '/images/staff/group_shot/PK_team_2019_meta',
 	'title' => 'Paul Kemp Hairdressing - Meet the Team - Hairdressers in Warrington'
 	])
 	

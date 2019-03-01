@@ -395,9 +395,9 @@ li.active a {
 	position: relative;
 	width: auto;
 	height: 100%;
-	background: url(/images/pk_team_2015.jpg) center top no-repeat;
+	background: url(/images/staff/group_shot/PK_team_2019.png) center top no-repeat;
 	background-size: contain;
-	padding-top: 240px;
+	padding-top: 140px;
 }
 
 #team h3 {
@@ -429,7 +429,7 @@ li.active a {
 #team-list {
 	margin-left: 0;
 	padding: 20px;
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 .team-ind {
