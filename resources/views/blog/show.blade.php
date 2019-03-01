@@ -16,32 +16,40 @@
 
 @include('layouts.partials.fb_like')
 
-<section id="blog">
+<div id="blog" class="section">
+        
+    <article class="columns box has-margin-3">
+        <h2 class="title is-3 is-block is-pulled-left">{{ $blog->title }}</h2>
+        <div class="column is-5">
+            <figure class="image">
+                <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->para_pic_alt }}">
+            </figure>
+        </div>
 
-    <article>
-        <h2>{{ $blog->title }}</h2>
-        
-        @foreach($blog->paras as $para)
+        <div>
+            @foreach($blog->paras as $para)
+                
+                @if($para->para_pic !== NULL)
+                    <div class="image">
+                        <figure class="image">
+                            <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
+                        </figure>
+                    </div>
+                @endif
             
-            @if($para->para_pic !== NULL)
-                <div class="blog-pic">
-                    <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}" style="height: 70%; width: 70%;">
-                </div>
-            @endif
-        
-            {!! addTag($para->para) !!}
+                {!! addTag($para->para) !!}
+                
+            @endforeach
+            <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}">Back to all the blogs &gt;</a></p>
+            <small>Published by {{ $blog->author }}</small>
+            <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
             
-        @endforeach
-        <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}">Back to all the blogs &gt;</a></p>
-        <small>Published by {{ $blog->author }}</small>
-        <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
-        
-        <div id="fb-like">
-			<div class="fb-like" data-href="{{ URL::to('blog') }}/{{ $blog->slug }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-		</div>
-        
+            <div id="fb-like">
+    			<div class="fb-like" data-href="{{ URL::to('blog') }}/{{ $blog->slug }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+    		</div>
+        </div>
     </article>
 
-</section>
+</div>
 
 @stop
