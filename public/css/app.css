@@ -11425,3 +11425,14 @@ label.panel-block:hover {
   background-color: #FFF;
 }
 
+/* Contact Page */
+
+.contact-image {
+  background: url(/images/pk_shop2.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.contact-form {
+  background-color: #FFF;
+}
+
