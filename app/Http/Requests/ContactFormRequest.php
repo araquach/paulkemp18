@@ -18,7 +18,7 @@ class ContactFormRequest extends Request {
 	protected function getRedirectUrl()
     {
         $url = $this->redirector->getUrlGenerator();
-        return $url->previous() . '#contact-form_es_';
+        return $url->previous() . '#errors';
     }
 
 	/**

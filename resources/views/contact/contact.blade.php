@@ -39,7 +39,7 @@
 				{!! Form::open(array('action' => 'ContactController@sendEmail' )) !!}
 
 					@if (count($errors) > 0)
-						<div>
+						<div id="errors" class="errors has-text-danger">
 							<p>Please fix the following input errors:</p>
 							<ul>
 						   		@foreach($errors->all() as $error)
@@ -69,7 +69,7 @@
 					
 					<div class="field">
 						{!! Form::label('email_confirm', 'Confirm Email Address', ['class' => 'label']) !!}
-						{!! Form::email('email_confirm') !!}
+						{!! Form::email('email_confirm', '',['class' => 'control']) !!}
 					</div>
 					
 					<div class="field">
@@ -105,8 +105,6 @@
 			    <h3 class="title is-4 has-text-primary">How to find us:</h3>
 			    <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
 			    (opposite the Golden Gates).</p>
-
-			    <br>
 			    
 		    	<h3 class="title is-4 has-text-primary">Address:</h3>
 		    	<p>83 Sankey Street<br>
@@ -114,18 +112,15 @@
 		      	WA1 1SL</p>
 		    	<p><strong>01925 444488</strong></p>
 
-		    	<br>
 
 		    	<figure class="image">
 			    	<img src="/images/streetmap.gif" alt="Map" class="image">
 			    </figure>
 
-			    <br>
 		    
 			    <p>The closest parking is available at the <em>Town Hall car park </em>across the road from us. The entrance is 
 			  	immediately after the Golden Gates. It's pay and display at a very reasonable rate.</p>	
 
-				<br>
 
 			  	<h3 class="title is-4 has-text-primary">Opening Times:</h3>
 			  	<ul id="times">

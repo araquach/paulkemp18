@@ -11320,6 +11320,10 @@ label.panel-block:hover {
   border: 1px solid #372218;
 }
 
+p {
+  margin-bottom: 1.4rem;
+}
+
 .inner.container {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -11330,6 +11334,18 @@ label.panel-block:hover {
     padding-bottom: .5rem;
     padding-top: .5rem;
   }
+}
+
+.errors {
+  border: 1px solid #ff3860;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.errors p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .navbar-item img {
