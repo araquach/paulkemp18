@@ -9,8 +9,8 @@
 	<meta property="og:title" content="{{ $ogtitle or 'Paul Kemp Hairdressing' }}">
     <meta property="og:description" content="{{ $ogdescription or 'Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre' }}">
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
-	<meta property="og:image:width" content="{{ $ogimagewidth or '1025' }}">
-	<meta property="og:image:height" content="{{ $ogimageheight or '1025' }}">
+	<meta property="og:image:width" content="{{ $ogimagewidth or '1200' }}">
+	<meta property="og:image:height" content="{{ $ogimageheight or '628' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
 	<!-- Pintrest -->
@@ -29,8 +29,8 @@
 	</script>
 
 
-	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ elixir('css/mob.css') }}"
+	<link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)" href="{{ mix('css/mob.css') }}"
 	/>
 	<link rel="stylesheet" href="https://use.typekit.net/xsn2rce.css">
 	

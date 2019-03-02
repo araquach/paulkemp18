@@ -65,4 +65,3 @@ jQuery.noConflict();
 		}); // end click
 	});
 })(jQuery);
-//# sourceMappingURL=jquery.js.map
