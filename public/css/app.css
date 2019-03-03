@@ -11425,6 +11425,10 @@ p {
 
 /* Blog Page */
 
+#blog {
+  position: relative;
+}
+
 #blog .box {
   margin-bottom: 1.5rem;
 }
@@ -11436,6 +11440,17 @@ p {
 @media screen and (max-width: 768px) {
   #blog .side-image:first-of-type {
     display: none;
+  }
+}
+
+#blog #fb-like {
+  position: absolute;
+  bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  #blog #fb-like {
+    bottom: .5rem;
   }
 }
 

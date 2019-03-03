@@ -130,6 +130,8 @@ p {
 /* Blog Page */
 
 #blog {
+	position: relative;
+
 	.box {
 		margin-bottom: 1.5rem;
 	}
@@ -141,6 +143,14 @@ p {
 	.side-image:first-of-type {
 			@include until($tablet) {
 	    	display: none;
+  		}
+	}
+
+	#fb-like {
+		position: absolute;
+		bottom: 4rem;
+		@include until($tablet) {
+	    	bottom: .5rem;
   		}
 	}
 }
