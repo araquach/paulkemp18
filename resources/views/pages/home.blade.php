@@ -22,15 +22,20 @@
         <p>Paul Kemp Hairdressing is located right in the heart of Warrington town centre. Sister salon to the award winning <em><a href="http://www.jakatasalon.co.uk/" target="_blank">Jakata</a></em>, the stunning salon opened in June 2011 with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise.</p>
         <p>The talented hairdressing team are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing so you can just sit back, relax and enjoy the experience.</p>
         <p><em>The salon has built up a strong reputation for creating stunning, fashionable looks tailored to suit you, and your lifestyle, so if you're looking for a new <strong class="paraend">hairdressers in Warrington</strong> then look no further!</em></p>
-      </section>
-      <section id="feedback_feed" class="section">
+        <section class="box">
          <ul>
+            <li>
+              &quot;This is a review blah blagh blah blah blah&quot;<br><span class="client">Jean Walker - hair by Adam Carter </span>
+            </li>
            @foreach($reviews as $review)
-           <li>&quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
+            <li>
+              &quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span>
+            </li>
            @endforeach
          </ul>
          <p><a href="{{ URL::to('reviews') }}">More reviews here</a></p>
      </section>
+      </section>
     </div>
   </div>
 

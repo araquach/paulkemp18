@@ -11316,10 +11316,6 @@ label.panel-block:hover {
 
 /* General */
 
-.box {
-  border: 1px solid #372218;
-}
-
 p {
   margin-bottom: 1.4rem;
 }
@@ -11378,13 +11374,18 @@ p {
 
 #home {
   background: url("/images/home/katharina.jpg") no-repeat left top #f5f5f5;
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (max-width: 768px) {
   #home {
     background: url("") no-repeat left top #f5f5f5;
   }
+}
+
+#home .box {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
 }
 
 .home-image-mobile {
