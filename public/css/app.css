@@ -11429,6 +11429,16 @@ p {
   margin-bottom: 1.5rem;
 }
 
+#blog .image {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #blog .side-image:first-of-type {
+    display: none;
+  }
+}
+
 /* Men Page */
 
 .men-image {

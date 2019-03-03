@@ -133,6 +133,16 @@ p {
 	.box {
 		margin-bottom: 1.5rem;
 	}
+	
+	.image {
+		margin-bottom: 1rem;
+	}
+
+	.side-image:first-of-type {
+			@include until($tablet) {
+	    	display: none;
+  		}
+	}
 }
 
 /* Men Page */

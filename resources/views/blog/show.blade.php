@@ -16,30 +16,25 @@
 
 @include('layouts.partials.fb_like')
 
-<div id="blog" class="section">
-        
-    <article class="columns box has-margin-3">
-        <h2 class="title is-3 is-block is-pulled-left">{{ $blog->title }}</h2>
+<div id="blog" class="section box">
+    <h2 class="title is-2">{{ $blog->title }}</h2> 
+    <article class="columns">
         <div class="column is-5">
-            <figure class="image">
-                <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->para_pic_alt }}">
-            </figure>
-        </div>
-
-        <div>
             @foreach($blog->paras as $para)
-                
                 @if($para->para_pic !== NULL)
-                    <div class="image">
-                        <figure class="image">
-                            <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
-                        </figure>
-                    </div>
+                        <div class="image side-image">
+                            <figure class="image has-margin-5">
+                                <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
+                            </figure>
+                        </div>
                 @endif
-            
-                {!! addTag($para->para) !!}
-                
             @endforeach
+        </div>
+        <div class="column">
+            @foreach($blog->paras as $para)
+                {!! addTag($para->para) !!}
+            @endforeach 
+            
             <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}">Back to all the blogs &gt;</a></p>
             <small>Published by {{ $blog->author }}</small>
             <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
