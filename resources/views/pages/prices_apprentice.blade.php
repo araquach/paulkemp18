@@ -18,7 +18,7 @@
 	
 	<section class="section">
 		<h2 class="title is-2">Graduate/Junior Prices</h2>
-		{{ Html::link('prices', "Stylist Prices here ") }}
+		{{ Html::link('prices', "Stylist Prices here ", ['class' => 'button is-primary']) }}
 	</section>
 
 

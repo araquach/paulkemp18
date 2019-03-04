@@ -27,7 +27,7 @@
             <div class="column">
                 <h2 class="title is-4">{{ $blog->title }}</h2>
                 <p>{{ $blog->paras()->first()->para }}</p>
-                <p><a href="{{ URL::to('blog') }}/{{ $blog->slug }}">Read more &gt;</a></p>
+                <p><a href="{{ URL::to('blog') }}/{{ $blog->slug }}" class="button is-primary">Read more &gt;</a></p>
                 <small>Published by {{ $blog->author }}</small>
                 <time datetime="{{-- $blog->created_at --}}">{{ $blog->created_at->format('d F Y') }}</time>
             </div>

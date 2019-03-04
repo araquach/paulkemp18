@@ -11478,3 +11478,10 @@ p {
   background-color: #FFF;
 }
 
+/* Recruitment Page */
+
+#recruitment {
+  background: url("/images/recruitment.jpg") no-repeat right top;
+  background-size: cover;
+}
+
