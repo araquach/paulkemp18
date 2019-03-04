@@ -12,3 +12,9 @@ let mix = require('laravel-mix');
  */
 
 mix.sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.scripts([
+    'resources/assets/js/jquery.js',
+    'resources/assets/js/feedback-feed.js',
+    'resources/assets/js/feedback-feed-ind.js'
+], 'public/js/app.js');

@@ -33,6 +33,8 @@
 
 	<link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/xsn2rce.css">
+
+	<script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 	
 	{{-- Phorest online booking styling --}}
 	<style>
