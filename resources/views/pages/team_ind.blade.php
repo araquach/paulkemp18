@@ -21,8 +21,18 @@
 	<div class="columns">
 		<div class="column section">
 			<figure class="image">
-				<img src="" alt="{{ $team_member->class}}">
+				{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }}
 			</figure>
+		</div>
+		<div class="column section">
+			<h2 class="title is-3 has-text-primary">{{ $team_member->name }}</h2>
+			<p>{{ $team_member->para1 }}</p>
+			<p>{{ $team_member->para2 }}</p>
+			<p>{{ $team_member->para3 }}</p>
+			<p class="has-text-weight-bold is-size-5 is-bold">Average Cut &amp; Colour price with {{ $team_member->review_link }} : &pound;{{ $team_member->price }}*</p>
+			<section>
+    			<p class="has-text-centered is-size-7">*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+			</section>
 			<div id="feedback_feed_ind">
 			  	<ul>
 			  		@foreach($reviews as $review)
@@ -33,13 +43,6 @@
 					<a href="{{ URL::to('reviews/' . $team_member->class ) }}">More of {{ $team_member->review_link }}'s reviews here &gt;</a>
 				@endif
 			</div>
-		</div>
-		<div class="column section">
-			<h2 class="title is-3 has-text-primary">{{ $team_member->name }}</h2>
-			<p>{{ $team_member->para1 }}</p>
-			<p>{{ $team_member->para2 }}</p>
-			<p>{{ $team_member->para3 }}</p>
-			<p class="has-text-weight-bold is-size-5 is-bold">Average Cut &amp; Colour price with {{ $team_member->review_link }} : &pound;{{ $team_member->price }}*</p>
 			<div id="fb-like">
 				<div class="fb-like" data-href="http://www.paulkemphairdressing.com/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 			</div>
