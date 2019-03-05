@@ -11495,3 +11495,7 @@ p {
   padding: 4rem;
 }
 
+#application .box label {
+  margin-bottom: 0;
+}
+

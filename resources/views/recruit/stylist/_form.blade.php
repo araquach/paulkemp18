@@ -31,55 +31,55 @@
 		<div class="field">
 			{!! Form::label('first_name', 'First Name', ['class' => 'label']) !!}
 			{!! Form::text('first_name', old('first_name'), ['class' => 'input']) !!}
-			{!! $errors->first('first_name', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('first_name', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('second_name', 'Second Name', ['class' => 'label']) !!}
 			{!! Form::text('second_name', old('second_name'), ['class' => 'input']) !!}
-			{!! $errors->first('second_name', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('second_name', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 
 		<div class="field">
 			{!! Form::label('address1', 'Address 1', ['class' => 'label']) !!}
 			{!! Form::text('address1', old('address1'), ['class' => 'input']) !!}
-			{!! $errors->first('address1', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('address1', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('address2', 'Address 2', ['class' => 'label']) !!}
 			{!! Form::text('address2', old('address2'), ['class' => 'input'], ['class' => 'input']) !!}
-			{!! $errors->first('address2', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('address2', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('town', 'Town/City', ['class' => 'label'], ['class' => 'label']) !!}
 			{!! Form::text('town', old('town'), ['class' => 'input']) !!}
-			{!! $errors->first('town', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('town', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('postcode', 'Postcode', ['class' => 'label']) !!}
 			{!! Form::text('postcode', old('postcode'), ['class' => 'input']) !!}
-			{!! $errors->first('postcode', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('postcode', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('email', 'Email Address', ['class' => 'label']) !!}
 			{!! Form::text('email', old('email'), ['class' => 'input']) !!}
-			{!! $errors->first('email', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('email', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('phone', 'Phone Number', ['class' => 'label']) !!}
 			{!! Form::text('phone', old('phone'), ['class' => 'input']) !!}
-			{!! $errors->first('phone', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('phone', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
 			{!! Form::label('mobile', 'Mobile Number', ['class' => 'label']) !!}
 			{!! Form::text('mobile', old('mobile'), ['class' => 'input']) !!}
-			{!! $errors->first('mobile', '<div class="errorMessage">:message</div>') !!}	
+			{!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}	
 		</div>
 		
 		<h3 class="title is-4 has-text-primary">2. Other Info</h3>
@@ -93,7 +93,7 @@
 						'In non hair role' => 'In non-hairdressing role',
 						'Unemployed' => 'Unemployed'
 						), old('current_emp'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('current_emp', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('current_emp', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
@@ -101,7 +101,7 @@
 		<div class="field">
 			{!! Form::label('current_emp_des', 'If employed, please tell us where', ['class' => 'label']) !!}
 			{!! Form::text('current_emp_des', old('current_emp_des')) !!}
-			{!! $errors->first('current_emp_des', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('current_emp_des', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
@@ -114,7 +114,7 @@
 						'1 or more A level' => '1 or more A Level\'s',
 						'Other' => 'Other'
 						), old('school_qual'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('school_qual', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('school_qual', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
@@ -122,7 +122,7 @@
 		<div class="field">
 			{!! Form::label('qual_non_hair', 'Please state any non-hairdressing qualifications', ['class' => 'label']) !!}
 			{!! Form::text('qual_non_hair', old('qual_non_hair'), ['class' => 'input']) !!}
-			{!! $errors->first('qual_non_hair', '<div class="errorMessage">:message</div>') !!}
+			{!! $errors->first('qual_non_hair', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
@@ -138,7 +138,7 @@
 						'8 to 10 years' => '8 to 10 years',
 						'10 years plus' => '10 plus years'
 						), old('experience'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('experience', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('experience', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
@@ -154,7 +154,7 @@
 						'Senior' => 'Senior Stylist',
 						'Director' => 'Director'
 						), old('current_position'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('current_position', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('current_position', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
@@ -168,7 +168,7 @@
 						'Other Area' => 'Yes - Other Area',
 						'No' => 'No'
 						), old('client_base'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('client_base', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('client_base', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
@@ -183,58 +183,61 @@
 						'NVQ 3' => 'NVQ Level 3',
 						'Other' => 'Other'
 						), old('qualifications'), ['placeholder' => '-- Please Select --']) !!}
-					{!! $errors->first('qualifications', '<div class="errorMessage">:message</div>') !!}
+					{!! $errors->first('qualifications', '<div class="has-text-danger">:message</div>') !!}
 				</div>
 			</div>
 		</div>
 		
 		<div class="field">
 			{!! Form::label('qual_non_hair', 'Any other Qualifications', ['class' => 'label']) !!}
-			{!! Form::text('qual_non_hair', old('qual_non_hair')) !!}
-			{!! $errors->first('qual_non_hair', '<div class="errorMessage">:message</div>') !!}
+			{!! Form::text('qual_non_hair', old('qual_non_hair'), ['class' => 'input']) !!}
+			{!! $errors->first('qual_non_hair', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
-		<div class="box">
+		<div class="box adex">
 			<p>Please check the box if you have experience in the following areas:</p>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_stock', 'Stock Control', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_stock') !!}
-				{!! $errors->first('adex_stock', '<div class="errorMessage">:message</div>') !!}
+			<div class="columns">
+				<div class="column">
+
+					<div>
+						{!! Form::label('adex_stock', 'Stock Control') !!}
+						{!! Form::checkbox('adex_stock') !!}
+						{!! $errors->first('adex_stock', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+					
+					<div>
+						{!! Form::label('adex_manage', 'Management') !!}
+						{!! Form::checkbox('adex_manage') !!}
+						{!! $errors->first('adex_manage', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+					
+					<div>
+						{!! Form::label('adex_train', 'Training') !!}
+						{!! Form::checkbox('adex_train') !!}
+						{!! $errors->first('adex_train', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+				</div>
+				<div class="column">
+					<div>
+						{!! Form::label('adex_reception', 'Reception') !!}
+						{!! Form::checkbox('adex_reception') !!}
+						{!! $errors->first('adex_reception', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+					
+					<div>
+						{!! Form::label('adex_marketing', 'Marketing') !!}
+						{!! Form::checkbox('adex_marketing') !!}
+						{!! $errors->first('adex_marketing', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+					
+					<div>
+						{!! Form::label('adex_cservice', 'Customer Service') !!}
+						{!! Form::checkbox('adex_cservice') !!}
+						{!! $errors->first('adex_cservice', '<div class="has-text-danger">:message</div>') !!}
+					</div>
+				</div>
 			</div>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_manage', 'Management', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_manage') !!}
-				{!! $errors->first('adex_manage', '<div class="errorMessage">:message</div>') !!}
-			</div>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_train', 'Training', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_train') !!}
-				{!! $errors->first('adex_train', '<div class="errorMessage">:message</div>') !!}
-			</div>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_reception', 'Reception', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_reception') !!}
-				{!! $errors->first('adex_reception', '<div class="errorMessage">:message</div>') !!}
-			</div>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_marketing', 'Marketing', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_marketing') !!}
-				{!! $errors->first('adex_marketing', '<div class="errorMessage">:message</div>') !!}
-			</div>
-			
-			<div class="adexBox">
-				{!! Form::label('adex_cservice', 'Customer Service', ['class' => 'label']) !!}
-				{!! Form::checkbox('adex_cservice') !!}
-				{!! $errors->first('adex_cservice', '<div class="errorMessage">:message</div>') !!}
-			</div>
-		</div> <!--end adex-->
-			
-		</div> <!--end elements (other info)-->
+		</div>
 		
 		<h3 class="title is-4 has-text-primary">3. Hairdressing Skills</h3>
 		
@@ -242,92 +245,130 @@
 
 		<div class="field">
 			{!! Form::label('cutting_skills', 'Cutting Skills', ['class' => 'label']) !!}
-			{!! Form::selectRange('cutting_skills', 1, 5, old('cutting_skills'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('cutting_skills', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('cutting_skills', 1, 5, old('cutting_skills'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('cutting_skills', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('colour_knowledge', 'Colour Knowledge', ['class' => 'label']) !!}
-			{!! Form::selectRange('colour_knowledge', 1, 5, old('colour_knowledge'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('colour_knowledge', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('colour_knowledge', 1, 5, old('colour_knowledge'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('colour_knowledge', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('colour_skills', 'Colouring Skills', ['class' => 'label']) !!}
-			{!! Form::selectRange('colour_skills', 1, 5, old('colour_skills'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('colour_skills', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('colour_skills', 1, 5, old('colour_skills'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('colour_skills', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 		
 		<div class="field">
 			{!! Form::label('men', 'Mens Hairdressing', ['class' => 'label']) !!}
-			{!! Form::selectRange('men', 1, 5, old('men'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('men', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('men', 1, 5, old('men'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('men', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('extensions_weave', 'Extensions (weave)', ['class' => 'label']) !!}
-			{!! Form::selectRange('extensions_weave', 1, 5, old('extensions_weave'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('extensions_weave', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('extensions_weave', 1, 5, old('extensions_weave'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('extensions_weave', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('extensions_other', 'Extensions (other)', ['class' => 'label']) !!}
-			{!! Form::selectRange('extensions_other', 1, 5, old('extensions_other'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('extensions_other', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('extensions_other', 1, 5, old('extensions_other'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('extensions_other', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('chem_straighten', 'Chemical Straightening', ['class' => 'label']) !!}
-			{!! Form::selectRange('chem_straighten', 1, 5, old('chem_straighten'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('chem_straighten', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('chem_straighten', 1, 5, old('chem_straighten'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('chem_straighten', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('braz_blow', 'Brazilian Blowdry', ['class' => 'label']) !!}
-			{!! Form::selectRange('braz_blow', 1, 5, old('braz_blow'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('braz_blow', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('braz_blow', 1, 5, old('braz_blow'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('braz_blow', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('hair_up', 'Hair Up', ['class' => 'label']) !!}
-			{!! Form::selectRange('hair_up', 1, 5, old('hair_up'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('hair_up', '<div class="errorMessage">:message</div>') !!}
+			<div class="control is-expanded">
+				<div class="select is-fullwidth">
+					{!! Form::selectRange('hair_up', 1, 5, old('hair_up'), ['placeholder' => '-- Please Select --']) !!}
+					{!! $errors->first('hair_up', '<div class="has-text-danger">:message</div>') !!}
+				</div>
+			</div>
 		</div>
 
 		<div class="field">
 			{!! Form::label('awards', 'Please state any hairdressing awards', ['class' => 'label']) !!}
-			{!! Form::text('awards', old('awards')) !!}
-			{!! $errors->first('awards', '<div class="errorMessage">:message</div>') !!}
+			{!! Form::text('awards', old('awards'), ['class' => 'input']) !!}
+			{!! $errors->first('awards', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<h2 class="reveal">4. About you</h2>
 
 		<div class="field">
 			{!! Form::label('about_you', 'Tell us a bit about yourself', ['class' => 'label']) !!}
-			{!! Form::textarea('about_you', old('about_you')) !!}
-			{!! $errors->first('about_you', '<div class="errorMessage">:message</div>') !!}
+			{!! Form::textarea('about_you', old('about_you'), ['class' => 'textarea']) !!}
+			{!! $errors->first('about_you', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 
 		<div class="field">
 			{!! Form::label('why_hairdressing', 'Why did you choose to be a hairdresser?', ['class' => 'label']) !!}
-			{!! Form::textarea('why_hairdressing', old('why_hairdressing')) !!}
-			{!! $errors->first('why_hairdressing', '<div class="errorMessage">:message</div>') !!}
+			{!! Form::textarea('why_hairdressing', old('why_hairdressing'), ['class' => 'textarea']) !!}
+			{!! $errors->first('why_hairdressing', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 
 		<div class="field">
 			{!! Form::label('why_us', 'Why do you want to join the Paul Kemp Hairdressing Team?', ['class' => 'label']) !!}
-			{!! Form::textarea('why_us', old('why_us')) !!}
-			{!! $errors->first('why_us', '<div class="errorMessage">:message</div>') !!}
+			{!! Form::textarea('why_us', old('why_us'), ['class' => 'textarea']) !!}
+			{!! $errors->first('why_us', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		{!! Form::hidden('contact_status', '0') !!}
 		
 		{!! Form::hidden('quality', '0') !!}
 
-		<div class="field buttons">
-		{!! Form::submit('Send') !!}
+		<div class="field">
+		{!! Form::submit('Send', ['class' => 'button is-primary']) !!}
 		</div>
 
 	</div>
-</div>
+
 {!! Form::close() !!}
+
+</div>
