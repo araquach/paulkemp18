@@ -4,7 +4,7 @@
 
 <div class="form">
 
-	<p class=" has-text-danger">Fields with <span class="required">*</span> are required.</p>
+	<p class="has-text-danger">Fields with * are required.</p>
 
 @if (count($errors) > 0)
 

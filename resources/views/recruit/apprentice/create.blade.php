@@ -25,7 +25,8 @@
 			@endif
 
 			<div>
-				<h2 class="title is-3 has-text-primary">Join the team: <br>Apprentice Position</h2>
+				<h2 class="title is-3 has-text-primary">Join the team</h2>
+			<h3 class="subtitle is-4 has-text-primary">Apprentice Position</h3>
 
 				{!! link_to('stylist/create', 'Apply for a stylist position', ['class' => 'button is-primary']) !!}
 				<br><br>

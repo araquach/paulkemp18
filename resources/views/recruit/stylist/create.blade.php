@@ -15,33 +15,29 @@
 
 @section('content')
 
-<script type="text/javascript">
-window.addEvent('domready', function(){
-	  
-	  var myAccordion = new Fx.Accordion($$('.reveal'), $$('.elements'), {
-	      display: 0,
-	      alwaysHide: true
-	  });
-	  
-});
-</script>
-
 <div id="application">
-@if(Session::has('message'))
-	<div class="applicationSuccess">
-	{{{ Session::get('message') }}}
+	<div class="columns">
+		<div class="column is-6 section">
+
+			@if(Session::has('message'))
+				<div class="applicationSuccess">
+				{{{ Session::get('message') }}}
+				</div>
+			@endif
+
+			<div>
+				<h2 class="title is-3 has-text-primary">Join the team</h2>
+				<h3 class="subtitle is-4 has-text-primary">Stylist Position</h3>
+	
+				{!! link_to('apprentice/create', 'Click here to apply for an apprentice position', ['class' => 'button is-primary']) !!}
+				<br><br>
+				<p>Please complete ALL sections of the form before submitting your application.</p>
+				<p>We will contact you as soon as a position becomes available.</p>
+
+				@include('recruit.stylist._form')
+
+			</div> 
+		</div> 
 	</div>
-@endif
-
-<div id="application-form">
-<h1>Join the team: Stylist Position</h1>
-<p class="applink">{!! link_to('apprentice/create', 'Click here to apply for an apprentice position') !!}</p>
-<p class="application">Please complete ALL sections of the form before submitting your application.</p>
-<p class="application">We will contact you as soon as a position becomes available.</p>
-
-@include('recruit.stylist._form')
-
-</div> 
-</div> 
-
+</div>
 @stop

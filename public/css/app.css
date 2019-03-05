@@ -11316,7 +11316,7 @@ label.panel-block:hover {
 
 /* General */
 
-#main {
+.main {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
