@@ -25,13 +25,13 @@
 				<p>We have positions for stylists of all levels with ongoing internal and external training to help you push the boundaries in your career.</p>
 				<h3 class="title is-4 has-text-primary">Stylist Position</h3>
 				<p class="last">Paul Kemp Hairdressing is home to some extremely talented stylists. If you're creative, ambitious and have a natural flair for hairdressing then we could be the perfect environment to push your skills to the next level.</p>
-				{!! link_to('stylist/create', 'Click Here to apply for for a Stylist position', ['class' => 'button is-primary']) !!}
+				{!! link_to('stylist/create', 'Apply for for a Stylist position', ['class' => 'button is-primary']) !!}
 				<br><br>
 				<h3 class="title is-4 has-text-primary">Apprentice Position</h3>
 				<p>If you're just starting out on the road to becoming a hairdresser, choosing the right place to train and develop is one of the most important decisions you'll ever make!</p>
 				<p>If you've already started out and feeling you're current training provider isn't fulfilling you're needs then we can step in and accelerate you're development.</p>
 				<p class="last"><em><strong>If you have the passion to do whatever it takes to be a top stylist then apply now!</strong></em></p>
-				{!! link_to('apprentice/create', 'Click Here to apply for for aa Apprentice position', ['class' => 'button is-primary']) !!}
+				{!! link_to('apprentice/create', 'Apply for for an Apprentice position', ['class' => 'button is-primary']) !!}
 				<br><br>
 				<p class="has-text-weight-bold is-size-4"><em>An amazing career starts here</em></p>
 			</section>

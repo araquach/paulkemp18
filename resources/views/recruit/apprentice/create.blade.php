@@ -15,35 +15,29 @@
 
 @section('content')
 
-<script type="text/javascript">
-window.addEvent('domready', function(){
-	  
-	  var myAccordion = new Fx.Accordion($$('.reveal'), $$('.elements'), {
-	      display: 0,
-	      alwaysHide: true
-	  });
-	  
-});
-</script>
-
 <div id="application">
-@if(Session::has('message'))
-    <div class="applicationSuccess">
-    {{{ Session::get('message') }}}
-    </div>
-@endif
+	<div class="columns">
+		<div class="column is-6 section">
+			@if(Session::has('message'))
+			    <div>
+			    {{{ Session::get('message') }}}
+			    </div>
+			@endif
 
-<div id="application-form">
-<h1>Join the team: Apprentice Position</h1>
-<p class="applink">{!! link_to('stylist/create', 'Click here to apply for an stylist position') !!}</p>
-<p class="application">At Paul Kemp Hairdressing all of our training is carried out in-house, you gain maximum exposure to observe skilled stylists whilst gaining valuable hands-on experience.</p>
-<p class="application"><em>Our aim is to train and develop our apprentices to the highest level, in the shortest possible time. This requires the highest level of commitment from you. If you have the passion to do whatever it takes to be a top stylist then Paul Kemp Hairdressing can help you to get there!</em></p>
-<p class="application">Please complete ALL sections of the form before submitting your application.</p>
-<p class="application">We will contact you as soon as a position becomes available.</p>
+			<div>
+				<h2 class="title is-3 has-text-primary">Join the team: <br>Apprentice Position</h2>
 
-@include('recruit.apprentice._form')
+				{!! link_to('stylist/create', 'Apply for a stylist position', ['class' => 'button is-primary']) !!}
+				<br><br>
+				<p><strong>At Paul Kemp Hairdressing all of our training is carried out in-house, you gain maximum exposure to observe skilled stylists whilst gaining valuable hands-on experience.</strong></p>
+				<p><em>Our aim is to train and develop our apprentices to the highest level, in the shortest possible time. This requires the highest level of commitment from you. If you have the passion to do whatever it takes to be a top stylist then Paul Kemp Hairdressing can help you to get there!</em></p>
+				<p>Please complete ALL sections of the form before submitting your application.</p>
+				<p>We will contact you as soon as a position becomes available.</p>
 
-</div> <!--application-form-->
-</div> <!--application-->
+				@include('recruit.apprentice._form')
 
+			</div>
+		</div>
+	</div>
+</div>
 @stop

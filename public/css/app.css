@@ -11305,7 +11305,7 @@ label.panel-block:hover {
   }
 
   .section.is-large {
-    padding: 18rem 1.5rem;
+    padding: 4rem 4rem;
   }
 }
 
@@ -11316,13 +11316,13 @@ label.panel-block:hover {
 
 /* General */
 
-p {
-  margin-bottom: 1.4rem;
-}
-
-.inner.container {
+#main {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  margin-bottom: 1.4rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -11483,5 +11483,15 @@ p {
 #recruitment {
   background: url("/images/recruitment.jpg") no-repeat right top;
   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #recruitment {
+    background-image: none;
+  }
+}
+
+#application .section {
+  padding: 4rem;
 }
 
