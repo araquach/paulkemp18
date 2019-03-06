@@ -11548,3 +11548,13 @@ p {
   padding-left: .3rem;
 }
 
+/* Ind Offer Page */
+
+#ind-offer figure {
+  padding: 0 2rem;
+}
+
+#ind-offer .top p:last-of-type {
+  margin-bottom: 0;
+}
+
