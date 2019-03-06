@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="no-js">
+<html>
 
 @section('head')
 
@@ -7,107 +7,158 @@
 
 <body>
 
-	<div class="container" id="page">
+	<div id="main">
+		<div class="main container">
+			<header class="hero is-primary is-bold">
+				<div class="hero-body">
+					<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+						<div class="navbar-brand">
+							<a class="navbar-item" href="{{ URL::to('/') }}">
+								<img src="{{ asset('images/logos/pk_logo_white.png') }}">
+							</a>
 
-		<header class>
-			<div id="logo" class="logo"></div>
-			<h1>Paul Kemp Hairdressing</h1>
-			<h2>Hairdressers in Warrington</h2>
+							<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+							</a>
+						</div>
 
-			@if(Request::is('prospect/*'))
-			<nav class="group">
-				<ul>
-					<li>{!! link_to('prospect/taster', 'Taster Package applicants') !!}</li>
-					<li>{!! link_to('prospect/freeproducts', 'Free Product applicants') !!}</li>
-					<li>{!! link_to('/logout', 'Logout') !!}</li>
-				</ul>
-			</nav>
-			
-			@else
-			
-			<nav>
-				<ul>
-					<li>{!! link_to('/', 'Home') !!}</li>
-					<!--<li>{!! link_to('offers', 'Offers') !!}</li>-->
-					<li>{!! link_to('salon', 'The Salon') !!}</li>
-					<li>{!! link_to('team', 'Team') !!}</li>
-					<li>{!! link_to('blog', 'Blog') !!}</li>
-					<li>{!! link_to('recruitment', 'Recruitment') !!}</li>
-					<li>{!! link_to('men', 'Men') !!}</li>
-					<li>{!! link_to('prices', 'Prices') !!}</li>
-					<li>{!! link_to('contact', 'Contact') !!}</li>
-				</ul>
-			</nav>
-			
-			@endif
-			
-			@if(!Request::is('booking'))
-				{!! link_to('booking', 'Book Now', ['class' => 'book-now']) !!}
-			@endif
-			
-		</header>
+						<div id="navbarBasicExample" class="navbar-menu">
+							<div class="navbar-start">
+								<a class="navbar-item" href="{!! URL::to('/') !!}">
+									Home
+								</a>
 
-		<div id="content">
-			@yield('content')
-		</div>
+								<a class="navbar-item" href="{!! URL::to('salon') !!}">
+									Salon
+								</a>
 
-		<footer class="clear_fix">
-		
-			<ul id="footer_images">
-				<li><a href="http://www.schwarzkopf-professional.com/" target="_blank">{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}</a></li>
-				<li><a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}</a></li>
-				<li><a href="http://www.catwalkbytigi.com" target="_blank">{{ Html::image('images/footer/catwalk.png', 'Tigi Catwalk') }}</a></li>
-				<li><a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}</a></li>
-				<li><a href="http://www.ghdhair.com/" target="_blank">{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}</a></li>
-				<li><a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}</a></li>
-			</ul>
-			
-			<section id="smallabout">
-				<h2><strong>Paul Kemp Hairdressing</strong></h2>
-				<ul>
-				<li>Paul Kemp Warrington</li>
-				<li>Hairdressers Warrington</li> 
-				<li>Hair Salon Warrington</li> 
-				<li>Salons Warrington</li>
-				<li>Hairdressing Warrington</li>
-				<li>Hairdressers Cheshire</li> 
-				<li>Salons Cheshire</li>
-				<li>Hair Salon Cheshire</li> 
-				<li>Hairdressing Cheshire</li>
-				<li>Hair cutting Warrington</li> 
-				<li>Hair colouring Warrington</li>
-				<li>Mens Hairdressing Warrington</li>
-				<li>Mens Hairdressers Warrington</li> 
-				<li>Technical hairdressing</li> 
-				<li>Kebelo Warrington</li> 
-				<li>Brazilian Blowdry Warrington</li> 
-				<li>Opti-Smooth Warrington</li> 
-				<li>Fashion styling Warrington</li> 
-				<li>Mens cutting Warrington</li> 
-				<li>Schwarzkopf Warrington</li> 
-				<li>Tigi Warrington</li> 
-				<li>Bedhead Warrington</li>
-				<li>Osis Warrington</li>
-				<li>Aveda Warrington</li>
-				<li>Catwalk Warrington</li>
-				<li>Bonacure Warrington</li>
-				<li>Warrington Hairdressers</li>
-				<li>Cheshire Hairdressers</li>
-				</ul>
-			</section>
+								<a class="navbar-item" href="{!! URL::to('team') !!}">
+									Team
+								</a>
 
-			<div id="social">
-				<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><div class="social_logo facebook"></div></a>
-				<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank"><div class="social_logo instagram"></div></a>
-				<a href="https://twitter.com/paulkemphair" target="_blank"><div class="social_logo twitter"></div></a>
-				<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div class="social_logo google"></div></a>
-				<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank"><div class="social_logo pinterest"></div></a>
+								<a class="navbar-item" href="{!! URL::to('blog') !!}">
+									Blog
+								</a>
+
+								<div class="navbar-item has-dropdown is-hoverable">
+									<a class="navbar-link">
+										More
+									</a>
+
+									<div class="navbar-dropdown">
+										<a class="navbar-item" href="{!! URL::to('recruitment') !!}">
+											Recruitment
+										</a>
+										<a class="navbar-item" href="{!! URL::to('men') !!}">
+											Men
+										</a>
+										<a class="navbar-item" href="{!! URL::to('reviews') !!}">
+											Reviews
+										</a>
+										<a class="navbar-item" href="{!! URL::to('prices') !!}">
+											Prices
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="navbar-end">
+								<div class="navbar-item">
+									<div class="buttons">
+										<a class="button is-primary" href="contact">
+											<strong>Contact Us</strong>
+										</a>
+										<a class="button is-light" href="{!! URL::to('booking') !!}">
+											Book Now
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<div>
+				@yield('content')
 			</div>
-	
-		</footer>
 
-	</div>
-
+			<footer class="footer">
+				
+					<div class="columns is-mobile">
+						<div class="column">
+							<a href="http://www.schwarzkopf-professional.com/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/schwarzkopf.png', 'Schwarzkopf - The Hairdressers choice') }}
+								</figure>
+							</a>
+						</div>
+						<div class="column">
+							<a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/bedhead.png', 'Bedhead - Proffessional Hairdressing') }}
+								</figure>
+							</a>
+						</div>
+						<div class="column">
+							<a href="http://www.catwalkbytigi.com" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/catwalk.png', 'Tigi Catwalk') }}
+								</figure>
+							</a>
+						</div>
+						<div class="column">
+							<a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/bformen.png', 'B for Men - mens products for hairdressers') }}
+								</figure>
+							</a>
+						</div>
+						<div class="column">
+							<a href="http://www.ghdhair.com/" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/ghd.png', 'ghd - for hairdressers') }}
+								</figure>
+							</a>
+						</div>
+						<div class="column">
+							<a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank">
+								<figure class="image is-110x80">
+									{{ Html::image('images/footer/sfactor.png', 'S Factor - quality brand for hairdressers') }}
+								</figure>
+							</a>
+						</div>
+					</div>
+				
+					<div class="social columns is-mobile">
+						<div class="column">
+							<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">
+								<img src="{{ asset('images/footer/social/facebook.png') }}">
+							</a>
+						</div>
+						<div class="column">
+							<a href="https://www.instagram.com/paulkemphairdressing1" target="_blank">
+								<img src="{{ asset('images/footer/social/instagram.png') }}">
+							</a>
+						</div>
+						<div class="column">
+							<a href="https://twitter.com/paulkemphair" target="_blank">
+								<img src="{{ asset('images/footer/social/twitter.png') }}">
+							</a>
+						</div>
+						<div class="column">
+							<a href="https://www.pinterest.co.uk/PKHairdressing/" target="_blank">
+								<img src="{{ asset('images/footer/social/pinterest.png') }}">
+							</a>
+						</div>
+					</div>
+			
+			
+				</footer>
+			</div>
+		</div>
 </body>
 
 </html>
