@@ -269,8 +269,8 @@
 	<div class="field">
 	{!! Form::submit('Send', ['class' => 'button is-primary']) !!}
 	</div>
-</div><!-- end accordion-->
+</div>
 
 {!! Form::close() !!}
 
-</div><!-- form -->
+</div>
