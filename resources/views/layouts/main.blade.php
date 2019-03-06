@@ -9,7 +9,7 @@
 
 	<div id="main">
 		<div class="main container">
-			<header class="hero is-primary">
+			<header class="hero is-primary is-bold">
 				<div class="hero-body">
 					<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
