@@ -22,6 +22,7 @@ $footer-background-colour: $primary;
 $section-padding-large: 4rem 4rem;
 
 @import "~bulma/bulma.sass";
+@import "~bulma-accordion/src/sass/index.sass";
 
 /* General */
 
@@ -198,8 +199,18 @@ p {
 }
 
 #application {
+	background: url('/images/recruitment.jpg') no-repeat right top;
+	background-size: contain;
+
+	@include until($tablet) {
+    	background-image: none;
+  	}
+
 	.section {
 		padding: 4rem;
+			@include until($tablet) {
+    		padding: 1rem;
+  		}
 	}
 
 	.box {
@@ -212,5 +223,9 @@ p {
 		.has-text-danger {
 			margin: .5rem 0;
 		}
+	}
+
+	input, .textarea, select {
+		border-color: $beige-light;
 	}
 }

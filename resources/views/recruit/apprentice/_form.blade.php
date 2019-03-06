@@ -30,13 +30,13 @@
 		{!! Form::hidden('salon_id', '2') !!}
 
 	<div class="field">
-		{!! Form::label('first_name', 'First Name', ['class' => 'label']) !!}
+		{!! Form::label('first_name', 'First Name', ['class' => 'label required']) !!}
 		{!! Form::text('first_name', old('first_name'), ['class' => 'input']) !!}
 		{!! $errors->first('first_name', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<div class="field">
-		{!! Form::label('second_name', 'Last Name', ['class' => 'label']) !!}
+		{!! Form::label('second_name', 'Last Name', ['class' => 'label required']) !!}
 		{!! Form::text('second_name', old('second_name'), ['class' => 'input']) !!}
 		{!! $errors->first('second_name', '<div class="has-text-danger">:message</div>') !!}
 	</div>
@@ -48,7 +48,7 @@
 	</div>
 
 	<div class="field">
-		{!! Form::label('address1', 'Address 1', ['class' => 'label']) !!}
+		{!! Form::label('address1', 'Address 1', ['class' => 'label required']) !!}
 		{!! Form::text('address1', old('address1'), ['class' => 'input']) !!}
 		{!! $errors->first('address1', '<div class="has-text-danger">:message</div>') !!}
 	</div>
@@ -60,19 +60,19 @@
 	</div>
 	
 	<div class="field">
-		{!! Form::label('town', 'Town/City', ['class' => 'label']) !!}
+		{!! Form::label('town', 'Town/City', ['class' => 'label required']) !!}
 		{!! Form::text('town', old('town'), ['class' => 'input']) !!}
 		{!! $errors->first('town', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('postcode', 'Postcode', ['class' => 'label']) !!}
+		{!! Form::label('postcode', 'Postcode', ['class' => 'label required']) !!}
 		{!! Form::text('postcode', old('postcode'), ['class' => 'input']) !!}
 		{!! $errors->first('postcode', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('email', 'Email Address', ['class' => 'label']) !!}
+		{!! Form::label('email', 'Email Address', ['class' => 'label required']) !!}
 		{!! Form::text('email', old('email'), ['class' => 'input']) !!}
 		{!! $errors->first('email', '<div class="has-text-danger">:message</div>') !!}
 	</div>
@@ -84,7 +84,7 @@
 	</div>
 
 	<div class="field">
-		{!! Form::label('mobile', 'Mobile Number', ['class' => 'label']) !!}
+		{!! Form::label('mobile', 'Mobile Number', ['class' => 'label required']) !!}
 		{!! Form::text('mobile', old('mobile'), ['class' => 'input']) !!}
 		{!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
 	</div>
@@ -92,7 +92,7 @@
 	<h3 class="title is-4 has-text-primary">2. Experience</h3>
 		
 	<div class="field">
-		{!! Form::label('current_emp', 'Are you currently in employment?', ['class' => 'label']) !!}
+		{!! Form::label('current_emp', 'Are you currently in employment?', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::select('current_emp', array(
@@ -103,13 +103,13 @@
 					'School Link' => 'School Link',
 					'Other' => 'Other'
 					), old('current_emp'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('current_emp', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('current_emp', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<div class="field">
-		{!! Form::label('in_salon', 'Current Position', ['class' => 'label']) !!}
+		{!! Form::label('in_salon', 'Current Position', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::select('in_salon', array(
@@ -117,9 +117,9 @@
 					'Other industry' => 'Other Industry',
 					'Unemployed' => 'Not employed'
 					), old('in_salon'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('in_salon', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('in_salon', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<div class="field">
@@ -129,7 +129,7 @@
 	</div>
 	
 	<div class="field">
-		{!! Form::label('qualification_school', 'What qualification did you achieve at school?', ['class' => 'label']) !!}
+		{!! Form::label('qualification_school', 'What qualification did you achieve at school?', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::select('qualification_school', array(
@@ -137,13 +137,13 @@
 					'4 or more GCSE' => '4 or more GCSE\'s',
 					'1 or more A level' => '1 or more A level\'s'
 					), old('qualification_school'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('qualification_school', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('qualification_school', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<div class="field">
-		{!! Form::label('qualification_hair', 'Are you currently doing any hairdressing qualifications?', ['class' => 'label']) !!}
+		{!! Form::label('qualification_hair', 'Are you currently doing any hairdressing qualifications?', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::select('qualification_hair', array(
@@ -152,9 +152,9 @@
 					'Towards NVQ3' => 'Working towards NVQ level 3',
 					'Other' => 'Other'
 					), old('qualification_hair'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('qualification_hair', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('qualification_hair', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<h3 class="title is-4 has-text-primary">3. Hairdressing Skills</h3>
@@ -163,101 +163,101 @@
 	<p>Please rate your main interests from 1 (least) to 5 (most) for the following:</p>
 
 	<div class="field">
-		{!! Form::label('cutting', 'Cutting Hair', ['class' => 'label']) !!}
+		{!! Form::label('cutting', 'Cutting Hair', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::selectRange('cutting', 1, 5, old('cutting'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('cutting', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('cutting', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('styling', 'Styling Hair', ['class' => 'label']) !!}
+		{!! Form::label('styling', 'Styling Hair', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::selectRange('styling', 1, 5, old('styling'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('styling', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('styling', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('colouring', 'Colouring Hair', ['class' => 'label']) !!}
+		{!! Form::label('colouring', 'Colouring Hair', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('colouring', 1, 5, old('colouring'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('colouring', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('colouring', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<div class="field">
-		{!! Form::label('men', 'Men\'s Hairdressing', ['class' => 'label']) !!}
+		{!! Form::label('men', 'Men\'s Hairdressing', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('men', 1, 5, old('men'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('men', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('men', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('extensions', 'Extensions', ['class' => 'label']) !!}
+		{!! Form::label('extensions', 'Extensions', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('extensions', 1, 5, old('extensions'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('extensions', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('extensions', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('chem_straightening', 'Chemical Straightening', ['class' => 'label']) !!}
+		{!! Form::label('chem_straightening', 'Chemical Straightening', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('chem_straightening', 1, 5, old('chem_straightening'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('chem_straightening', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('chem_straightening', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('brazil_blow', 'Brazilian Blowdry\'s', ['class' => 'label']) !!}
+		{!! Form::label('brazil_blow', 'Brazilian Blowdry\'s', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('brazil_blow', 1, 5, old('brazil_blow'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('brazil_blow', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('brazil_blow', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('hair_up', 'Hair Up Styling', ['class' => 'label']) !!}
+		{!! Form::label('hair_up', 'Hair Up Styling', ['class' => 'label required']) !!}
 		<div class="control is-expanded">
 			<div class="select is-fullwidth">
 				{!! Form::SelectRange('hair_up', 1, 5, old('hair_up'), ['placeholder' => 'Please Select']) !!}
-				{!! $errors->first('hair_up', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 		</div>
+		{!! $errors->first('hair_up', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 	
 	<h3 class="title is 4 has-text-primary">4. About you</h3>
 	
 	<div class="field">
-		{!! Form::label('about', 'Tell us a bit about yourself', ['class' => 'label']) !!}
+		{!! Form::label('about', 'Tell us a bit about yourself', ['class' => 'label required']) !!}
 		{!! Form::textarea('about', old('about'), ['class' => 'textarea']) !!}
 		{!! $errors->first('about', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('why_hairdressing', 'Why did you choose hairdressing as a career?', ['class' => 'label']) !!}
+		{!! Form::label('why_hairdressing', 'Why did you choose hairdressing as a career?', ['class' => 'label required']) !!}
 		{!! Form::textarea('why_hairdressing', old('why_hairdressing'), ['class' => 'textarea']) !!}
 		{!! $errors->first('why_hairdressing', '<div class="has-text-danger">:message</div>') !!}
 	</div>
 
 	<div class="field">
-		{!! Form::label('why_us', 'What makes you want to join the Paul Kemp Hairdressing Team?', ['class' => 'label']) !!}
+		{!! Form::label('why_us', 'What makes you want to join the Paul Kemp Hairdressing Team?', ['class' => 'label required']) !!}
 		{!! Form::textarea('why_us', old('why_us'), ['class' => 'textarea']) !!}
 		{!! $errors->first('why_us', '<div class="has-text-danger">:message</div>') !!}
 	</div>

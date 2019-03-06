@@ -22,6 +22,7 @@
     },
     "dependencies": {
         "bulma": "^0.7.4",
+        "bulma-accordion": "^2.0.1",
         "concise.css": "3.4.0",
         "doctrine-dbal": "^0.1.2",
         "laravel-elixir": "^5.0.0"

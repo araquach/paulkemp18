@@ -30,12 +30,12 @@
 
 		<div class="field">
 			{!! Form::label('first_name', 'First Name', ['class' => 'label required']) !!}
-			{!! Form::text('first_name', old('first_name'), ['class' => 'input']) !!}
+			{!! Form::text('first_name', old('first_name'), ['class' => 'input is-info']) !!}
 			{!! $errors->first('first_name', '<div class="has-text-danger">:message</div>') !!}
 		</div>
 		
 		<div class="field">
-			{!! Form::label('second_name', 'Second Name', ['class' => 'label required']) !!}
+			{!! Form::label('second_name', 'Last Name', ['class' => 'label required']) !!}
 			{!! Form::text('second_name', old('second_name'), ['class' => 'input']) !!}
 			{!! $errors->first('second_name', '<div class="has-text-danger">:message</div>') !!}
 		</div>
@@ -195,7 +195,7 @@
 		</div>
 		
 		<div class="box adex">
-			<p>Please check the box if you have experience in the following areas:</p>
+			<p class="label">Please check the box if you have experience in the following areas:</p>
 			<div class="columns">
 				<div class="column">
 

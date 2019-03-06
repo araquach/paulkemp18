@@ -11314,6 +11314,306 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.accordions .accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.accordions .accordion:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.accordions .accordion strong {
+  color: currentColor;
+}
+
+.accordions .accordion a:not(.button):not(.tag) {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.accordions .accordion.is-small {
+  font-size: 0.75rem;
+}
+
+.accordions .accordion.is-medium {
+  font-size: 1.25rem;
+}
+
+.accordions .accordion.is-large {
+  font-size: 1.5rem;
+}
+
+.accordions .accordion:not(:first-child) .accordion-header {
+  border-radius: 0;
+}
+
+.accordions .accordion:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.accordions .accordion:not(:last-child) .accordion-content {
+  border-radius: 0;
+}
+
+.accordions .accordion .toggle,
+.accordions .accordion [data-action="toggle"] {
+  cursor: pointer;
+}
+
+.accordions .accordion .accordion-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #372218;
+  border-radius: 4px 4px 0 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.25;
+  padding: 0.5em 0.75em;
+  position: relative;
+}
+
+.accordions .accordion .accordion-header .toggle {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: rgba(10, 10, 10, 0.2);
+  border: none;
+  border-radius: 290486px;
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 0.75em;
+  height: 20px;
+  width: 20px;
+  max-height: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  outline: none;
+  position: relative;
+  vertical-align: top;
+}
+
+.accordions .accordion .accordion-header .toggle::before {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: '+';
+  line-height: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accordions .accordion .accordion-header .toggle::after {
+  display: none;
+}
+
+.accordions .accordion .accordion-header + .accordion-body {
+  overflow-y: hidden;
+  max-height: 0;
+  color: #372218;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+  -webkit-transition: max-height .2s ease;
+  transition: max-height .2s ease;
+}
+
+.accordions .accordion .accordion-header + .accordion-body .accordion-content {
+  padding: 1em 1.25em;
+}
+
+.accordions .accordion .accordion-header + .accordion-body .accordion-content code,
+.accordions .accordion .accordion-header + .accordion-body .accordion-content pre {
+  background-color: white;
+}
+
+.accordions .accordion .accordion-header + .accordion-body .accordion-content pre code {
+  background-color: transparent;
+}
+
+.accordions .accordion.is-active .accordion-header .toggle::before {
+  content: '-';
+}
+
+.accordions .accordion.is-active .accordion-body {
+  max-height: 100em;
+}
+
+.accordions .accordion.is-white {
+  background-color: white;
+}
+
+.accordions .accordion.is-white .accordion-header {
+  background-color: white;
+  color: #0a0a0a;
+}
+
+.accordions .accordion.is-white .accordion-content {
+  border-color: white;
+  color: #4d4c4c;
+}
+
+.accordions .accordion.is-black {
+  background-color: #fafafa;
+}
+
+.accordions .accordion.is-black .accordion-header {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.accordions .accordion.is-black .accordion-content {
+  border-color: #0a0a0a;
+  color: #090909;
+}
+
+.accordions .accordion.is-light {
+  background-color: #fafafa;
+}
+
+.accordions .accordion.is-light .accordion-header {
+  background-color: whitesmoke;
+  color: #363636;
+}
+
+.accordions .accordion.is-light .accordion-content {
+  border-color: whitesmoke;
+  color: #505050;
+}
+
+.accordions .accordion.is-dark {
+  background-color: #fafafa;
+}
+
+.accordions .accordion.is-dark .accordion-header {
+  background-color: #363636;
+  color: whitesmoke;
+}
+
+.accordions .accordion.is-dark .accordion-content {
+  border-color: #363636;
+  color: #2a2a2a;
+}
+
+.accordions .accordion.is-primary {
+  background-color: #fcf9f8;
+}
+
+.accordions .accordion.is-primary .accordion-header {
+  background-color: #372218;
+  color: #fff;
+}
+
+.accordions .accordion.is-primary .accordion-content {
+  border-color: #372218;
+  color: #2d1c14;
+}
+
+.accordions .accordion.is-link {
+  background-color: #fffcf5;
+}
+
+.accordions .accordion.is-link .accordion-header {
+  background-color: #f9a602;
+  color: #fff;
+}
+
+.accordions .accordion.is-link .accordion-content {
+  border-color: #f9a602;
+  color: #3b2906;
+}
+
+.accordions .accordion.is-info {
+  background-color: #f6fbfe;
+}
+
+.accordions .accordion.is-info .accordion-header {
+  background-color: #209cee;
+  color: #fff;
+}
+
+.accordions .accordion.is-info .accordion-content {
+  border-color: #209cee;
+  color: #12537e;
+}
+
+.accordions .accordion.is-success {
+  background-color: #f6fef9;
+}
+
+.accordions .accordion.is-success .accordion-header {
+  background-color: #23d160;
+  color: #fff;
+}
+
+.accordions .accordion.is-success .accordion-content {
+  border-color: #23d160;
+  color: #0e301a;
+}
+
+.accordions .accordion.is-warning {
+  background-color: #fffdf5;
+}
+
+.accordions .accordion.is-warning .accordion-header {
+  background-color: #ffdd57;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.accordions .accordion.is-warning .accordion-content {
+  border-color: #ffdd57;
+  color: #3b3108;
+}
+
+.accordions .accordion.is-danger {
+  background-color: #fff5f7;
+}
+
+.accordions .accordion.is-danger .accordion-header {
+  background-color: #ff3860;
+  color: #fff;
+}
+
+.accordions .accordion.is-danger .accordion-content {
+  border-color: #ff3860;
+  color: #cd0930;
+}
+
 /* General */
 
 .main {
@@ -11496,8 +11796,25 @@ p {
   }
 }
 
+#application {
+  background: url("/images/recruitment.jpg") no-repeat right top;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  #application {
+    background-image: none;
+  }
+}
+
 #application .section {
   padding: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  #application .section {
+    padding: 1rem;
+  }
 }
 
 #application .box label {
@@ -11506,5 +11823,11 @@ p {
 
 #application .field .has-text-danger {
   margin: .5rem 0;
+}
+
+#application input,
+#application .textarea,
+#application select {
+  border-color: #D0D1CD;
 }
 
