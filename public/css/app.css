@@ -11428,6 +11428,32 @@ p {
   color: #f9a602;
 }
 
+/* Team Ind Page */
+
+#team_ind {
+  position: relative;
+}
+
+#team_ind #fb-like {
+  margin-bottom: 2rem;
+}
+
+#team_ind .team-ind-bottom {
+  position: absolute;
+  bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  #team_ind .team-ind-bottom {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+#feedback_feed_ind {
+  height: 10rem;
+}
+
 /* Blog Page */
 
 #blog {

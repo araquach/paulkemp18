@@ -134,6 +134,29 @@ p {
 	color: $orange;
 }
 
+/* Team Ind Page */
+
+#team_ind {
+	position: relative;
+
+	#fb-like {
+		margin-bottom: 2rem;
+	}
+
+	.team-ind-bottom {
+		position: absolute;
+		bottom: 3rem;
+		@include until($tablet) {
+	    	position: relative;
+	    	bottom: 0;
+  		}
+	}
+}
+
+#feedback_feed_ind {
+	height: 10rem;
+}
+
 /* Blog Page */
 
 #blog {
