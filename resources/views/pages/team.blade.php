@@ -29,8 +29,8 @@
 					<a href="{{ URL::to('team/' . $team_member->class) }}">
 						<div class="card">
 							<div class="card-image">
-								<figure class="image is-square">
-									<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+								<figure class="image">
+									{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }}
 								</figure>
 							</div>
 							<div class="card-content">
