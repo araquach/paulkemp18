@@ -11344,6 +11344,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.required:after {
+  content: " *";
+  color: #372218;
+}
+
 .navbar-item img {
   max-height: 4rem;
 }
@@ -11497,5 +11502,9 @@ p {
 
 #application .box label {
   margin-bottom: 0;
+}
+
+#application .field .has-text-danger {
+  margin: .5rem 0;
 }
 

@@ -51,6 +51,12 @@ p {
 		margin-bottom: 1rem;
 	}
 }
+
+.required:after {
+	content: " *";
+	color: $primary;
+}
+	
       
 
 .navbar-item img {
@@ -199,6 +205,12 @@ p {
 	.box {
 		label {
 			margin-bottom: 0;
+		}
+	}
+
+	.field {
+		.has-text-danger {
+			margin: .5rem 0;
 		}
 	}
 }
