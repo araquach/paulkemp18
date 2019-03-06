@@ -1,4 +1,313 @@
-@import "node_modules/concise.css/src/concise.scss";
+$purple: #8A4D76;
+$orange: rgb(249,166,2);
+$brown: rgb(55,34,24);
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
 
+$family-sans-serif: "PT Sans";
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $brown;
+$link: $orange;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$box-shadow: none;
+$box-radius: none;
+$footer-background-colour: $primary;
+$section-padding-large: 4rem 4rem;
+
+@import "~bulma/bulma.sass";
+
+/* General */
+
+.main {
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+		.hero-body {
+		@include until($tablet) {
+	    	padding-bottom: .5rem;
+	      	padding-top: .5rem;
+	  	}
+	}
+}
+
+p {
+	margin-bottom: 1.4rem;
+}
+
+.errors {
+	border: 1px solid $danger;
+	padding: 1rem;
+	margin: 1rem 0;
+
+	p {
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+}
+
+.required:after {
+	content: " *";
+	color: $primary;
+}
+	
+      
+
+.navbar-item img {
+	max-height: 4rem;
+
+	@include until($tablet) {
+    	max-height: 2rem;
+  	}
+}
+
+.navbar-dropdown {
+	background-color: $primary;
+}
+
+.social {
+	background-color: $primary;
+
+	.column {
+		text-align: center;
+	}
+}
+
+.footer {
+	padding-bottom: 0;
+}
+
+/* Home Page */
+
+#home {
+	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
+	background-size: contain;
+
+	@include until($tablet) {
+    	background: url('') no-repeat left top #f5f5f5;
+  	}
+
+  	.box {
+  		background-color: rgba(255, 255,255,.7);
+  		border-radius: 10px;
+  	}
+}
+
+.home-image-mobile {
+	background: url('/images/home/katharina.jpg') no-repeat left top #f5f5f5;
+	background-size: cover;
+}
+
+#home .card {
+	background-color: $brown;
+	color: #FFF;
+	border-radius: 10px;
+	height: 100%;
+
+	p {
+		color: #FFF;
+	}
+}
+
+/* Salon Page */
+
+#salon {
+	.hero {
+		@include until($tablet) {
+  			padding: 5rem 0;
+  		}
+  	}
+}
+
+.salon-image {
+	background: url(/images/salon/salon_main.jpg) no-repeat center center #f5f5f5;
+	background-size: cover; 
+}
+
+/* Team Page */
+
+#team {
+	.hero {
+		@include until($tablet) {
+  			padding: 5rem 0;
+  		}
+  	}
+}
+
+.team-image {
+	background: url(/images/staff/group_shot/PK_team_2019.png) no-repeat center top;
+	background-size: cover;
+}
+
+.price {
+	text-align: center;
+	color: $orange;
+}
+
+/* Team Ind Page */
+
+#team_ind {
+	position: relative;
+
+	#fb-like {
+		margin-bottom: 2rem;
+	}
+
+	.team-ind-bottom {
+		position: absolute;
+		bottom: 3rem;
+		@include until($tablet) {
+	    	position: relative;
+	    	bottom: 0;
+  		}
+	}
+}
+
+#feedback_feed_ind {
+	height: 10rem;
+}
+
+/* Blog Page */
+
+#blog {
+	position: relative;
+
+	.box {
+		margin-bottom: 1.5rem;
+	}
+	
+	.image {
+		margin-bottom: 1rem;
+	}
+
+	.side-image:first-of-type {
+			@include until($tablet) {
+	    	display: none;
+  		}
+	}
+
+	#fb-like {
+		position: absolute;
+		bottom: 4rem;
+		@include until($tablet) {
+	    	bottom: .5rem;
+  		}
+	}
+}
+
+/* Men Page */
+
+#men {
+	.hero {
+		@include until($tablet) {
+  			padding: 5rem 0;
+  		}
+  	}
+}
+
+.men-image {
+	background: url(/images/men/men-group.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+/* Price Page */
+
+#price-page {
+	background-color: #FFF;
+}
+
+/* Contact Page */
+
+#contact {
+	.hero {
+		@include until($tablet) {
+  			padding: 5rem 0;
+  		}
+  	}
+}
+
+.contact-image {
+	background: url(/images/pk_shop2.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+.contact-form {
+	background-color: #FFF;
+}
+
+/* Recruitment Page */
+
+#recruitment {
+	background: url('/images/recruitment.jpg') no-repeat right top;
+	background-size: cover;
+
+	@include until($tablet) {
+    	background-image: none;
+  	}
+}
+
+#application {
+	background: url('/images/recruitment.jpg') no-repeat right top;
+	background-size: contain;
+
+	@include until($tablet) {
+    	background-image: none;
+  	}
+
+	.section {
+		padding: 4rem;
+			@include until($tablet) {
+    		padding: 1rem;
+  		}
+	}
+
+	.box {
+		label {
+			margin-bottom: 0;
+		}
+	}
+
+	.field {
+		.has-text-danger {
+			margin: .5rem 0;
+		}
+	}
+
+	input, .textarea, select {
+		border-color: $beige-light;
+	}
+}
+
+/* Reviews Page */
+
+#reviews {
+	background: #FFF url('/images/reviews/reviews-background.jpg') no-repeat right top;
+	background-size: cover;
+	
+	@include until($tablet) {
+    	background-image: none;
+  	}
+
+  	.content {
+  		padding-left: .3rem;
+  	}
+}
+
+/* Ind Offer Page */
+
+#ind-offer {
+	figure {
+		padding: 0 2rem;
+	}
+
+	.top p:last-of-type {
+		margin-bottom: 0;
+	}
+}
 

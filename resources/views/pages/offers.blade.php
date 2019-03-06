@@ -17,7 +17,7 @@
 
 @include('layouts.partials.fb_like')
 
-<section id="offersMain">
+<div id="offersMain">
 
 <!--<h2>New Year Offers</h2>-->
 
@@ -27,6 +27,6 @@
 
 </section> <!--end offersMain-->
 
-</section> <!--end #offers-->
+</div> <!--end #offers-->
 
 @stop

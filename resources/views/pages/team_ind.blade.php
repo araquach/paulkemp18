@@ -20,40 +20,42 @@
 <script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
 
-<section id="team_ind">
-<div id="team-{{ $team_member->class }}" class="team_pic"></div>
+<div id="team_ind">
+	<div class="columns">
+		<div class="column section">
+			<figure class="image">
+				{{ Html::image('images/staff/' . $team_member->class . '.jpg', $team_member->name) }}
+			</figure>
+			<div id="feedback_feed_ind" class="box is-shadowless">
+			  	<ul>
+			  		@foreach($reviews as $review)
+			      	    <li class="is-size-5">&quot;{{ $review->review }}&quot;<br><span class="is-size-7">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
+			      	@endforeach
+			  	</ul>
+			</div>
 
-	<section id="team_ind_copy">
-		<h2>{{ $team_member->name }}</h2>
-		<p>{{ $team_member->para1 }}</p>
-		<p>{{ $team_member->para2 }}</p>
-		<p>{{ $team_member->para3 }}</p>
-		<p class="team_ind_price">Average Cut &amp; Colour price with {{ $team_member->review_link }} : &pound;{{ $team_member->price }}*</p>
-		
-		<div id="feedback_feed_ind">
-	  	<ul>
-	  		@foreach($reviews as $review)
-	      	    <li>&quot;{{ $review->review }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
-	      	@endforeach
-	  	</ul>
-		</div> <!--#feedback_feed-->
-		
-		@if($reviews->count() > 0)
-			<a href="{{ URL::to('reviews/' . $team_member->class ) }}">More of {{ $team_member->review_link }}'s reviews here &gt;</a>
-		@endif
-		<br>
-		
-		<a href="{{ URL::to('team') }}#{{ $team_member->class}}">Click here to see the full team &gt;</a>
-		
-		<div id="fb-like">
-			<div class="fb-like" data-href="http://www.paulkemphairdressing.com/team/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 		</div>
-	
-	</section> <!--team_ind_copy-->
-
-<section id="teambottom">
-    <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
-</section>
-</section> <!--team_ind-->
+		<div class="column section">
+			<h2 class="title is-3 has-text-primary">{{ $team_member->name }}</h2>
+			<p>{{ $team_member->para1 }}</p>
+			<p>{{ $team_member->para2 }}</p>
+			<p>{{ $team_member->para3 }}</p>
+			<p class="has-text-weight-bold is-size-5 is-bold">Average Cut &amp; Colour price with {{ $team_member->review_link }} : &pound;{{ $team_member->price }}*</p>
+			<div class="team-ind-bottom">
+				@if($reviews->count() > 0)
+					<a href="{{ URL::to('reviews/' . $team_member->class ) }}" class="button is-primary">More of {{ $team_member->review_link }}'s reviews here</a>
+				@endif
+				<br><br>
+				<div id="fb-like">
+					<div class="fb-like" data-href="http://www.paulkemphairdressing.com/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<section>
+	    			<p class="has-text-centered is-size-7">*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+				</section>
+			</div>
+		</div>
+			
+	</div>
+</div>
 
 @stop

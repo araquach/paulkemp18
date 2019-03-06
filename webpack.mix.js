@@ -11,27 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.styles([
-    'resources/assets/css/fonts/fonts.css',
-    'resources/assets/css/normalize.css',
-    'resources/assets/css/pkstyles.css',
-    'resources/assets/css/form.css'
-], 'public/css/app.css');
-
-mix.styles([
-    'resources/assets/css/mobile.css'
-], 'public/css/mob.css');
+mix.sass('resources/assets/sass/app.scss', 'public/css');
 
 mix.scripts([
     'resources/assets/js/jquery.js',
     'resources/assets/js/feedback-feed.js',
     'resources/assets/js/feedback-feed-ind.js',
-    'resources/assets/js/mobile-nav.js'
-], 'public/scripts/jquery.js');
-
-mix.scripts([
-    'resources/assets/js/mootools-core.js',
-    'resources/assets/js/mootools-more.js'
-], 'public/scripts/mootools.js');
-
-
+    'resources/assets/js/dropdown.js'
+], 'public/js/app.js');

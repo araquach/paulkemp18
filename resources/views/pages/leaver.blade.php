@@ -14,7 +14,7 @@
 
 @section('content')
 
-<section id="leaver">
+<div id="leaver">
 	
 	<section id="leavercopy">
 	    
@@ -47,6 +47,6 @@
     
     <section id="leaver-pic"></section>
 
-</section> <!--end leaver-->
+</div> <!--end leaver-->
 
 @stop

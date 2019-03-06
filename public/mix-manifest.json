@@ -1,6 +1,4 @@
 {
     "/css/app.css": "/css/app.css",
-    "/css/mob.css": "/css/mob.css",
-    "/scripts/jquery.js": "/scripts/jquery.js",
-    "/scripts/mootools.js": "/scripts/mootools.js"
+    "/js/app.js": "/js/app.js"
 }

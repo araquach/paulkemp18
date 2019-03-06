@@ -14,9 +14,7 @@
 
 @section('content')
 
-<section id="bookings">
-
-    <h1>Make a booking</h1>
+<div id="bookings">
     
     <section>
         <div class="iframe-container">
@@ -24,6 +22,6 @@
         </div>
     </section>
 
-</section>
+</div>
 
 @stop
