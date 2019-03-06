@@ -8,25 +8,13 @@
 <body>
 
 	<div id="main">
-		<header class="hero is-primary">
-			<div class="hero-body">
-				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-					<div class="navbar-brand">
-						<a class="navbar-item" href="{{ URL::to('/') }}">
-							<img src="{{ asset('images/logos/pk_logo_white.png') }}">
-						</a>
-
-						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-						</a>
-					</div>
-
-					<div id="navbarBasicExample" class="navbar-menu">
-						<div class="navbar-start">
-							<a class="navbar-item" href="{!! URL::to('/') !!}">
-								Home
+		<div class="main container">
+			<header class="hero is-primary">
+				<div class="hero-body">
+					<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+						<div class="navbar-brand">
+							<a class="navbar-item" href="{{ URL::to('/') }}">
+								<img src="{{ asset('images/logos/pk_logo_white.png') }}">
 							</a>
 
 							<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
