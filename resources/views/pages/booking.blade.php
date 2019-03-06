@@ -15,8 +15,6 @@
 @section('content')
 
 <div id="bookings">
-
-    <h1>Make a booking</h1>
     
     <section>
         <div class="iframe-container">

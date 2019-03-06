@@ -22,7 +22,6 @@ $footer-background-colour: $primary;
 $section-padding-large: 4rem 4rem;
 
 @import "~bulma/bulma.sass";
-@import "~bulma-accordion/src/sass/index.sass";
 
 /* General */
 
@@ -229,3 +228,19 @@ p {
 		border-color: $beige-light;
 	}
 }
+
+/* Reviews Page */
+
+#reviews {
+	background: #FFF url('/images/reviews/reviews-background.jpg') no-repeat right top;
+	background-size: cover;
+	
+	@include until($tablet) {
+    	background-image: none;
+  	}
+
+  	.content {
+  		padding-left: .3rem;
+  	}
+}
+

@@ -54,6 +54,9 @@
 										<a class="navbar-item" href="{!! URL::to('men') !!}">
 											Men
 										</a>
+										<a class="navbar-item" href="{!! URL::to('reviews') !!}">
+											Reviews
+										</a>
 										<a class="navbar-item" href="{!! URL::to('prices') !!}">
 											Prices
 										</a>
