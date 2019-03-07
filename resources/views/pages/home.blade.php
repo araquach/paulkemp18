@@ -42,17 +42,17 @@
       <a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-3by4">
+            <figure class="image is-4by5">
               <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->alt }}">
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">{{ $blog->title }}</p>
+                <p class="title is-5">{{ $blog->title }}</p>
               </div>
             </div>
-            <div class="content">
+            <div class="content is-size-6">
               {{ limit_news_words($blog->paras()->first()->para) }}&hellip;
             </div>
           </div>
@@ -62,6 +62,6 @@
     @endforeach
   </div>
 
-</div> <!--#home-->
+</div>
 
 @stop
