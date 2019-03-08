@@ -17,9 +17,6 @@
 
 @include('layouts.partials.fb_like')
 
-<script type="text/javascript" src="{{ URL::asset('scripts/jquery.js') }}"></script>
-<script type="text/javascript" src="{{ URL::asset('scripts/feedback-feed-ind.js') }}"></script>
-
 <div id="team_ind">
 	<div class="columns">
 		<div class="column section">
@@ -29,7 +26,7 @@
 			<div id="feedback_feed_ind" class="box is-shadowless">
 			  	<ul>
 			  		@foreach($reviews as $review)
-			      	    <li class="is-size-5">&quot;{{ $review->review }}&quot;<br><span class="is-size-7">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
+			      	    <li class="is-size-6">&quot;{{ limit_words($review->review) }}&quot;<br><span class="is-size-7">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span></li>
 			      	@endforeach
 			  	</ul>
 			</div>
