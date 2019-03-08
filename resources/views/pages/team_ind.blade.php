@@ -32,7 +32,7 @@
 			</div>
 
 		</div>
-		<div class="column section">
+		<div class="column section is-size-5-mobile">
 			<h2 class="title is-3 has-text-primary">{{ $team_member->name }}</h2>
 			<p>{{ $team_member->para1 }}</p>
 			<p>{{ $team_member->para2 }}</p>
