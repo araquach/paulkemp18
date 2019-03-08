@@ -40,7 +40,7 @@
 										<p class="subtitle has-text-primary">{{ $team_member->level }}</p>
 									</div>
 								</div>
-								<div class="content">
+								<div class="content is-size-5-mobile">
 									<p>{{ $team_member->para1 }}</p>
 									<p>{{ $team_member->para2 }}</p>
 									<p>{{ $team_member->para3 }}</p>
