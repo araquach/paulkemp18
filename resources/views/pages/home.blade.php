@@ -44,7 +44,7 @@
       <a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by5">
+            <figure class="image">
               <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->alt }}">
             </figure>
           </div>
