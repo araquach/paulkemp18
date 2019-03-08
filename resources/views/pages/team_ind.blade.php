@@ -42,7 +42,11 @@
 				@if($reviews->count() > 0)
 					<a href="{{ URL::to('reviews/' . $team_member->class ) }}" class="button is-primary">More of {{ $team_member->review_link }}'s reviews here</a>
 				@endif
+
 				<br><br>
+				<a href="{{ URL::to('team') }}#{{ $team_member->class }}" class="button is-primary">Back to the full team</a>
+				<br><br>
+
 				<div id="fb-like">
 					<div class="fb-like" data-href="http://www.paulkemphairdressing.com/{{ $team_member->class }}" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 				</div>
