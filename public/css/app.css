@@ -11316,9 +11316,11 @@ label.panel-block:hover {
 
 /* General */
 
-.main {
-  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+@media screen and (min-width: 769px) {
+  .main {
+    -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -11388,6 +11390,10 @@ p {
   }
 }
 
+#home #feedback-feed-container {
+  height: 12rem;
+}
+
 #home .box {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
@@ -11407,6 +11413,10 @@ p {
 
 #home .card p {
   color: #FFF;
+}
+
+#feedback-feed {
+  height: 4rem;
 }
 
 /* Salon Page */
