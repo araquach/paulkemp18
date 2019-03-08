@@ -16,7 +16,7 @@
 
 @include('layouts.partials.fb_like')
 
-<div id="blog" class="section box">
+<div id="blog" class="section box has-text-5-mobile">
     <h2 class="title is-2">{{ $blog->title }}</h2> 
     <article class="columns">
         <div class="column is-5">
