@@ -16,7 +16,7 @@
 
 @include('layouts.partials.fb_like')
 
-<div id="blog" class="section box has-text-5-mobile">
+<div id="blog" class="section box">
     <h2 class="title is-2">{{ $blog->title }}</h2> 
     <article class="columns">
         <div class="column is-5">
@@ -30,7 +30,7 @@
                 @endif
             @endforeach
         </div>
-        <div class="column">
+        <div class="column has-text-5-mobile">
             @foreach($blog->paras as $para)
                 {!! addTag($para->para) !!}
             @endforeach 
