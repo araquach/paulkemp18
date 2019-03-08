@@ -51,10 +51,10 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-5 is-4-mobile">{{ $blog->title }}</p>
+                <p class="title is-5 is-size-3-mobile">{{ $blog->title }}</p>
               </div>
             </div>
-            <div class="content is-size-6 is-5-mobile">
+            <div class="content is-size-6 is-size-4-mobile">
               {{ limit_news_words($blog->paras()->first()->para) }}&hellip;
             </div>
           </div>
