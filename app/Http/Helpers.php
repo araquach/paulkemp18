@@ -191,7 +191,7 @@ function addTag($string)
     {
         $string = str_replace('*IMG', '', $string);
         
-        return '<img src="' . $string . '" class="large-image" width="50%" height="50%">';
+        return '<figure class="image"><img src="' . $string . '"></figure>';
     }
     else {
         return '<p>' . $string . '</p>';
