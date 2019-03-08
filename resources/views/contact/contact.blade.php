@@ -32,7 +32,7 @@
 	    		<h2 class="title 2 has-text-primary">Contact Us</h2>
 
 			    <h3 class="title is-4 has-text-primary">How to find us:</h3>
-			    <p class="is-size-6"><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
+			    <p class="is-size-6 is-size-5-mobile"><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
 			    (opposite the Golden Gates).</p>
 			    
 		    	<h3 class="title is-4 has-text-primary">Address:</h3>
