@@ -14,7 +14,7 @@
 
 @section('content')
 
-<div id="blog" class="section">
+<div id="blog" class="section is-size-5-mobile">
     
     @foreach($blogs as $blog)
         <div class="columns box has-margin-3">
