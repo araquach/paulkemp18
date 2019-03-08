@@ -306,7 +306,7 @@ p {
 	
 	@include until($tablet) {
     	background-image: none;
-    	background-color: $beige-light;
+    	background-color: $beige-lighter;
   	}
 
   	.content {
