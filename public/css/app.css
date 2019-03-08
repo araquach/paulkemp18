@@ -11540,13 +11540,7 @@ p {
 }
 
 .contact-form {
-  background-color: #FFF;
-}
-
-@media screen and (max-width: 768px) {
-  .contact-form {
-    background-color: #EFF0EB;
-  }
+  background-color: #EFF0EB;
 }
 
 /* Recruitment Page */
