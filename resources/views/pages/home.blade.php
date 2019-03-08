@@ -26,8 +26,8 @@
           <div id="feedback_feed" class="box">
             <ul>
               @foreach($reviews as $review)
-                <li>
-                  &quot;{{ limit_words($review->review) }}&quot;<br><span class="client">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span>
+                <li class="is-size-5">
+                  &quot;{{ limit_words($review->review) }}&quot;<br><span class="is-size-7">{{ remove_client($review->client) }} - hair by {{ remove_staff($review->staff) }} </span>
                 </li>
              @endforeach
            </ul>
