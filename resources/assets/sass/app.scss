@@ -250,6 +250,9 @@ p {
 
 .contact-form {
 	background-color: #FFF;
+	@include until($tablet) {
+  			background-color: $beige-lighter;
+  		}
 }
 
 /* Recruitment Page */
@@ -303,7 +306,7 @@ p {
 	
 	@include until($tablet) {
     	background-image: none;
-    	background-color: $beige-lighter;
+    	background-color: $beige-light;
   	}
 
   	.content {

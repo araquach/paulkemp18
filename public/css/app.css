@@ -11543,6 +11543,12 @@ p {
   background-color: #FFF;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-form {
+    background-color: #EFF0EB;
+  }
+}
+
 /* Recruitment Page */
 
 #recruitment {
@@ -11601,7 +11607,7 @@ p {
 @media screen and (max-width: 768px) {
   #reviews {
     background-image: none;
-    background-color: #EFF0EB;
+    background-color: #D0D1CD;
   }
 }
 
