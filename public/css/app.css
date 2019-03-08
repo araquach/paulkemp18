@@ -11601,6 +11601,7 @@ p {
 @media screen and (max-width: 768px) {
   #reviews {
     background-image: none;
+    background-color: #EFF0EB;
   }
 }
 
