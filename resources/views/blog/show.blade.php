@@ -22,11 +22,9 @@
         <div class="column is-5">
             @foreach($blog->paras as $para)
                 @if($para->para_pic !== NULL)
-                        <div class="image side-image">
-                            <figure class="image has-margin-5">
-                                <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
-                            </figure>
-                        </div>
+                    <figure class="image has-margin-5">
+                        <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
+                    </figure>
                 @endif
             @endforeach
         </div>
