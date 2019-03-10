@@ -17,7 +17,7 @@
 @include('layouts.partials.fb_like')
 
 <div id="blog" class="section box is-size-5-mobile">
-    <h2 class="title is-2">{{ $blog->title }}</h2> 
+    <h2 class="title is-2">{{ $blog->title }} Hello</h2> 
     <article class="columns">
         <div class="column is-4">
             @foreach($blog->paras as $para)
