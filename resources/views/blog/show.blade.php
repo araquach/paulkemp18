@@ -19,7 +19,7 @@
 <div id="blog" class="section box is-size-5-mobile">
     <h2 class="title is-2">{{ $blog->title }}</h2> 
     <article class="columns">
-        <div class="column is-5">
+        <div class="column is-4">
             @foreach($blog->paras as $para)
                 @if($para->para_pic !== NULL)
                     <figure class="image has-margin-5">
