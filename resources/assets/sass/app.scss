@@ -198,6 +198,10 @@ p {
 #blog {
 	position: relative;
 
+	.column.section {
+		padding-top: 1rem;
+	}
+
 	.box {
 		margin-bottom: 1.5rem;
 	}

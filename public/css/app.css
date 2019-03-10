@@ -11493,6 +11493,10 @@ p {
   position: relative;
 }
 
+#blog .column.section {
+  padding-top: 1rem;
+}
+
 #blog .box {
   margin-bottom: 1.5rem;
 }
