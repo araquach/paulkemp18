@@ -11497,9 +11497,8 @@ p {
   margin-bottom: 1.5rem;
 }
 
-#blog time,
-#blog small {
-  padding-bottom: 5rem;
+#blog .publish-info {
+  height: 5rem;
 }
 
 #blog .image {
