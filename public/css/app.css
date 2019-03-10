@@ -11497,6 +11497,10 @@ p {
   margin-bottom: 1.5rem;
 }
 
+#blog .section {
+  padding-bottom: 10rem;
+}
+
 #blog .image {
   margin-bottom: 1rem;
 }
