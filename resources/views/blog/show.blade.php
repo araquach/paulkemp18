@@ -16,26 +16,24 @@
 
 @include('layouts.partials.fb_like')
 
-<div id="blog" class="section box">
+<div id="blog" class="section box is-size-5-mobile">
     <h2 class="title is-2">{{ $blog->title }}</h2> 
     <article class="columns">
         <div class="column is-5">
             @foreach($blog->paras as $para)
                 @if($para->para_pic !== NULL)
-                        <div class="image side-image">
-                            <figure class="image has-margin-5">
-                                <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
-                            </figure>
-                        </div>
+                    <figure class="image has-margin-5">
+                        <img src="{{ $para->para_pic }}" alt="{{ $para->para_pic_alt }}">
+                    </figure>
                 @endif
             @endforeach
         </div>
-        <div class="column">
+        <div class="column section">
             @foreach($blog->paras as $para)
                 {!! addTag($para->para) !!}
             @endforeach 
             
-            <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}" class="button is-primary">Back to all the blogs &gt;</a></p>
+            <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}" class="button is-primary">Back to all the blogs</a></p>
             <small>Published by {{ $blog->author }}</small>
             <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
             

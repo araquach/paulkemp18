@@ -11390,6 +11390,10 @@ p {
   }
 }
 
+#home #feedback-feed-container {
+  height: 12rem;
+}
+
 #home .box {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
@@ -11409,6 +11413,10 @@ p {
 
 #home .card p {
   color: #FFF;
+}
+
+#feedback-feed {
+  height: 4rem;
 }
 
 /* Salon Page */
@@ -11532,7 +11540,7 @@ p {
 }
 
 .contact-form {
-  background-color: #FFF;
+  background-color: #EFF0EB;
 }
 
 /* Recruitment Page */
@@ -11593,6 +11601,7 @@ p {
 @media screen and (max-width: 768px) {
   #reviews {
     background-image: none;
+    background-color: #EFF0EB;
   }
 }
 

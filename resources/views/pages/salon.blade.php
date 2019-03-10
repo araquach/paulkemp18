@@ -21,7 +21,7 @@
         </div>
     </section>
     
-    <div class="section tile is-ancestor">
+    <div class="section tile is-ancestor is-size-5-mobile">
       <div class="tile is-parent is-5">
         <div class="tile is-child">
             <h2 class="title 2 has-text-primary">The Salon</h2>

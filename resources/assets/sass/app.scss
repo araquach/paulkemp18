@@ -30,7 +30,8 @@ $section-padding-large: 4rem 4rem;
 	@include from($tablet) {
 		box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	}
-		.hero-body {
+
+	.hero-body {
 		@include until($tablet) {
 	    	padding-bottom: .5rem;
 	      	padding-top: .5rem;
@@ -95,6 +96,10 @@ p {
     	background: url('') no-repeat left top #f5f5f5;
   	}
 
+  	#feedback-feed-container {
+  		height: 12rem;
+  	}
+
   	.box {
   		background-color: rgba(255, 255,255,.7);
   		border-radius: 10px;
@@ -115,6 +120,10 @@ p {
 	p {
 		color: #FFF;
 	}
+}
+
+#feedback-feed {
+	height: 4rem;
 }
 
 /* Salon Page */
@@ -240,7 +249,7 @@ p {
 }
 
 .contact-form {
-	background-color: #FFF;
+	background-color: $beige-lighter;
 }
 
 /* Recruitment Page */
@@ -294,6 +303,7 @@ p {
 	
 	@include until($tablet) {
     	background-image: none;
+    	background-color: $beige-lighter;
   	}
 
   	.content {
