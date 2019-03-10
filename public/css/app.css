@@ -11317,7 +11317,7 @@ label.panel-block:hover {
 /* General */
 
 .main {
-  margin-right: -10px;
+  margin-right: -2rem;
 }
 
 @media screen and (min-width: 769px) {
