@@ -71,6 +71,16 @@ p {
 
 .navbar-dropdown {
 	background-color: $primary;
+
+	@include until($desktop) {
+		background-color: transparent;
+		color: #FFF;
+
+		a.navbar-item {
+			padding-left: 0.75rem;
+		}
+	}
+
 }
 
 .social {
