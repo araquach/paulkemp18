@@ -11498,7 +11498,7 @@ p {
 }
 
 #blog .section {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem !important;
 }
 
 #blog .image {
