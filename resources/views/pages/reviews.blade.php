@@ -24,7 +24,7 @@
 			
 			<div class="columns is-multiline is-mobile">
 				@foreach($team_members as $team_member)
-					<div class="column is-3">
+					<div class="column is-2-desktop is-3-mobile">
 						<a href="{{ URL::to('reviews/' . $team_member->class) }}">
 							<div class="card">
 								<div class="card-image">
