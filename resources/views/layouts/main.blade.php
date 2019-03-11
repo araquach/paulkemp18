@@ -67,7 +67,7 @@
 							<div class="navbar-end">
 								<div class="navbar-item">
 									<div class="buttons">
-										<a class="button is-primary" href="contact">
+										<a class="button is-primary" href="{!! URL::to('contact') !!}">
 											<strong>Contact Us</strong>
 										</a>
 										<a class="button is-light" href="{!! URL::to('booking') !!}">
