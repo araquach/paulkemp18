@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Book in with Lauren',
 	'ogdescription' => 'Looking for a new stylist? Lauren is close to completing her apprentiship and is looking to build her client base. Book in with her - you won\'t be dissapointed!',
-	'ogimage' => url('/') . '/images/offer/lauren_offer.jpg',
+	'ogimage' => url('/') . '/images/offer/lauren_montage_fb.jpg',
 	'title' => 'Paul Kemp Hairdressing - Offer with Lauren - Hairdressers in Warrington'
 	])
 	
