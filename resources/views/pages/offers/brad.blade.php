@@ -19,24 +19,6 @@
 
 @include('layouts.partials.fb_like')
 
-
-<section id="ind-offer">
-
-	<div class="ind-offer-copy">
-		<h1>Special introductory offer with Bradley Ryan - a recent addition to the team</h1>
-		<p>Brad recently joined us - he has a heap of experience and is a seriously skilled hairdresser! Check out his work in the pics!</p>
-		<p><strong>If you're considering a new stylist then take advantage of this great intro offer with him&hellip;</strong></p>
-	</div>
-
-	<div id="ind-offer-img-brad"></div>
-
-	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Brad comes up with then book in to get 20% off your visit with him!</strong></p>
-		<p><strong>Call 01925 444488 to book</strong><br>or use our online booking (link at top of page)</p>
-		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
-		<p class="link"><a href="https://paulkemphairdressing.com/blog/introducing_brad" target="_blank">Click here to find out more about him &gt;</a></p>
-
 <div id="ind-offer">
 	<div class="columns">
 		<div class="column is-8">
