@@ -42,7 +42,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 28/4/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/abi') }}" target="_blank" class="button is-primary">Find out more about Abi</a>
 				<br><br>
 
