@@ -31,7 +31,7 @@
 	</div>
 	
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/brad_montage_wide.png') }}
+		{{ Html::image('/images/offer/individual/brad_montage.png') }}
 	</figure>
 
 	<div class="columns">

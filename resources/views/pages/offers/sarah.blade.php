@@ -32,7 +32,7 @@
 	</div>
 	
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/sarah_montage_wide.png') }}
+		{{ Html::image('/images/offer/individual/sarah_montage.png') }}
 	</figure>
 
 	<div class="columns">

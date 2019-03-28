@@ -8,6 +8,8 @@
 	'ogtitle' => 'Apprentice Lauren is Taking on More clients',
 	'ogdescription' => 'Looking for a new stylist? Lauren is close to completing her apprentiship and is looking to build her client base. Book in with her - you won\'t be dissapointed!',
 	'ogimage' => url('/') . '/images/offer/individual/lauren_montage_fb.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offer with Lauren - Hairdressers in Warrington'
 	])
 	
@@ -32,7 +34,7 @@
 	</div>
 	
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/lauren_montage_wide.png') }}
+		{{ Html::image('/images/offer/individual/lauren_montage.png') }}
 	</figure>
 
 	<div class="columns">
