@@ -75,6 +75,6 @@
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
 
-	<title>{{ $title or 'Paul Kemp Hairdressingg - Hairdressers in Warrington' }}</title>
+	<title>{{ $title or 'Paul Kemp Hairdressing - Hairdressers in Warrington' }}</title>
 
 </head>
