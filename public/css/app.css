@@ -11365,6 +11365,17 @@ p {
   background-color: #372218;
 }
 
+@media screen and (max-width: 1087px) {
+  .navbar-dropdown {
+    background-color: transparent;
+    color: #FFF;
+  }
+
+  .navbar-dropdown a.navbar-item {
+    padding-left: 0.75rem;
+  }
+}
+
 .social {
   background-color: #372218;
 }
@@ -11482,8 +11493,16 @@ p {
   position: relative;
 }
 
+#blog .column.section {
+  padding-top: 1rem;
+}
+
 #blog .box {
   margin-bottom: 1.5rem;
+}
+
+#blog .publish-info {
+  height: 5rem;
 }
 
 #blog .image {

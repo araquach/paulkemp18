@@ -26,38 +26,38 @@
 
 						<div id="navbarBasicExample" class="navbar-menu">
 							<div class="navbar-start">
-								<a class="navbar-item" href="{!! URL::to('/') !!}">
+								<a class="navbar-item is-size-4-mobile" href="{!! URL::to('/') !!}">
 									Home
 								</a>
 
-								<a class="navbar-item" href="{!! URL::to('salon') !!}">
+								<a class="navbar-item is-size-4-mobile" href="{!! URL::to('salon') !!}">
 									Salon
 								</a>
 
-								<a class="navbar-item" href="{!! URL::to('team') !!}">
+								<a class="navbar-item is-size-4-mobile" href="{!! URL::to('team') !!}">
 									Team
 								</a>
 
-								<a class="navbar-item" href="{!! URL::to('blog') !!}">
+								<a class="navbar-item is-size-4-mobile" href="{!! URL::to('blog') !!}">
 									Blog
 								</a>
 
 								<div class="navbar-item has-dropdown is-hoverable">
-									<a class="navbar-link">
+									<a class="navbar-link is-hidden-mobile">
 										More
 									</a>
 
 									<div class="navbar-dropdown">
-										<a class="navbar-item" href="{!! URL::to('recruitment') !!}">
+										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('recruitment') !!}">
 											Recruitment
 										</a>
-										<a class="navbar-item" href="{!! URL::to('men') !!}">
+										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('men') !!}">
 											Men
 										</a>
-										<a class="navbar-item" href="{!! URL::to('reviews') !!}">
+										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('reviews') !!}">
 											Reviews
 										</a>
-										<a class="navbar-item" href="{!! URL::to('prices') !!}">
+										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('prices') !!}">
 											Prices
 										</a>
 									</div>
@@ -67,7 +67,7 @@
 							<div class="navbar-end">
 								<div class="navbar-item">
 									<div class="buttons">
-										<a class="button is-primary" href="contact">
+										<a class="button is-primary" href="{!! URL::to('contact') !!}">
 											<strong>Contact Us</strong>
 										</a>
 										<a class="button is-light" href="{!! URL::to('booking') !!}">

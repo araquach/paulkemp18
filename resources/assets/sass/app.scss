@@ -26,11 +26,10 @@ $section-padding-large: 4rem 4rem;
 /* General */
 
 .main {
-	
 	@include from($tablet) {
 		box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	}
-	
+
 	.hero-body {
 		@include until($tablet) {
 	    	padding-bottom: .5rem;
@@ -72,6 +71,16 @@ p {
 
 .navbar-dropdown {
 	background-color: $primary;
+
+	@include until($desktop) {
+		background-color: transparent;
+		color: #FFF;
+
+		a.navbar-item {
+			padding-left: 0.75rem;
+		}
+	}
+
 }
 
 .social {
@@ -189,8 +198,16 @@ p {
 #blog {
 	position: relative;
 
+	.column.section {
+		padding-top: 1rem;
+	}
+
 	.box {
 		margin-bottom: 1.5rem;
+	}
+
+	.publish-info {
+		height: 5rem;
 	}
 	
 	.image {

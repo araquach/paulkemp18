@@ -19,23 +19,6 @@
 
 @include('layouts.partials.fb_like')
 
-<section id="ind-offer">
-
-	<div class="ind-offer-copy">
-		<h1>Special introductory offer with Sarah - our latest Addition to the team</h1>
-		<p>Our latest <strong>Senior Stylist</strong> has over 12 years experience and is a seriously skilled hairdresser!</p>
-		<p>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</p>
-	</div>
-
-	<div id="ind-offer-img-sarah"></div>
-
-	<div class="ind-offer-copy">
-		<p><strong>Come in for a FREE consultation and if you like the ideas Sarah comes up with then book in to get 20% off your visit with her!</strong></p>
-		<p><strong>Call 01925 444488 to book</strong><br>or use our online booking (link at top of page)</p>
-		<p>Just mention the offer at the time of your visit</p>
-		<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
-		<p class="link"><a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank">Click here to find out more about her &gt;</a></p>
-
 <div id="ind-offer">
 	<div class="columns">
 		<div class="column is-8">
@@ -49,7 +32,7 @@
 	</div>
 	
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/sarah_montage_wide.png') }}
+		{{ Html::image('/images/offer/individual/sarah_montage.png') }}
 	</figure>
 
 	<div class="columns">
@@ -59,7 +42,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 28/4/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank" class="button is-primary">Find out more about Sarah</a>
 				<br><br>
 
