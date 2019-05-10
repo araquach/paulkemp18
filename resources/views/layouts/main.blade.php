@@ -57,9 +57,6 @@
 										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('reviews') !!}">
 											Reviews
 										</a>
-										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('prices') !!}">
-											Prices
-										</a>
 									</div>
 								</div>
 							</div>
