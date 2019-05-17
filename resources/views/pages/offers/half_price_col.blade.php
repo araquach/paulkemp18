@@ -17,4 +17,4 @@
  
 </section> <!--end offerlist-->
  
-{!! link_to('contact', 'Online Booking &amp; Enquiry form', array('class' => 'book_button')) !!}
+{!! link_to('bookings', 'Book Now', array('class' => 'book_button')) !!}

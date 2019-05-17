@@ -11628,6 +11628,12 @@ p {
   padding-left: .3rem;
 }
 
+/* Offers Page */
+
+#offers .box {
+  margin-bottom: 2em;
+}
+
 /* Ind Offer Page */
 
 #ind-offer figure {
