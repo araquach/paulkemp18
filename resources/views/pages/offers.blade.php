@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Some of our recent additions to the team are eager to build their client base and are offering 20% off for new clients!',
+	'description' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Special Offers with selected team members',
-	'ogdescription' => 'Some of our recent additions to the team are eager to build their client base and are offering 20% off for new clients!',
+	'ogdescription' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
 	'ogimage' => url('/') . '/images/offer/individual/offers_all.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -27,7 +27,7 @@
 				<h2 class="title is-4">with selected team members</h2>
 
 				<p class="is-size-4">Take advantage of these special offers!</p>
-				<p>Some of our recent additions to the team are eager to build their client base and are offering 20% off for new clients!</p>
+				<p>Some of our team members are eager to build their client base and are offering 20% off for new clients!</p>
 
 				<p><em>Sarah, Brad &amp; Abi are all eager to take on more clients - book in for a free consultation with them to see what they can do for you.</em></p>
 
