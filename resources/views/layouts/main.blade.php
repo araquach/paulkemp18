@@ -51,6 +51,9 @@
 										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('recruitment') !!}">
 											Recruitment
 										</a>
+										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('recruitment') !!}">
+											Offers
+										</a>
 										<a class="navbar-item is-size-4-mobile" href="{!! URL::to('men') !!}">
 											Men
 										</a>
