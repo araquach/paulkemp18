@@ -43,7 +43,7 @@
 				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Lauren comes up with then get booked in with her!</strong></p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
-				<p class="small">(Offer ends 30/05/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 30/06/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/lauren') }}" target="_blank" class="button is-primary">Find out more about Lauren</a>
 				<br><br>
 
