@@ -24,7 +24,7 @@
 		<div class="section columns is-multiline">
 	
 				@foreach($team_members as $team_member)
-				<div id="{{ $team_member->class }}" class="column is-4">
+				<div id="{{ $team_member->class }}" class="column is-5">
 					
 					<a href="{{ URL::to('team/' . $team_member->class) }}">
 						<div class="card">
