@@ -1,4 +1,4 @@
-@extends('layouts.main') 
+@extends('layouts.main')
 
 @section('head')
 
@@ -10,7 +10,7 @@
 	'ogimage' => url('/') . '/images/staff/group_shot/PK_team_2019_meta.jpg',
 	'title' => 'Paul Kemp Hairdressing - Meet the Team - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -22,10 +22,10 @@
     </section>
 
 		<div class="section columns is-multiline">
-	
+
 				@foreach($team_members as $team_member)
-				<div id="{{ $team_member->class }}" class="column is-5">
-					
+				<div id="{{ $team_member->class }}" class="column is-4">
+
 					<a href="{{ URL::to('team/' . $team_member->class) }}">
 						<div class="card">
 							<div class="card-image">
@@ -49,9 +49,9 @@
 							</div>
 						</div>
 					</a>
-					
+
 				</div>
-				@endforeach	
+				@endforeach
 
 		</div>
 
