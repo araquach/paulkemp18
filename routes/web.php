@@ -33,6 +33,7 @@ Route::get('/team', 'PagesController@team');
 Route::get('/team/{staff}', 'PagesController@teamInd');
 Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/kate', 'PagesController@leaver');
+Route::get('/base', 'PagesController@base');
 
 Route::get('/offer/sarah', 'PagesController@offerSarah');
 Route::get('/offer/brad', 'PagesController@offerBrad');
@@ -73,9 +74,9 @@ Route::get('/taster', 'ProspectController@taster');
 Route::get('/taster/create', 'ProspectController@tasterCreate');
 Route::post('/taster/store', 'ProspectController@tasterStore');
 
-Route::get('contact', 
+Route::get('contact',
   ['as' => 'contact', 'uses' => 'ContactController@create']);
-Route::post('sendEmail', 
+Route::post('sendEmail',
   ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);
 
 Route::get('/joinpk', 'PotentialEmployeeController@create');
@@ -89,7 +90,7 @@ Route::get('feedback/{client}',
   ['as' => 'feedbackCreate', 'uses' => 'FeedbackController@create']);
 Route::post('feedback/store',
   ['uses' => 'FeedbackController@store']);
-  
+
 Route::get('offer/{client}',
   ['uses' => 'OfferController@show']);
 Route::get('offer2/{client}',
@@ -97,6 +98,6 @@ Route::get('offer2/{client}',
 Route::patch('offer/{client}',
   ['as' => 'offerUpdate', 'uses' => 'OfferController@update']);
 
-  
+
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');
