@@ -46,8 +46,8 @@
 					</figure>
 				</div>
 				<div class="column">
-					<h3>Kellie Reedy (Salon Manager)</h3>
-					<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
+					<h3>Izzy Lamb - Senior Stylist</h3>
+					<p>&quot;&quot;</p>
 				</div>
 			</div>
 			<div class="columns">
@@ -57,8 +57,8 @@
 					</figure>
 				</div>
 				<div class="column">
-					<h3>Izzy Lamb (Senior Stylist)</h3>
-					<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
+					<h3>Brad Ryan - Stylist</h3>
+					<p>&quot;Brad's info&quot;</p>
 				</div>
 			</div>
 			<div class="columns">
@@ -68,8 +68,8 @@
 					</figure>
 				</div>
 				<div class="column">
-					<h3>Abi Clarke (Stylist)</h3>
-					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
+					<h3>Lauren Watson - Junior Stylist</h3>
+					<p>&quot;Lauren's info&quot;</p>
 				</div>
 			</div>
 
