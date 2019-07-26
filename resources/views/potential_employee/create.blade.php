@@ -72,90 +72,59 @@
 					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
 				</div>
 			</div>
-			<h2 class="title is-4 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
-			<div class="columns">
-				<div class="column is-4">
-					<figure class="image">
-						<img src="/images/potential/kel_recruit.jpg" alt="Kellie Reedy">
-					</figure>
-				</div>
-				<div class="column">
-					<h3>Kellie Reedy (Salon Manager)</h3>
-					<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
-				</div>
-			</div>
-			<div class="columns">
-				<div class="column is-4">
-					<figure class="image">
-						<img src="/images/potential/iz_recruit.jpg" alt="Izzy Lamb">
-					</figure>
-				</div>
-				<div class="column">
-					<h3>Izzy Lamb (Senior Stylist)</h3>
-					<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
-				</div>
-			</div>
-			<div class="columns">
-				<div class="column is-4">
-					<figure class="image">
-						<img src="/images/potential/abi_recruit.jpg" alt="Abi Clarke">
-					</figure>
-				</div>
-				<div class="column">
-					<h3>Abi Clarke (Stylist)</h3>
-					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
-				</div>
-			</div>
 
 			<p class="is-size-4">Fill in the form below if you're interested - one of our team will be in touch soon.</p>
 			<p class="is-size-6">Your information will be used only for this application. All applications will be strictly confidential</p>
 
-		@if (count($errors) > 0)
-		<ul class="box">
-		    @foreach($errors->all() as $error)
-		        <li class="has-text-danger">{{{ $error }}}</li>
-		    @endforeach
-		</ul>
-		@endif
 
-		{!! Form::open(array('action' => 'PotentialEmployeeController@store')) !!}
+		<div id="form">
+			@if (count($errors) > 0)
+			<ul class="box">
+			    @foreach($errors->all() as $error)
+			        <li class="has-text-danger">{{{ $error }}}</li>
+			    @endforeach
+			</ul>
+			@endif
 
-			<h2 class="title is-5">Your details</h2>
+			{!! Form::open(array('action' => 'PotentialEmployeeController@store')) !!}
 
-			{{ Form::hidden('salon', '2') }}
+				<h2 class="title is-5">Your details</h2>
 
-			<div class="field">
-			{!! Form::label('full_name', 'Full Name', ['class' => 'label']) !!}
-			{!! Form::text('full_name', old('full_name'), ['class' => 'input']) !!}
-			{!! $errors->first('full_name', '<div class="has-text-danger">:message</div>') !!}
-			</div>
+				{{ Form::hidden('salon', '2') }}
 
-			<div class="field">
-			{!! Form::label('mobile', 'Mobile Number', ['class' => 'label']) !!}
-			{!! Form::text('mobile', old('mobile'), ['class' => 'input']) !!}
-			{!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
-			</div>
+				<div class="field">
+				{!! Form::label('full_name', 'Full Name', ['class' => 'label']) !!}
+				{!! Form::text('full_name', old('full_name'), ['class' => 'input']) !!}
+				{!! $errors->first('full_name', '<div class="has-text-danger">:message</div>') !!}
+				</div>
 
-			<div class="field">
-			{!! Form::label('position', 'Current Position', ['class' => 'label']) !!}
-			{!! Form::select('position', array(
-				'senior stylist' => 'Senior Stylist',
-				'stylist' => 'Stylist',
-				'apprentice' => 'Apprentice/Junior',
-				'chairrenter' => 'Self employed/Chair renter',
-				'new to hairdressing'=> 'New To Hairdressing',
-				'other'=> 'Other',
-				), old('position'), ['placeholder' => '-- Please Select --'], ['class' => 'input']) !!}
-			{!! $errors->first('position', '<div class="has-text-danger">:message</div>') !!}
-			</div>
+				<div class="field">
+				{!! Form::label('mobile', 'Mobile Number', ['class' => 'label']) !!}
+				{!! Form::text('mobile', old('mobile'), ['class' => 'input']) !!}
+				{!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
+				</div>
 
-			{{ Form::hidden('status', 'Not Contacted') }}
+				<div class="field">
+				{!! Form::label('position', 'Current Position', ['class' => 'label']) !!}
+				{!! Form::select('position', array(
+					'senior stylist' => 'Senior Stylist',
+					'stylist' => 'Stylist',
+					'apprentice' => 'Apprentice/Junior',
+					'chairrenter' => 'Self employed/Chair renter',
+					'new to hairdressing'=> 'New To Hairdressing',
+					'other'=> 'Other',
+					), old('position'), ['placeholder' => '-- Please Select --'], ['class' => 'input']) !!}
+				{!! $errors->first('position', '<div class="has-text-danger">:message</div>') !!}
+				</div>
 
-			<div class="field">
-			{!! Form::submit('Submit', ['class' => 'button']) !!}
-			</div>
+				{{ Form::hidden('status', 'Not Contacted') }}
 
-		{!! Form::close() !!}
+				<div class="field">
+				{!! Form::submit('Submit', ['class' => 'button']) !!}
+				</div>
+
+			{!! Form::close() !!}
+		</div>
 
 	</div>
 	<div class="column">
@@ -163,5 +132,6 @@
 			<img src="/images/potential/potential_montage.jpg" alt="The Team">
 		</figure>
 	</div>
+</div>
 </div>
 @stop
