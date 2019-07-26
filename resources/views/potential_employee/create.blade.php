@@ -16,77 +16,128 @@
 @section('content')
 
 <div id="potential">
-
 	<div class="columns section">
-		<div class="column is-8">
+		<div class="column is-7">
 			@if(Session::has('message'))
 		        <div class="alert alert-info">
 		    		{{{ Session::get('message') }}}
 		        </div>
 	    @endif
 
-			<h1>Join Our Amazing Team</h1>
-			<p>We're looking for creative stylists to join our dynamic team. If you've got a <strong>passion for hairdressing</strong> and want to progress to the next level or if you're looking for somewhere new to do what you love then just fill in the form below.</p>
+			<h1 class="title is-3 has-text-primary">Join Our Amazing Team</h1>
+			<p class="is-size-5">We're looking for creative stylists to join our dynamic team. If you've got a <strong>passion for hairdressing</strong> and want to progress to the next level or if you're looking for somewhere new to do what you love then just fill in the form below.</p>
 
-			<a href="https://www.instagram.com/paulkemphairdressing1/" target="_blank">Check out our latest work on Instagram to see what we're about</a>
+			<a href="https://www.instagram.com/paulkemphairdressing1/" target="_blank" class="is-size-5">Check out our latest work on Instagram to see what we're about &gt;</a>
+		</div>
+		<div class="column">
+			<figure class="image">
+				<img src="" alt="">
+			</figure>
+		</div>
+	</div>
 
-			<div>
-				<h2>See what some of our current team members say about PK&hellip;</h2>
-				<div>
-						<h3>Kellie Reedy (Salon Manager)</h3>
-						<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
+	<div class="columns section">
+		<div class="column is-7">
+			<h2 class="title is-4 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/kel_recruit.jpg" alt="Kellie Reedy">
+					</figure>
 				</div>
-				<div>
-					<div>
-						<h3>Izzy Lamb (Senior Stylist)</h3>
-						<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
-					</div>
+				<div class="column">
+					<h3>Kellie Reedy (Salon Manager)</h3>
+					<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
 				</div>
-
-				<div>
-					<h3>Jo Birchall (Senior Stylist)</h3>
-					<p>&quot;Some Text to go here&quot;</p>
+			</div>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/iz_recruit.jpg" alt="Izzy Lamb">
+					</figure>
 				</div>
-
-				<div>
-						<h3>Abi Clarke (Graduate Stylist)</h3>
-						<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
+				<div class="column">
+					<h3>Izzy Lamb (Senior Stylist)</h3>
+					<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/abi_recruit.jpg" alt="Abi Clarke">
+					</figure>
+				</div>
+				<div class="column">
+					<h3>Abi Clarke (Stylist)</h3>
+					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
+				</div>
+			</div>
+			<h2 class="title is-4 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/kel_recruit.jpg" alt="Kellie Reedy">
+					</figure>
+				</div>
+				<div class="column">
+					<h3>Kellie Reedy (Salon Manager)</h3>
+					<p>&quot;I've worked at Paul Kemp Hairdressing since the day it opened. I have the pleasure of working with a great team - not everyone can say that! I like to come in to the salon and be surround by my friends every day!  We are always learning new skills and keeping up to date with the latest trends&quot;</p>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/iz_recruit.jpg" alt="Izzy Lamb">
+					</figure>
+				</div>
+				<div class="column">
+					<h3>Izzy Lamb (Senior Stylist)</h3>
+					<p>&quot;I love working at Paul Kemp hairdressing because every day is different to the last. Meeting new people and making them look and feel amazing is a pleasure. No matter who works in the salon we always have a great team vibe and colleagues become good friends&quot;</p>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column is-4">
+					<figure class="image">
+						<img src="/images/potential/abi_recruit.jpg" alt="Abi Clarke">
+					</figure>
+				</div>
+				<div class="column">
+					<h3>Abi Clarke (Stylist)</h3>
+					<p>&quot;Working at PK is amazing, I love seeing the drive and passion people have for what they do, we all push each other to be the best we can possibly be. Everyday offers something different and I’m always learning something new.&quot;</p>
 				</div>
 			</div>
 
-			<div>
-				<p>Fill in the form below if you're interested - one of our team will be in touch soon.</p>
-				<p>Your information will be used only for this application. All applications will be strictly confidential</p>
-			</div>
+			<p class="is-size-4">Fill in the form below if you're interested - one of our team will be in touch soon.</p>
+			<p class="is-size-6">Your information will be used only for this application. All applications will be strictly confidential</p>
 
-		<div id="form" class="potential form">
-
-		<ul>
+		@if (count($errors) > 0)
+		<ul class="box">
 		    @foreach($errors->all() as $error)
-		        <li>{{{ $error }}}</li>
+		        <li class="has-text-danger">{{{ $error }}}</li>
 		    @endforeach
 		</ul>
+		@endif
 
-		{!! Form::open(array('action' => 'PotentialEmployeeController@store', 'class' => 'form')) !!}
+		{!! Form::open(array('action' => 'PotentialEmployeeController@store')) !!}
 
-			<h2>Your details</h2>
+			<h2 class="title is-5">Your details</h2>
 
 			{{ Form::hidden('salon', '2') }}
 
-			<div class="row">
-			{!! Form::label('full_name', 'Full Name') !!}
-			{!! Form::text('full_name', old('full_name')) !!}
-			{!! $errors->first('full_name', '<div class="errorMessage">:message</div>') !!}
+			<div class="field">
+			{!! Form::label('full_name', 'Full Name', ['class' => 'label']) !!}
+			{!! Form::text('full_name', old('full_name'), ['class' => 'input']) !!}
+			{!! $errors->first('full_name', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 
-			<div class="row">
-			{!! Form::label('mobile', 'Mobile Number') !!}
-			{!! Form::text('mobile', old('mobile')) !!}
-			{!! $errors->first('mobile', '<div class="errorMessage">:message</div>') !!}
+			<div class="field">
+			{!! Form::label('mobile', 'Mobile Number', ['class' => 'label']) !!}
+			{!! Form::text('mobile', old('mobile'), ['class' => 'input']) !!}
+			{!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 
-			<div class="row">
-			{!! Form::label('position', 'Current Position') !!}
+			<div class="field">
+			{!! Form::label('position', 'Current Position', ['class' => 'label']) !!}
 			{!! Form::select('position', array(
 				'senior stylist' => 'Senior Stylist',
 				'stylist' => 'Stylist',
@@ -94,25 +145,23 @@
 				'chairrenter' => 'Self employed/Chair renter',
 				'new to hairdressing'=> 'New To Hairdressing',
 				'other'=> 'Other',
-				), old('position'), ['placeholder' => '-- Please Select --']) !!}
-			{!! $errors->first('position', '<div class="errorMessage">:message</div>') !!}
+				), old('position'), ['placeholder' => '-- Please Select --'], ['class' => 'input']) !!}
+			{!! $errors->first('position', '<div class="has-text-danger">:message</div>') !!}
 			</div>
 
 			{{ Form::hidden('status', 'Not Contacted') }}
 
-			<div class="row buttons">
-			{!! Form::submit('Submit') !!}
+			<div class="field">
+			{!! Form::submit('Submit', ['class' => 'button']) !!}
 			</div>
 
 		{!! Form::close() !!}
 
-		</div><!-- form -->
-		</div>
-		<div class="column">
-
-		</div>
+	</div>
+	<div class="column">
+		<figure class="image">
+			<img src="/images/potential/potential_montage.jpg" alt="The Team">
+		</figure>
 	</div>
 </div>
-
-
 @stop
