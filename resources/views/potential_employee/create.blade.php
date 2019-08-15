@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div class="columns">
-				<div class="column is-4">
+				<div class="column is-5">
 					<figure class="image">
 						<img src="/images/potential/brad.jpg" alt="Brad Ryan">
 					</figure>
@@ -56,13 +56,13 @@
 				</div>
 			</div>
 			<div class="columns">
-				<div class="column is-4">
+				<div class="column is-5">
 					<figure class="image">
 						<img src="/images/potential/lauren.jpg" alt="Abi Clarke">
 					</figure>
 				</div>
 				<div class="column">
-					<h3 class="title is-4">Lauren Watson - Junior Stylist</h3>
+					<h3 class="title is-5">Lauren Watson - Junior Stylist</h3>
 					<p>&quot;I joied the team as an apprentice and I'm now a Junior Stylist. Working with so many great stylists has helped me develop my skills fast and I'm already building up my own client base. I can't wait to become a Graduate stylist and start learning more advanced techniques.&quot;</p>
 				</div>
 			</div>
