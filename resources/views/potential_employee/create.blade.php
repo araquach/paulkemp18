@@ -23,7 +23,6 @@
 		    		{{{ Session::get('message') }}}
 		        </div>
 	    @endif
-
 			<h1 class="title is-3 has-text-primary">Join Our Amazing Team</h1>
 			<p class="is-size-5">We're looking for creative stylists to join our dynamic team. If you've got a <strong>passion for hairdressing</strong> and want to progress to the next level or if you're looking for somewhere new to do what you love then just fill in the form below.</p>
 			<br>
@@ -31,9 +30,9 @@
 		</div>
 	</div>
 
-	<div class="columns section">
+	<div class="columns section is-size-3-mobile">
 		<div class="column is-7">
-			<h2 class="title is-4 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
+			<h2 class="title is-3 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
 			<div class="columns">
 				<div class="column is-4">
 					<figure class="image">
