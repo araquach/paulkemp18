@@ -30,7 +30,7 @@
 		</div>
 	</div>
 
-	<div class="columns section is-size-3-mobile">
+	<div class="columns section is-size-5-mobile">
 		<div class="column is-7">
 			<h2 class="title is-3 has-text-primary">See what some of our current team members say about PK&hellip;</h2>
 			<div class="columns">
