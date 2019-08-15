@@ -19,7 +19,7 @@
 	<div class="columns section">
 		<div class="column is-7">
 			@if(Session::has('message'))
-		        <div class="alert alert-info">
+		        <div class="box has-text-">
 		    		{{{ Session::get('message') }}}
 		        </div>
 	    @endif
