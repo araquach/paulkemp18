@@ -27,6 +27,7 @@
 			<h1 class="title is-3 has-text-primary">Join Our Amazing Team</h1>
 			<p class="is-size-5">We're looking for creative stylists to join our dynamic team. If you've got a <strong>passion for hairdressing</strong> and want to progress to the next level or if you're looking for somewhere new to do what you love then just fill in the form below.</p>
 			<br><br>
+			<p>To keep up to date with our latest work follow us on instagram</p>
 			<a href="https://www.instagram.com/paulkemphairdressing1/" target="_blank" class="button is-primary">Check out our Instagram</a>
 		</div>
 	</div>
