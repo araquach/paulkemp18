@@ -26,13 +26,7 @@
 
 			<h1 class="title is-3 has-text-primary">Join Our Amazing Team</h1>
 			<p class="is-size-5">We're looking for creative stylists to join our dynamic team. If you've got a <strong>passion for hairdressing</strong> and want to progress to the next level or if you're looking for somewhere new to do what you love then just fill in the form below.</p>
-
-			<a href="https://www.instagram.com/paulkemphairdressing1/" target="_blank" class="is-size-5">Check out our latest work on Instagram to see what we're about &gt;</a>
-		</div>
-		<div class="column">
-			<figure class="image">
-				<img src="" alt="">
-			</figure>
+			<a href="https://www.instagram.com/paulkemphairdressing1/" target="_blank" class="button is-primary">Check out our Instagram</a>
 		</div>
 	</div>
 
@@ -42,34 +36,34 @@
 			<div class="columns">
 				<div class="column is-4">
 					<figure class="image">
-						<img src="/images/potential/kel_recruit.jpg" alt="Kellie Reedy">
+						<img src="/images/potential/izzy.jpg" alt="Izzy Lamb">
 					</figure>
 				</div>
 				<div class="column">
 					<h3>Izzy Lamb - Senior Stylist</h3>
-					<p>&quot;&quot;</p>
+					<p>&quot;I've been a stylist at PK for over 8 years and I love it! The team work hard at making our clients look and feel amazing which makes us feel great too! Working with a team of talented stylists and seeing the apprentices develop so quickly makes my job even more rewarding. The relaxed environment makes coming to work everyday a pleasure.&quot;</p>
 				</div>
 			</div>
 			<div class="columns">
 				<div class="column is-4">
 					<figure class="image">
-						<img src="/images/potential/iz_recruit.jpg" alt="Izzy Lamb">
+						<img src="/images/potential/brad.jpg" alt="Brad Ryan">
 					</figure>
 				</div>
 				<div class="column">
 					<h3>Brad Ryan - Stylist</h3>
-					<p>&quot;Brad's info&quot;</p>
+					<p>&quot;I joined Paul Kemp Hairdressing 9 months ago and I instantly settled in thanks to the friendly team members. My client base has grown rapidly and I'm on course to becoming a senior stlyist. The ongoing training and workshop sessions have helped me progress quickly and I'm looking forward to developing my skills to the next level.&quot;</p>
 				</div>
 			</div>
 			<div class="columns">
 				<div class="column is-4">
 					<figure class="image">
-						<img src="/images/potential/abi_recruit.jpg" alt="Abi Clarke">
+						<img src="/images/potential/lauren.jpg" alt="Abi Clarke">
 					</figure>
 				</div>
 				<div class="column">
 					<h3>Lauren Watson - Junior Stylist</h3>
-					<p>&quot;Lauren's info&quot;</p>
+					<p>&quot;I joied the team as an apprentice and I'm now a Junior Stylist. Working with so many great stylists has helped me develop my skills fast and I'm already building up my own client base. I can't wait to become a Graduate stylist and start learning more advanced techniques.&quot;</p>
 				</div>
 			</div>
 
