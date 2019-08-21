@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Lauren is looking to build her client base. She\'s close to qualifying and wants to gain more experience',
+	'description' => 'Lauren is looking to build her client base - take advantage of this gret offer',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'Apprentice Lauren is Taking on More clients',
-	'ogdescription' => 'Looking for a new stylist? Lauren is close to completing her apprenticeship and is looking to build her client base. Book in with her - you won\'t be dissapointed!',
+	'ogtitle' => 'Special offer with Lauren',
+	'ogdescription' => 'Looking for a new stylist? Lauren is close to completing her apprentiship and is looking to build her client base. Book in with her - you won\'t be dissapointed!',
 	'ogimage' => url('/') . '/images/offer/individual/lauren_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -24,10 +24,10 @@
 		<div class="column is-8">
 			<div class="top section">
 				<h2 class="title is-2 is-size-4-mobile has-text-primary">
-				Apprentice Lauren is Taking on More clients</h2>
+				Special Offer with Lauren</h2>
 				<h3 class="subtitle is-3">A Colour &amp; Cut from just &pound;20!</h3>
-				<p class="is-size-5">At Paul Kemp Hairdressing we train and develop our stylists to the highest standards. Lauren has reached the point in her apprenticeship where she needs loads of clients!</p>
-				<p class="is-size-4"><strong>She's progressing at an amazing rate and is now looking to get as much experience as possible.</strong></p>
+				<p class="is-size-5">Lauren's skills are developing rapidly and is soon going to be promoted to the next level.</p>
+				<p class="is-size-4"><strong>She's progressing fast and is now looking to get as much experience as possible. Take advantage of this great Colour and Cut price!</strong></p>
 			</div>
 		</div>
 
@@ -43,7 +43,7 @@
 				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Lauren comes up with then get booked in with her!</strong></p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
-				<p class="small">(Offer ends 30/08/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 27/07/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/lauren') }}" target="_blank" class="button is-primary">Find out more about Lauren</a>
 				<br><br>
 
