@@ -23,7 +23,7 @@
 	<div class="columns">
 		<div class="column is-8">
 			<div class="top section">
-				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with our recently promoted stylist Abi</h2>
+				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special offer with Abi</h2>
 				<p class="is-size-5">Abi is flying up the ranks and the quality of her work is second to none! Check out some of her recent looks in the pics!</p>
 				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</strong></p>
 			</div>
@@ -42,7 +42,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Offer ends 30/08/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 27/09/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/abi') }}" target="_blank" class="button is-primary">Find out more about Abi</a>
 				<br><br>
 

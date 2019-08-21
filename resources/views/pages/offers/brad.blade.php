@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Check out this amazing offer for our recent addition to the team Brad',
+	'description' => 'Check out this amazing offer with Brad',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'A special introductory offer with our talented stylist Brad',
-	'ogdescription' => 'Looking for a new stylist? Give Brad, our recent addition to the team a try. Here\'s a special intro offer with him',
+	'ogtitle' => 'A special offer with our talented stylist Brad',
+	'ogdescription' => 'Looking for a new stylist? Give Brad - Here\'s a special offer with him',
 	'ogimage' => url('/') . '/images/offer/individual/brad_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -23,9 +23,9 @@
 	<div class="columns">
 		<div class="column is-8">
 			<div class="top section">
-				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with Brad</h2>
-				<p class="is-size-5">Brad recently joined us - he has a heap of experience and is a seriously skilled hairdresser! Check out his work in the pics!</p>
-				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great intro offer with him&hellip;</strong></p>
+				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special offer with Brad</h2>
+				<p class="is-size-5">Brad has a heap of experience and is a seriously skilled hairdresser! Check out his work in the pics!</p>
+				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great offer with him&hellip;</strong></p>
 			</div>
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Offer ends 30/08/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 27/09/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/brad') }}" target="_blank" class="button is-primary">Find out more about Brad</a>
 				<br><br>
 

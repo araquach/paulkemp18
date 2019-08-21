@@ -3,9 +3,9 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Check out this amazing offer for our latest Senior Stylist Sarah',
+	'description' => 'Check out this amazing offer for our talented Senior Stylist Sarah',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'A special introductory offer with Sarah - our latest Senior Stylist',
+	'ogtitle' => 'A special introductory offer with Sarah',
 	'ogdescription' => 'Looking for a new stylist? Give our latest addition to the team a try. Here\'s a special intro offer for her',
 	'ogimage' => url('/') . '/images/offer/individual/sarah_montage_fb.jpg',
 	'ogimagewidth' => '1200',
@@ -23,7 +23,7 @@
 	<div class="columns">
 		<div class="column is-8">
 			<div class="top section">
-				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with Sarah <br>Our latest Addition to the team</h2>
+				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with Sarah</h2>
 				<p class="is-size-5">Our latest <strong>Senior Stylist</strong> has over 12 years experience and is a seriously skilled hairdresser!</p>
 				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</strong></p>
 			</div>
@@ -42,7 +42,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Offer ends 30/08/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 27/09/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank" class="button is-primary">Find out more about Sarah</a>
 				<br><br>
 
