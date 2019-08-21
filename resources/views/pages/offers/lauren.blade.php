@@ -26,8 +26,8 @@
 				<h2 class="title is-2 is-size-4-mobile has-text-primary">
 				Special Offer with Lauren</h2>
 				<h3 class="subtitle is-3">A Colour &amp; Cut for just &pound;40!</h3>
-				<p class="is-size-5">Lauren's skills are developing rapidly and is soon going to be promoted to the next level.</p>
-				<p class="is-size-4"><strong>She's progressing fast and is now looking to get as much experience as possible. Take advantage of this great Colour and Cut price!</strong></p>
+				<p class="is-size-5">Lauren's skills are developing rapidly and she's soon going to be promoted to the next level!</p>
+				<p class="is-size-4"><strong>She's now looking to get as much experience as possible. Take advantage of this great Colour and Cut price!</strong></p>
 			</div>
 		</div>
 

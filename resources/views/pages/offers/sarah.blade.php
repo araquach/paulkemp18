@@ -24,7 +24,7 @@
 		<div class="column is-8">
 			<div class="top section">
 				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special introductory offer with Sarah</h2>
-				<p class="is-size-5">Our seriously talented <strong>Senior Stylist</strong> Sarah has over 12 years experience and is a seriously skilled hairdresser!</p>
+				<p class="is-size-5">Our seriously talented <strong>Senior Stylist</strong> Sarah has over 12 years experience and is already a big name in the salon!</p>
 				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</strong></p>
 			</div>
 		</div>
