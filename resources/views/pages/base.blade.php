@@ -16,7 +16,7 @@
 @section('content')
 
 <div id="base">
-  <div class="columns section">
+  <div class="columns section is-size-5-mobile">
 			<div class="column is-8">
 			<h1 class="title is-3 has-text-primary">Introducing</h1>
 			<img src="/images/base/logo.png" alt="Base Hairdressing">
