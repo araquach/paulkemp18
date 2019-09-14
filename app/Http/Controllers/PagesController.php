@@ -169,9 +169,4 @@ class PagesController extends Controller {
 		return view('pages.base');
 	}
 
-	public function bulma()
-	{
-		return view('pages.bulma');
-	}
-
 }
