@@ -356,6 +356,17 @@ p {
 	}
 }
 
+#base-team {
+	.columns {
+		border-bottom: 1px solid $primary;
+		padding: 2rem 0 2rem 0;
+	}
+
+	.columns:last-of-type {
+		margin-bottom: 3rem;
+	}
+}
+
 #base-offer {
 	margin: 3rem 0 3rem 0;
 	background-color: $primary;

@@ -11070,6 +11070,15 @@ p {
   margin-bottom: 1.3rem;
 }
 
+#base-team .columns {
+  border-bottom: 1px solid #372218;
+  padding: 2rem 0 2rem 0;
+}
+
+#base-team .columns:last-of-type {
+  margin-bottom: 3rem;
+}
+
 #base-offer {
   margin: 3rem 0 3rem 0;
   background-color: #372218;
