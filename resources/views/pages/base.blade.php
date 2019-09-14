@@ -173,7 +173,7 @@
 			<p>All prices are a guide. A specific price will be quoted on consultation. A skin test is required 48 hours before any colour service for new clients</p>
 
 			<div id="base-offer">
-			<h2 class="title is-3 has-text-primary">Introductory Offer</h2>
+			<h2 class="title is-3 has-text-white">Introductory Offer</h2>
 			<p><strong class="has-text-white">30% off</strong></p>
 			<p>Your first visit to Base Hairdressing</p>
 			<small>with the stylists featured above<br>Just mention the offer when booking<br>skin test required 48 hrs before any colour service</small>
