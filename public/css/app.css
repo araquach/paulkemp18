@@ -11064,3 +11064,48 @@ p {
   margin-bottom: 0;
 }
 
+/* Base Page */
+
+#base img {
+  margin-bottom: 1.3rem;
+}
+
+#base-offer {
+  margin: 3rem 0 3rem 0;
+  background-color: #372218;
+  padding: 20px;
+  color: #FFF;
+  border-radius: 10px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #base-offer {
+    width: 80%;
+  }
+}
+
+#base-offer p,
+#base-offer h2 {
+  color: #FFF;
+  font-size: 1.4rem;
+}
+
+#base-offer p:first-of-type {
+  font-size: 3em;
+  margin: 0;
+}
+
+#base-social {
+  background-color: #372218;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  #base-social {
+    width: 80%;
+  }
+}
+
