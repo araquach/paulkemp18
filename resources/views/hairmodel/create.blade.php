@@ -46,7 +46,7 @@
         <p>Fields with <span class="has-text-danger">*</span> are required.</p>
 
         @if (count($errors) > 0)
-          <div class="box has-text-danger">
+          <div id="errors" class="box has-text-danger">
           		<p>Please fix the following input errors:</p>
           		<ul>
           	   		 @foreach($errors->all() as $error)

@@ -6,6 +6,12 @@ use App\Http\Requests\Request;
 
 class HairModelFormRequest extends Request
 {
+    protected function getRedirectUrl()
+    {
+        $url = $this->redirector->getUrlGenerator();
+        return $url->previous() . '#errors';
+    }
+
     /**
      * Determine if the user is authorized to make this request.
      *
