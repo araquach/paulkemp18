@@ -99,3 +99,6 @@ Route::patch('offer/{client}',
 
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');
+
+Route::get('/hairmodel', 'HairModelController@create');
+Route::post('/hairmodel/store', 'HairModelController@store');
