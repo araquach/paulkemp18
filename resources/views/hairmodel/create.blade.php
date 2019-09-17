@@ -22,7 +22,7 @@
       <h1 class="title is-3 has-text-primary">We need models!</h1>
 
       <p><strong>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</strong></p>
-      <p>All training is carried out at our Base Hair Academy.</p>
+      <p>All training is carried out at our <strong>Base Hair Academy</strong>.</p>
   		<p>If you'd like to volunteer simply add your name to our model database and we'll contact you when we have a session that fits your needs</p>
       <p>Please provide some info about your hair to allow us to determine which sessions best suit your needs</p>
       <ul>
