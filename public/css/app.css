@@ -11118,3 +11118,15 @@ p {
   }
 }
 
+/* Hair Model Page */
+
+#hair-models ul {
+  margin: 2rem 0;
+}
+
+#hair-models li {
+  color: #372218;
+  list-style: disc;
+  margin-left: 1rem;
+}
+
