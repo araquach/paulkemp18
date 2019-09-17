@@ -20,6 +20,7 @@
       @endif
 
       <h1 class="title is-3 has-text-primary">We need models!</h1>
+      <img src="/images/hairmodel/square.jpg" class="is-hidden-tablet">
 
       <p><strong>We're looking for models for our training days! Get your hair done for practically free! (sometimes a nominal charge to cover product costs applies)</strong></p>
       <p>All training is carried out at our <strong>Base Hair Academy</strong>.</p>
@@ -79,6 +80,11 @@
 
         {!! Form::close() !!}
         </div>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="/images/hairmodel/tall.jpg" alt="" class="is-hidden-mobile">
+        </figure>
       </div>
     </div>
 </div>
