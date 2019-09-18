@@ -34,53 +34,56 @@
       </ul>
       <small>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</small>
 
-      <div>
-        {!! Form::open(array(
-        	'action' => 'HairModelController@store', 'class' => 'form'
-        )) !!}
+			<div class="columns">
+				<div class="column is-8-desktop">
+	        {!! Form::open(array(
+	        	'action' => 'HairModelController@store', 'class' => 'form'
+	        )) !!}
 
-				{!! Form::open(array(
-					'action' => 'ProspectController@store', 'id' => 'prospect-form'
-				)) !!}
+					{!! Form::open(array(
+						'action' => 'ProspectController@store', 'id' => 'prospect-form'
+					)) !!}
 
-        <p>Fields with <span class="has-text-danger">*</span> are required.</p>
+	        <p>Fields with <span class="has-text-danger">*</span> are required.</p>
 
-        @if (count($errors) > 0)
-          <div id="errors" class="box has-text-danger">
-          		<p>Please fix the following input errors:</p>
-          		<ul>
-          	   		 @foreach($errors->all() as $error)
-          	        <li class="has-text-danger">{{{ $error }}}</li>
-          	    	@endforeach
-          		</ul>
-          </div>
-        @endif
+	        @if (count($errors) > 0)
+	          <div id="errors" class="box has-text-danger">
+	          		<p>Please fix the following input errors:</p>
+	          		<ul>
+	          	   		 @foreach($errors->all() as $error)
+	          	        <li class="has-text-danger">{{{ $error }}}</li>
+	          	    	@endforeach
+	          		</ul>
+	          </div>
+	        @endif
 
-        <div class="field">
-          {!! Form::label('name', 'Full Name',  ['class' => 'label required']) !!}
-          {!! Form::text('name', '', ['class' => 'input is-info']) !!}
-          {!! $errors->first('name', '<div class="has-text-danger">:message</div>') !!}
-        </div>
+	        <div class="field">
+	          {!! Form::label('name', 'Full Name',  ['class' => 'label required']) !!}
+	          {!! Form::text('name', '', ['class' => 'input is-info']) !!}
+	          {!! $errors->first('name', '<div class="has-text-danger">:message</div>') !!}
+	        </div>
 
-        <div class="field">
-          {!! Form::label('mobile', 'Mobile Number', ['class' => 'label required']) !!}
-          {!! Form::text('mobile', '', ['class' => 'input is-info']) !!}
-          {!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
-        </div>
+	        <div class="field">
+	          {!! Form::label('mobile', 'Mobile Number', ['class' => 'label required']) !!}
+	          {!! Form::text('mobile', '', ['class' => 'input is-info']) !!}
+	          {!! $errors->first('mobile', '<div class="has-text-danger">:message</div>') !!}
+	        </div>
 
-        <div class="field">
-          {!! Form::label('hairinfo', 'Additional Information', ['class' => 'label required']) !!}
-          {!! Form::textarea('hairinfo', '', ['class' => 'textarea is-info']) !!}
-          {!! $errors->first('hairinfo', '<div class="has-text-danger">:message</div>') !!}
-        </div>
+	        <div class="field">
+	          {!! Form::label('hairinfo', 'Additional Information', ['class' => 'label required']) !!}
+	          {!! Form::textarea('hairinfo', '', ['class' => 'textarea is-info']) !!}
+	          {!! $errors->first('hairinfo', '<div class="has-text-danger">:message</div>') !!}
+	        </div>
 
-        <div>
-      	   {!! Form::submit('Send', ["class" => "button"]) !!}
-        </div>
+	        <div>
+	      	   {!! Form::submit('Send', ["class" => "button"]) !!}
+	        </div>
 
-        {!! Form::close() !!}
-        </div>
-      </div>
+	        {!! Form::close() !!}
+	        </div>
+	      </div>
+			</div>
+
       <div class="column">
         <figure class="image">
           <img src="/images/hairmodel/tall.jpg" alt="" class="is-hidden-mobile">
