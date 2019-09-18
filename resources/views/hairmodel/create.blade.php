@@ -32,6 +32,7 @@
         <li>Existing colour (Foils/Balayage/Full Head etc)</li>
         <li>Any style ideas you would like</li>
       </ul>
+			<p class="is-size-4"><strong>Call Base Hair Academy on 01925 444449 if you would like more information.</strong></p>
       <small>A skin test is required 48 hours before we can colour your hair if you haven't been to us before. We will not be able to carry out any colour treatments if we don't have a record of this.</small>
 
 			<div class="columns">
