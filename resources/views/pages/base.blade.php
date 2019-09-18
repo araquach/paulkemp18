@@ -200,6 +200,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="column">
+			<figure class="image">
+				<img src="/images/base/schwarz.jpg" class="is-hidden-mobile">
+			</figure>
+		</div>
 	</div>
 </div>
 
