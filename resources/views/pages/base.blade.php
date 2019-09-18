@@ -113,7 +113,7 @@
 				<div class="columns">
 					<div class="column is-4">
 						<figure class="image">
-							<img src="http://via.placeholder.com/200x220" alt="Lucy">
+							<img src="/images/base/lucy.jpg" alt="Lucy">
 						</figure>
 					</div>
 					<div class="column">
