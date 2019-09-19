@@ -7,7 +7,7 @@
 	'keywords' => 'Hair Academy, trainee hairdressers, apprentices, hair school',
 	'ogtitle' => 'Introducing Base - Our New Training Academy',
 	'ogdescription' => 'Training and developing our team to the highest possible standard has always been a major priority for us here at Paul Kemp Hairdressing. Along with our sister salon Jakata we\'ve produced some incredible talent from scratch and helped existing stylists polish their skills to the next level.',
-	'ogimage' => url('/') . '/images/salon/base_meta.jpg',
+	'ogimage' => url('/') . '/images/base/base_meta_fb.jpg',
 	'title' => 'Paul Kemp Hairdressing - Base Hairdressing - Hairdressers in Warrington'
 	])
 
