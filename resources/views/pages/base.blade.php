@@ -15,6 +15,8 @@
 
 @section('content')
 
+@include('layouts.partials.fb_like')
+
 <div id="base">
   <div class="columns section is-size-5-mobile">
 			<div class="column is-8">
@@ -196,7 +198,7 @@
 			</div>
 
 			<div id="fb-like">
-				<div class="fb-like" data-href="http://www.jakatasalon.co.uk/salon" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+				<div class="fb-like" data-href="https://paulkemphairdressing.com/base" data-width="250" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
 				</div>
 			</div>
 		</div>
