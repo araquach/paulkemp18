@@ -16,10 +16,6 @@
 @section('content')
 
 <div id="team">
-	<section class="hero is-medium team-image">
-        <div class="hero-body">
-        </div>
-    </section>
 
 		<div class="section columns is-multiline">
 
