@@ -3,16 +3,16 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
+	'description' => '20% off for new clients with selected team members',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Special Offers with selected team members',
-	'ogdescription' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
+	'ogdescription' => 'Some of our team members are offering 20% off for new clients for a limited time',
 	'ogimage' => url('/') . '/images/offer/individual/offers_all.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</a>
-		
+
 		{!! link_to('booking', "Book now", array('class'=>'button is-primary')) !!}
 
 		<br><br>
@@ -91,5 +91,5 @@
 		<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 	</section>
 </div> <!--end #offers-->
- 
+
 @stop
