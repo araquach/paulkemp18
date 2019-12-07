@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Lauren is looking to build her client base - take advantage of this gret offer',
+	'description' => 'Lauren is looking to build her client base - take advantage of this great offer',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Special offer with Lauren',
-	'ogdescription' => 'Looking for a new stylist? Lauren is close to completing her apprentiship and is looking to build her client base. Book in with her - you won\'t be dissapointed!',
+	'ogdescription' => 'Looking for a new stylist?. Book in with Lauren - you won\'t be dissapointed!',
 	'ogimage' => url('/') . '/images/offer/individual/lauren_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -43,7 +43,7 @@
 				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Lauren comes up with then get booked in with her!</strong></p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
-				<p class="small">(Offer ends 31/10/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/lauren') }}" target="_blank" class="button is-primary">Find out more about Lauren</a>
 				<br><br>
 

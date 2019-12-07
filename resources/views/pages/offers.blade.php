@@ -3,16 +3,16 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
+	'description' => '20% off for new clients with selected team members',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Special Offers with selected team members',
-	'ogdescription' => 'Some of our team members are eager to build their client base and are offering 20% off for new clients!',
+	'ogdescription' => 'Some of our team members are offering 20% off for new clients for a limited time',
 	'ogimage' => url('/') . '/images/offer/individual/offers_all.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -27,11 +27,11 @@
 				<h2 class="title is-4">with selected team members</h2>
 
 				<p class="is-size-4">Take advantage of these special offers!</p>
-				<p>Some of our team members are eager to build their client base and are offering 20% off for new clients!</p>
+				<p>Some of our team members are offering 20% off to new clients for a limited time!</p>
 
-				<p><em>Sarah, Brad &amp; Abi are all eager to take on more clients - book in for a free consultation with them to see what they can do for you.</em></p>
+				<p><em>book in for a free consultation with Sarah, Brad or Abi to see what they can do for you!</em></p>
 
-				<p><strong>We're running these offers with them for a limited time! Click on each offer to find out more!</strong></p>
+				<p><strong>Click on each offer to find out more!</strong></p>
 			</div>
 		</div>
 
@@ -43,7 +43,7 @@
 					</div>
 					<section class="column is-8">
 					  	<h2 class="title is-3">Sarah's Offer</h2>
-					  	<p>Senior Stylist Sarah joined the team at the start of the year and is already building a strong reputation!</p>
+					  	<p>Senior Stylist Sarah joined the team at the start of the year and has built up a strong reputation!</p>
 					  	<p class="is-size-4"><strong>For a limited time get 20% Off <br>your first visit with Sarah</strong></p>
 					  	<p>A typical Colour and Cut around &pound100 (inc discount)<br></p>
 						<small class="is-size-7">For New Clients - not with any other offer - Price is guide only and includes discount<br>Skin test required 48hrs before any colour service</small>
@@ -59,7 +59,7 @@
 					</div>
 					<section class="column is-8">
 					  	<h2 class="title is-3">Brad's Offer</h2>
-					  	<p>Brad is quickly establishing himself as a highly sought after stylist</p>
+					  	<p>Brad has fully established himself as a highly sought after stylist since he joined us a year ago</p>
 					  	<p class="is-size-4"><strong>20% off all services <br>with Brad for a limited time!</strong></p>
 					  	<p>A typical colour and Cut around &pound90 (inc discount)</p>
 					    <small class="is-size-7">For New Clients - not with any other offer- Price is guide only and includes discount<br>Skin test required 48hrs before any colour service</small>
@@ -75,7 +75,7 @@
 					</div>
 					<section class="column is-8">
 					  <h2 class="title is-3">Abi's Offer</h2>
-					  <p>Abi flew through her apprentiship and is now a fully fledged stylist. She's producig some incredible colours, cuts and styles.</p>
+					  <p>Abi is a fast progressing stylist and is a member of the GHD Style Squad!. She's producig some incredible colours, cuts and styles.</p>
 					  <p class="is-size-4"><strong>20% off all services with Abi</strong>	</p>
 					  <p>A typical colour and Cut around &pound90 (inc discount)</p>
 					  <small class="is-size-7">For New Clients - not with any other offer - Price is guide only and includes discount</small>
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</a>
-		
+
 		{!! link_to('booking', "Book now", array('class'=>'button is-primary')) !!}
 
 		<br><br>
@@ -91,5 +91,5 @@
 		<div class="fb-like" data-href="http://www.paulkemphairdressing.com/offers" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 	</section>
 </div> <!--end #offers-->
- 
+
 @stop
