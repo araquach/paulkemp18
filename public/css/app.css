@@ -10805,7 +10805,13 @@ p {
 }
 
 .footer {
-  padding-bottom: 0;
+  padding: 0 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0;
+  }
 }
 
 /* Home Page */
@@ -11050,8 +11056,14 @@ p {
 
 /* Offers Page */
 
+#offers {
+  background: url("/images/offer/christmas_background.jpg") no-repeat right top;
+  background-size: cover;
+}
+
 #offers .box {
   margin-bottom: 2em;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* Ind Offer Page */

@@ -33,11 +33,6 @@ Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/kate', 'PagesController@leaver');
 Route::get('/base', 'PagesController@base');
 
-Route::get('/offer/sarah', 'PagesController@offerSarah');
-Route::get('/offer/brad', 'PagesController@offerBrad');
-Route::get('/offer/abi', 'PagesController@offerAbi');
-Route::get('/offer/lauren', 'PagesController@offerLauren');
-
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 
 Route::get('/news/index', 'NewsController@index');
