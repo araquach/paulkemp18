@@ -25,15 +25,16 @@ $section-padding-large: 4rem 4rem;
 
 /* General */
 
-.main {
+#main {
+	margin-right: -1rem;
 	@include from($tablet) {
 		box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	}
 
 	.hero-body {
 		@include until($tablet) {
-	    	padding-bottom: .5rem;
-	      	padding-top: .5rem;
+				padding: 0;
+				padding-bottom: .5rem;
 	  	}
 	}
 }
