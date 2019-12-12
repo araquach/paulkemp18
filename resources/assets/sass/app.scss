@@ -26,7 +26,6 @@ $section-padding-large: 4rem 4rem;
 /* General */
 
 #main {
-	margin-right: -1rem;
 	@include from($tablet) {
 		box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 	}
@@ -36,6 +35,12 @@ $section-padding-large: 4rem 4rem;
 				padding: 0;
 				padding-bottom: .5rem;
 	  	}
+	}
+}
+
+.hero {
+	@include until($tablet) {
+		margin-right: -.75rem;
 	}
 }
 
