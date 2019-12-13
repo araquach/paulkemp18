@@ -6,7 +6,7 @@
 	'description' => 'Christmas Offers',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Christmas Offers',
-	'ogdescription' => 'Two great offers in the run up to Christmas! A Last Minute Blow dry or Hair up for just £20 when you call on the day plus our new stylist David is offering a colour & cut for just £50!',
+	'ogdescription' => 'Two great offers in the run up to Christmas! A Last Minute Blow dry or Hair up for just £20 when you call on the day plus our new stylist David is offering a colour & cut for just £50 for new clients to the salon!',
 	'ogimage' => url('/') . '/images/offer/christmas_offers_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
