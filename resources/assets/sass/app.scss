@@ -25,9 +25,17 @@ $section-padding-large: 4rem 4rem;
 
 /* General */
 
+html {
+	background-color: #FFF;
+}
+
 #main {
 	@include from($tablet) {
 		box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	}
+
+	.container {
+		background-color: $beige-lighter;
 	}
 
 	.hero-body {

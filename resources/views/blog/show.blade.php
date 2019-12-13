@@ -17,8 +17,7 @@
 @include('layouts.partials.fb_like')
 
 <div id="blog" class="section is-size-5-mobile">
-    <h2 class="title is-2">{{ $blog->title }}</h2>
-    <article class="columns">
+    <article class="columns has-background-white">
         <div class="column is-4">
             @foreach($blog->paras as $para)
                 @if($para->para_pic !== NULL)
@@ -29,6 +28,7 @@
             @endforeach
         </div>
         <div class="column section">
+					<h2 class="title is-2">{{ $blog->title }}</h2>
             @foreach($blog->paras as $para)
                 {!! addTag($para->para) !!}
             @endforeach

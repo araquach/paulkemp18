@@ -15,11 +15,11 @@
 @section('content')
 
 <div id="blog" class="section is-size-5-mobile">
-    
+
     @foreach($blogs as $blog)
         <div class="columns box has-margin-3">
             <a id="{{ $blog->slug }}" class="anchor"></a>
-            <div class="column is-5"> 
+            <div class="column is-5">
                 <figure class="image">
                     <img src="{{ $blog->paras()->first()->para_pic }}" alt="{{ $blog->paras()->first()->para_pic_alt }}">
                 </figure>
@@ -33,7 +33,7 @@
             </div>
         </div>
     @endforeach
-    
+
 </div>
 
 @stop
