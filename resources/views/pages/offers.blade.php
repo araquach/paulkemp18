@@ -6,8 +6,8 @@
 	'description' => 'Christmas Offers',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'Christmas Offers',
-	'ogdescription' => 'Two great offers in the run up to Christmas! A Blow dry or Hair up for just £20 when you call on the day plus our new stylist David is offering a colour & cut for just £50!',
-	'ogimage' => url('/') . '/images/offer/',
+	'ogdescription' => 'Two great offers in the run up to Christmas! A Last Minute Blow dry or Hair up for just £20 when you call on the day plus our new stylist David is offering a colour & cut for just £50!',
+	'ogimage' => url('/') . '/images/offer/christmas_offers_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
@@ -32,7 +32,7 @@
 					<img src="{{ asset('images/offer/styling.png') }}" alt="Hair Styling Offer">
 				</div>
 				<section class="column is-8">
-				  	<h2 class="title is-3">Christmas Party Hair styling</h2>
+				  	<h2 class="title is-3">Last Minute Christmas Party Hair styling</h2>
 				  	<p class="is-size-5">Call us up on the day you need your hair doing and one of our talented hairdressers will dry & style your hair or create a stunning hair-up for you</p>
 				  	<p class="is-size-4"><strong>For only £20!</strong></p>
 				  	<p>Appointment must be made on same day to qualify for offer. Subject to availability. Cannot request a specific stylist</p>
