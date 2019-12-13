@@ -16,8 +16,8 @@
 
 @include('layouts.partials.fb_like')
 
-<div id="blog" class="section box is-size-5-mobile">
-    <h2 class="title is-2">{{ $blog->title }}</h2> 
+<div id="blog" class="section is-size-5-mobile">
+    <h2 class="title is-2">{{ $blog->title }}</h2>
     <article class="columns">
         <div class="column is-4">
             @foreach($blog->paras as $para)
@@ -31,17 +31,16 @@
         <div class="column section">
             @foreach($blog->paras as $para)
                 {!! addTag($para->para) !!}
-            @endforeach 
-            
+            @endforeach
+
             <p><a href="{{ URL::to('blog') }}#{{ $blog->slug }}" class="button is-primary">Back to all the blogs</a></p>
             <div class="publish-info">
                 <small>Published by {{ $blog->author }}</small>
                 <time datetime="{{ $blog->created_at }}">{{ $blog->created_at->format('d F Y') }}</time>
             </div>
-
-            <div id="fb-like">
-    			<div class="fb-like" data-href="{{ URL::to('blog') }}/{{ $blog->slug }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-    		</div>
+						<div id="fb-like" class="section">
+		    			<div class="fb-like" data-href="{{ URL::to('blog') }}/{{ $blog->slug }}" data-width="250" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+		    		</div>
         </div>
     </article>
 

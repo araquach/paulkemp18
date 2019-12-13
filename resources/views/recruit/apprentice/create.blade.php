@@ -10,7 +10,7 @@
 	'ogimage' => url('/') . '/images/ogimage/myimage.png',
 	'title' => 'Paul Kemp Hairdressing - Apprentice Application - Hairdressers in Warrington'
 	])
-	
+
 @stop
 
 @section('content')
@@ -18,15 +18,14 @@
 <div id="application">
 	<div class="columns">
 		<div class="column is-6">
-			<section class="section contact-form">
+			<section class="section has-background-white">
 				@if(Session::has('message'))
 				    <div>
 				    {{{ Session::get('message') }}}
 				    </div>
 				@endif
-
 				<div>
-					<h2 class="title is-3 has-text-primary">Join the team</h2>
+				<h2 class="title is-3 has-text-primary">Join the team</h2>
 				<h3 class="subtitle is-4 has-text-primary">Apprentice Position</h3>
 
 					{!! link_to('stylist/create', 'Apply for a stylist position', ['class' => 'button is-primary']) !!}
@@ -37,6 +36,7 @@
 					<p>We will contact you as soon as a position becomes available.</p>
 
 					@include('recruit.apprentice._form')
+
 				</div>
 			</section>
 		</div>

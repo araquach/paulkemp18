@@ -65,7 +65,12 @@ p {
 	color: $primary;
 }
 
-
+.navbar-burger {
+	color: #FFF;
+	&:hover {
+		color: #FFF;
+	}
+}
 
 .navbar-item img {
 	max-height: 4rem;
@@ -186,6 +191,7 @@ p {
 
 	#fb-like {
 		margin-bottom: 2rem;
+		padding-left: 0;
 	}
 
 	.team-ind-bottom {
@@ -301,6 +307,7 @@ p {
 		padding: 4rem;
 			@include until($tablet) {
     		padding: 1rem;
+				margin-right: -.75rem;
   		}
 	}
 
@@ -335,6 +342,12 @@ p {
   	.content {
   		padding-left: .3rem;
   	}
+
+		@include until($tablet) {
+			.section {
+				margin-top: 5rem;
+			}
+		}
 }
 
 /* Offers Page */
@@ -349,6 +362,10 @@ p {
 		margin-bottom: 2em;
 		background-color: rgba(255, 255, 255, .7);
 	}
+}
+
+#offers.section {
+	margin-right: -.75rem;
 }
 
 /* Ind Offer Page */
