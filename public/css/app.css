@@ -10753,7 +10753,7 @@ html {
 
 @media screen and (min-width: 769px) {
   #main .container {
-    margin-right: -0.75rem;
+    padding-right: -0.75rem;
   }
 }
 

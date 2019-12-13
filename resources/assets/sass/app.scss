@@ -37,7 +37,7 @@ html {
 	.container {
 		background-color: $beige-lighter;
 		@include from($tablet) {
-			margin-right: -.75rem;
+			padding-right: -.75rem;
 		}
 	}
 
