@@ -36,9 +36,6 @@ html {
 
 	.container {
 		background-color: $beige-lighter;
-		@include from($tablet) {
-			padding-right: -.75rem;
-		}
 	}
 
 	.hero-body {

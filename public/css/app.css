@@ -10751,12 +10751,6 @@ html {
   background-color: #EFF0EB;
 }
 
-@media screen and (min-width: 769px) {
-  #main .container {
-    padding-right: -0.75rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   #main .hero-body {
     padding: 0;
