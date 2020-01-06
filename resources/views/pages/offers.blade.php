@@ -7,7 +7,7 @@
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'New Year Offers',
 	'ogdescription' => '1/2 Price Cut, Dry & Style with every colour for new clients throughout January',
-	'ogimage' => url('/') . '/images/offer/new_year_fb.jpg',
+	'ogimage' => url('/') . '/images/offer/new_year2_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
