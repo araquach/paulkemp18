@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Christmas Offers',
+	'description' => 'New Year Offers',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'Christmas Offers',
-	'ogdescription' => 'Two great offers in the run up to Christmas! A Last Minute Blow dry or Hair up for just £20 when you call on the day plus our new stylist David is offering a colour & cut for just £50 for new clients to the salon!',
-	'ogimage' => url('/') . '/images/offer/christmas_offers_fb.jpg',
+	'ogtitle' => 'New Year Offers',
+	'ogdescription' => '1/2 Price Cut, Dry & Style with every colour for new clients throughout January',
+	'ogimage' => url('/') . '/images/offer/new_year_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
@@ -23,19 +23,19 @@
 	<section id="offers" class="section">
 		<div class="columns">
 			<div class="column is-9">
-				<h1 class="title is-2 has-text-white">Christmas Offers</h1>
+				<h1 class="title is-2 has-text-white">New Year Offers</h1>
 			</div>
 		</div>
 		<div class="box">
 			<div class="columns">
 				<div class="column">
-					<img src="{{ asset('images/offer/styling.png') }}" alt="Hair Styling Offer">
+					<img src="{{ asset('images/offer/new_year.jpg') }}" alt="Colour & Cut Offer">
 				</div>
 				<section class="column is-8">
-				  	<h2 class="title is-3">Last Minute Christmas Party Hair styling</h2>
-				  	<p class="is-size-5">Call us up on the day you need your hair doing and one of our talented hairdressers will dry & style your hair or create a stunning hair-up for you</p>
-				  	<p class="is-size-4"><strong>For only £20!</strong></p>
-				  	<p>Appointment must be made on same day to qualify for offer. Subject to availability. Cannot request a specific stylist</p>
+				  	<h2 class="title is-2">1/2 Price Cut, Dry & Style</h2>
+						<p class="is-size-3">with every colour</p>
+				  	<p class="is-size-5">for <strong>new clients</strong> throughout January</p>
+				  	<small class="is-size-7">For New Clients - not with any other offer. Skin test required 48 hours before any colour service</small>
 				</section>
 			</div>
 		</div>

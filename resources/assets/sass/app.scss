@@ -363,7 +363,7 @@ p {
 
 
 #offers {
-	background: url('/images/offer/christmas_background.jpg') no-repeat right top;
+	background: url('/images/offer/ny_bground.jpg') no-repeat right top;
 	background-size: cover;
 
 	.box {
@@ -373,7 +373,9 @@ p {
 }
 
 #offers.section {
-	margin-right: -.75rem;
+	@include until($tablet) {
+			margin-right: -.75rem;
+		}
 }
 
 /* Ind Offer Page */
