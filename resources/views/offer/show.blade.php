@@ -41,9 +41,9 @@
 				<section class="column is-8">
 				  	<h2 class="title is-2">1/2 Price Cut, Dry & Style</h2>
 						<p class="is-size-3">with every colour</p>
-				  	<p class="is-size-5">for <strong>new clients</strong> throughout January</p>
-						<p>Offer Code: NY20CP</p>
-				  	<small class="is-size-7">For New Clients - not with any other offer. Skin test required 48 hours before any colour service</small>
+				  	<p class="is-size-5">Throughout January &amp; February</p>
+						<p>Offer Code: NY20HP</p>
+				  	<small class="is-size-7">Not with any other offer. Skin test required 48 hours before any colour service</small>
 				</section>
 			</div>
 		</div>
@@ -58,7 +58,7 @@
 				  	<p class="is-size-4"><strong>A Colour & Cut for just £50</strong></p>
 				  	<p>Book in with David and let him transform you!</p>
 						<p>Offer Code: NY20D</p>
-					<small class="is-size-7">For New Clients - not with any other offer - additional costs apply for dark to light and crazy colours<br>Skin test required 48hrs before any colour service</small>
+					<small class="is-size-7">Not with any other offer - additional costs apply for dark to light and crazy colours<br>Skin test required 48hrs before any colour service</small>
 				</section>
 			</div>
 		</div>
