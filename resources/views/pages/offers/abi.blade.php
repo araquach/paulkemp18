@@ -39,11 +39,11 @@
 	<div class="columns">
 		<div class="column is-8">
 			<div class="section">
-				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Abi comes up with then book in to get 20% off your visit!</strong></p>
+				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Abi comes up with then book in to get 25% off your visit!</strong></p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 31/03/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('blog/abi-salon-international') }}" target="_blank">Find out more about her work in the Style Squad here ></a>
 				<br><br>
 

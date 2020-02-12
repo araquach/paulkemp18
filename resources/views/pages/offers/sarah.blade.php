@@ -24,13 +24,11 @@
 		<div class="column is-8">
 			<div class="top section">
 				<h2 class="title is-2 is-size-4-mobile has-text-primary">Special offer with Sarah</h2>
-				<p class="is-size-5">Our seriously talented <strong>Senior Stylist</strong> Sarah has over 12 years experience and is already a big name in the salon!</p>
-				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great intro offer with her&hellip;</strong></p>
+				<p class="is-size-5">Our seriously talented <strong>Senior Stylist</strong> Sarah has over 12 years experience and is a big name in the salon!</p>
+				<p class="is-size-4"><strong>If you're considering a new stylist then take advantage of this great offer with her&hellip;</strong></p>
 			</div>
 		</div>
-
 	</div>
-
 	<figure class="image">
 		{{ Html::image('/images/offer/individual/sarah_montage.png') }}
 	</figure>
@@ -43,7 +41,7 @@
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
 				<p class="small">(Offer ends 15/11/19 - Skin Test required 48 hrs before any colour service for new clients)</p>
-				<a href="https://paulkemphairdressing.com/blog/introducing_sarah" target="_blank" class="button is-primary">Find out more about Sarah</a>
+				<a href="{{ URL::to('team/sarah') }}" target="_blank" class="button is-primary">Find out more about Sarah</a>
 				<br><br>
 
 				<div id="fb-like">
