@@ -23,7 +23,7 @@
 	<section id="offers" class="section">
 		<div class="columns">
 			<div class="column is-9">
-				<h1 class="title is-2 has-text-white">New Year Offers</h1>
+				<h1 class="title is-2 has-text-primary">Special Offers</h1>
 			</div>
 		</div>
 		<a href="{{ URL::to('offers/david') }}">

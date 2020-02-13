@@ -363,12 +363,13 @@ p {
 
 
 #offers {
-	background: url('/images/offer/') no-repeat right top;
-	background-size: cover;
+	background-color: #e7e3df;
 
 	.box {
 		margin-bottom: 2em;
 		background-color: rgba(255, 255, 255, .7);
+		border-radius: .5rem;
+		box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
 	}
 }
 
