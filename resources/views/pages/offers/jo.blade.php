@@ -6,7 +6,7 @@
 	'description' => 'Check out this amazing offer with Jo',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
 	'ogtitle' => 'A special offer with Jo',
-	'ogdescription' => 'Looking for a new stylist? Book in with our amazing senior stylist Jo - you won\'t be dissapointed',
+	'ogdescription' => 'Looking for a new stylist? Book in with our amazing senior stylist Jo',
 	'ogimage' => url('/') . '/images/offer/individual/jo_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -40,7 +40,7 @@
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
-				<p class="small">(Offer ends 31/04/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
+				<p class="small">(Offer ends 31/03/20 - Skin Test required 48 hrs before any colour service for new clients)</p>
 				<a href="{{ URL::to('team/jo') }}" target="_blank" class="button is-primary">Find out more about Jo</a>
 				<br><br>
 
