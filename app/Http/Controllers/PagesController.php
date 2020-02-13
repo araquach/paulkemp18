@@ -149,4 +149,29 @@ class PagesController extends Controller {
 		return view('pages.base');
 	}
 
+	public function offerDavid()
+	{
+		return view('pages.offers.david');
+	}
+
+	public function offerAbi()
+	{
+		return view('pages.offers.abi');
+	}
+
+	public function offerSarah()
+	{
+		return view('pages.offers.sarah');
+	}
+
+	public function offerBrad()
+	{
+		return view('pages.offers.brad');
+	}
+
+	public function offerJo()
+	{
+		return view('pages.offers.jo');
+	}
+
 }

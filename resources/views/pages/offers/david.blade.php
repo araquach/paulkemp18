@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Check out this amazing offer with Brad',
+	'description' => 'Check out this amazing introductory offer with David',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'A special offer with our talented stylist Brad',
-	'ogdescription' => 'Looking for a new stylist? Here\'s a special offer with our talented stylist Brad',
+	'ogtitle' => 'A special offer with our latest addition to the team - David',
+	'ogdescription' => 'Looking for a new stylist? David is our latest skilled stylist to join the team',
 	'ogimage' => url('/') . '/images/offer/individual/brad_montage_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
@@ -31,7 +31,7 @@
 	</div>
 
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/brad_montage.png') }}
+		{{ Html::image('/images/offer/individual/david_montage.png') }}
 	</figure>
 
 	<div class="columns">

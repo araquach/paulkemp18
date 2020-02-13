@@ -91,6 +91,11 @@ Route::get('offer2/{client}',
 Route::patch('offer/{client}',
   ['as' => 'offerUpdate', 'uses' => 'OfferController@update']);
 
+Route::get('offers/abi', 'PagesController@offerAbi');
+Route::get('offers/david', 'PagesController@offerDavid');
+Route::get('offers/brad', 'PagesController@offerBrad');
+Route::get('offers/sarah', 'PagesController@offerSarah');
+Route::get('offers/jo', 'PagesController@offerJo');
 
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{blog}', 'BlogController@show');

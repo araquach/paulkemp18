@@ -90,7 +90,7 @@
 				</div>
 			</div>
 		</a>
-		<a href="{{ URL::to('offers/jo') }}">
+		<!-- <a href="{{ URL::to('offers/jo') }}">
 			<div class="box">
 				<div class="columns">
 					<div class="column">
@@ -105,7 +105,7 @@
 					</section>
 				</div>
 			</div>
-		</a>
+		</a> -->
 
 		{!! link_to('booking', "Book now", array('class'=>'button')) !!}
 

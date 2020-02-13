@@ -36,7 +36,7 @@
 	<div class="columns">
 		<div class="column is-8">
 			<div class="section">
-				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Sarah comes up with then book in to get 20% off your visit!</strong></p>
+				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas Sarah comes up with then book in to get 25% off your visit!</strong></p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
