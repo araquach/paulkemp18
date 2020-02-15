@@ -46,7 +46,7 @@
 			<div class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/abi.png') }}" alt="Abi">
+						<img src="{{ asset('images/offer/individual/abi.png') }}" alt="Abi">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit to Abi</h2>
@@ -58,11 +58,11 @@
 				</div>
 			</div>
 		</a>
-		<!-- <a href="{{ URL::to('offers/brad') }}">
+		<a href="{{ URL::to('offers/brad') }}">
 			<div  class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/brad.png') }}" alt="Brad">
+						<img src="{{ asset('images/offer/individual/brad.png') }}" alt="Brad">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit to Brad</h2>
@@ -73,12 +73,12 @@
 					</section>
 				</div>
 			</div>
-		</a> -->
-		<a href="{{ URL::to('offers/sarah') }}">
+		</a>
+		<!-- <a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/sarah.png') }}" alt="Sarah">
+						<img src="{{ asset('images/offer/individual/sarah.png') }}" alt="Sarah">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit with Sarah</h2>
@@ -89,12 +89,12 @@
 					</section>
 				</div>
 			</div>
-		</a>
+		</a> -->
 		<!-- <a href="{{ URL::to('offers/jo') }}">
 			<div class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/jo.png') }}" alt="Jo">
+						<img src="{{ asset('images/offer/individual/jo.png') }}" alt="Jo">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit with Jo</h2>
