@@ -51,7 +51,7 @@
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit to Abi</h2>
 						<p>Abi is an awesome stylist and a member of the GHD Style Squad!</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £50</strong></p>
+						<p class="is-size-4"><strong>A Colour & Cut from just £70</strong></p>
 						<p>Click for more info</p>
 						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
 					</section>
@@ -74,22 +74,22 @@
 				</div>
 			</div>
 		</a>
-		<!-- <a href="{{ URL::to('offers/sarah') }}">
+		<a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/individual/sarah.png') }}" alt="Sarah">
+						<img src="{{ asset('images/offer/individual/sarah.jpg') }}" alt="Sarah">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit with Sarah</h2>
 						<p>Our seriously talented Senior Stylist Sarah has over 12 years experience and is a big name in the salon!</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £80</strong></p>
+						<p class="is-size-4"><strong>A Colour & Cut from just £90</strong></p>
 						<p>Click for more info</p>
 						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
 					</section>
 				</div>
 			</div>
-		</a> -->
+		</a>
 		<!-- <a href="{{ URL::to('offers/jo') }}">
 			<div class="box">
 				<div class="columns">
