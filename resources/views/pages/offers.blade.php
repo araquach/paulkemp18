@@ -58,7 +58,7 @@
 				</div>
 			</div>
 		</a>
-		<a href="{{ URL::to('offers/brad') }}">
+		<!-- <a href="{{ URL::to('offers/brad') }}">
 			<div  class="box">
 				<div class="columns">
 					<div class="column">
@@ -73,7 +73,7 @@
 					</section>
 				</div>
 			</div>
-		</a>
+		</a> -->
 		<a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">
 				<div class="columns">
