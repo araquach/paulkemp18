@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'New Year Offers',
+	'description' => 'New Client Offfers',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'New Year Offers',
-	'ogdescription' => '1/2 Price Cut, Dry & Style with every colour for new clients throughout January',
-	'ogimage' => url('/') . '/images/offer/new_year2_fb.jpg',
+	'ogtitle' => 'New Client Offers',
+	'ogdescription' => 'Tale advantage of 25% off with selected team members this month',
+	'ogimage' => url('/') . '/images/offer/individual/offers_all.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offers - Hairdressers in Warrington'
@@ -58,7 +58,7 @@
 				</div>
 			</div>
 		</a>
-		<!-- <a href="{{ URL::to('offers/brad') }}">
+		<a href="{{ URL::to('offers/brad') }}">
 			<div  class="box">
 				<div class="columns">
 					<div class="column">
@@ -73,23 +73,23 @@
 					</section>
 				</div>
 			</div>
-		</a> -->
-		<a href="{{ URL::to('offers/sarah') }}">
+		</a>
+		<!-- <a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">
 				<div class="columns">
 					<div class="column">
-						<img src="{{ asset('images/offer/individual/sarah.jpg') }}" alt="Sarah">
+						<img src="{{ asset('images/offer/individual/sarah.png') }}" alt="Sarah">
 					</div>
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit with Sarah</h2>
 						<p>Our seriously talented Senior Stylist Sarah has over 12 years experience and is a big name in the salon!</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £90</strong></p>
+						<p class="is-size-4"><strong>A Colour & Cut from just £80</strong></p>
 						<p>Click for more info</p>
 						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
 					</section>
 				</div>
 			</div>
-		</a>
+		</a> -->
 		<!-- <a href="{{ URL::to('offers/jo') }}">
 			<div class="box">
 				<div class="columns">
