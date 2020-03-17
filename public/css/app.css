@@ -11179,3 +11179,13 @@ p {
   margin-left: 1rem;
 }
 
+#corona ul {
+  margin: 2rem 0;
+}
+
+#corona li {
+  color: #372218;
+  list-style: disc;
+  margin-left: 1rem;
+}
+

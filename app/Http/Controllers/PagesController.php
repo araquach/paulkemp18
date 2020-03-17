@@ -174,4 +174,9 @@ class PagesController extends Controller {
 		return view('pages.offers.jo');
 	}
 
+	public function corona()
+	{
+		return view('pages.corona');
+	}
+
 }
