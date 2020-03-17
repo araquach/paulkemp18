@@ -22,10 +22,9 @@
             We have appointments available with your preferred stylist.</p>
             <p>We are monitoring the situation closely day by day. We’re operating the salon as normal - other than implementing some extra measures...</p>
             <ul>
-                <li>We sterilise our hairbrushes and scissors after each client</li>
                 <li>We disinfect our stations after every treatment using an antibacterial solution</li>
                 <li>Our staff are washing their hands after every single client, using handwashing technique as set out by the WHO</li>
-                <li>We now disinfect our reception desk after every transaction and all door handles at regular intervals throughout the day</li>
+                <li>We disinfect our reception area and all door handles at regular intervals throughout the day</li>
             </ul>
             <p><strong>We request Apple/GooglePay/contactless transactions where possible and limit cash payments</strong></p>
             <p>Please try and attend your appointment on your own where possible.</p>
