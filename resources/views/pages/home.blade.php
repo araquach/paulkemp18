@@ -39,6 +39,27 @@
   </div>
 
   <div class="section columns">
+  <div class="column">
+      <a href="{{ URL::to('corona') }}">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              {{ Html::image('images/corona/corona_home.jpg') }}
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-6 is-size-4-mobile">PK Open as usual for your hair needs</p>
+              </div>
+            </div>
+            <div class="content is-size-7 is-size-5-mobile">
+              We’re operating the salon as normal - other than implementing some extra measures...&hellip;
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
     @foreach($blogs as $blog)
     <div class="column">
       <a href="{{ URL::to('blog') }}/{{ $blog->slug }}">
