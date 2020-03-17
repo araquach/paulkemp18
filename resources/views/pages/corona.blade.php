@@ -42,7 +42,7 @@
         </div>
         <div class="column">
             <figure class="image is-hidden-mobile">
-                {{ Html::image('images/corona/corona.jpg') }}   
+                {{ Html::image('images/corona/corona_2.jpg') }}   
             </figure>
         </div>
     </div>
