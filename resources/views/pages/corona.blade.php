@@ -37,7 +37,7 @@
             <p>If and when the time comes that we need to take extra measures, 
             we will do so in the most responsible way as advised by the right authorities. We will ensure we keep you updated.</p>
             <p>In the meantime, we’re here for you and your hair needs and we look forward to seeing you for your next appointment 😀</p>
-            <p class="is-size-5"><strong>Call 01925 242960 for more info or to reschedule</strong></p>
+            <p class="is-size-5"><strong>Call 01925 444488 for more info or to reschedule</strong></p>
         </div>
         <div class="column">
             <figure class="image is-hidden-mobile">
