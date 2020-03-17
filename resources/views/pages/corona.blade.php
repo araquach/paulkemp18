@@ -3,10 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
+	'description' => 'Open as usual for your hair needs',
 	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
+	'ogtitle' => 'Open as usual for your hair needs',
+	'ogdescription' => 'We thought we'd let you know we\'re open for business as usual! We\’re operating the salon as normal - other than implementing some extra measures...',
 	'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
 	])
 	
