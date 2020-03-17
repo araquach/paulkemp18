@@ -7,7 +7,10 @@
 	'keywords' => '',
 	'ogtitle' => 'Open as usual for your hair needs',
 	'ogdescription' => 'We thought we\'d let you know we\'re open for business as usual! We\’re operating the salon as normal - other than implementing some extra measures...',
-	'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
+	'ogimage' => url('/') . '/images/corona/corona_meta.jpg',
+	'ogimagewidth' => '1200',
+	'ogimageheight' => '628',
+    'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
 	])
 	
 @stop
