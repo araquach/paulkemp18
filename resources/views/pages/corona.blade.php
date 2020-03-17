@@ -12,7 +12,6 @@
 	'ogimageheight' => '628',
     'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
 	])
-	
 @stop
 
 @section('content')
