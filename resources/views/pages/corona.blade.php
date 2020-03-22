@@ -8,7 +8,7 @@
 	'ogtitle' => 'Temporary Closure for PK',
 	'ogdescription' => 'We\'ve made the decision to temporarily close Paul Kemp Hairdressing as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations. 
         The team are sad to have to stop doing what we love but we know we\'ll be back up and running in the not too distant future',
-	'ogimage' => url('/') . '/images/corona2_meta.jpg',
+	'ogimage' => url('/') . '/images/corona/corona2_meta.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
     'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
