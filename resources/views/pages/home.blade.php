@@ -50,11 +50,11 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-6 is-size-4-mobile">Temporary Closure for PK</p>
+                <p class="title is-6 is-size-4-mobile">COVID-19 Closure Update</p>
               </div>
             </div>
             <div class="content is-size-7 is-size-5-mobile">
-            We've made the decision to temporarily close Paul Kemp Hairdressing as of Tuesday 24th March for a minimum of 2 weeks to stay inline with the Governments Social distancing recommendations...&hellip;
+            Following the government guidelines we are still currently closed and will remain so until further notice&hellip;
             </div>
           </div>
         </div>
