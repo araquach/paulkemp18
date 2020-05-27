@@ -7,7 +7,7 @@
 	'keywords' => '',
 	'ogtitle' => 'COVID-19 Update',
 	'ogdescription' => 'Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July. This could change as it isn\’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota\’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.',
-	'ogimage' => url('/') . '/images/corona/corona_meta.jpg',
+	'ogimage' => url('/') . '/images/corona/corona_meta_4.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
     'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
