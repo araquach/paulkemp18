@@ -3,12 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'COVID-19 Closure Update',
+	'description' => 'Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July. This could change as it isn\’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota\’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.',
 	'keywords' => '',
-	'ogtitle' => 'COVID-19 Closure Update',
-	'ogdescription' => 'Following the government guidelines we are still currently closed and will remain so until further notice. Our booking systems are currently closed too as we can’t guarantee any appointments at the minute.
-        The team are sad to have to stop doing what we love but we know we\'ll be back up and running in the not too distant future',
-	'ogimage' => url('/') . '/images/corona/corona3_meta.jpg',
+	'ogtitle' => 'COVID-19 Update',
+	'ogdescription' => 'Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July. This could change as it isn\’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota\’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.',
+	'ogimage' => url('/') . '/images/corona/corona_meta.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
     'title' => 'Paul Kemp Hairdressing - Corona - Hairdressers in Warrington'
@@ -20,17 +19,21 @@
 <div id="corona">
     <div class="columns">
 		<div class="section column is-7">
-            <h1 class="title is-1">COVID-19 Closure Update</h1>
-            <h2 class="subtitle is-3">Updated 16th April 2020</h2>
-            <p><strong>Following the government guidelines we are still currently closed and will remain so until further notice.</strong></p>
-            <p>Please check back to our page for updates on our potential opening date. Our booking systems are currently closed too as we can’t guarantee any appointments at the minute.</p>
-            <p>If you have appointments already booked in they remain unaffected, if we open before your appointment you will keep this appointment. We will be contacting everyone who has missed an appointment due to the salon being closed to arrange this for your earliest convenience - again once we have a better idea of when we'll be reopening.</p>
-            <p>We hope you are all staying safe and well. For all the key workers out there, keep up the amazing work you’re doing 🙌 We can’t wait to be back at it making you all look and feel fresh again 😊</p>
-            <h3 class="title is-4">Take care - The PK Team x</h3>
+            <h1 class="title is-1">COVID-19 Update</h1>
+            <h2 class="subtitle is-3">Updated 27th May 2020</h2>
+            <p><strong>Can you believe it has been 9 whole weeks since we closed our doors?!</strong></p>
+        <p>We hope everybody had a good bank holiday weekend and that you are all doing well and are as excited to get your hair done as we are to do it!</p>
+        <p><strong>Here's our latest update...</strong></p>
+        <p>As it stands we have a potential reopening date of the 4th July. This could change as it isn’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.</p>
+        <p>In the mean time we will be shortly posting a page where you can register to be contacted for an appointment for when we do open the diary so we can get everyone booked in. We can see who has missed appointments and you will be contacted accordingly, but by all means please add your name to the list to confirm you want to get in as we understand some people may wish to wait still and see what the situation is like closer to the time.</p>
+        <p><em>Please bare with us and know we will do our best to get everyone in in the shortest time possible, but we are expecting high demand upon reopening. With potential restricted hours per stylist we will do our upmost to accommodate you.</em></p>
+        <p>Thanks so much to all of our clients for being so patient and understanding that this situation is out of all of our hands. We cannot wait to get back to doing what we love best!</p> 
+        <p><strong>Please revisit this page for updates and to find out when our registration form is live.</strong></p>
+        <h3 class="title is-5">We hope to see you all very soon, we miss you! xx</h3>
         </div>
         <div class="column">
             <figure class="image is-hidden-mobile">
-                {{ Html::image('images/corona/corona_2.jpg') }}   
+                {{ Html::image('images/corona/corona.jpg') }}   
             </figure>
         </div>
     </div>
