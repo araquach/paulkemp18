@@ -33,6 +33,9 @@ Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/kate', 'PagesController@leaver');
 Route::get('/base', 'PagesController@base');
 
+Route::get('/bookings', 'BookingController@create');
+Route::post('/bookings', 'BookingController@store');
+
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 
 Route::get('/news/index', 'NewsController@index');
