@@ -456,6 +456,13 @@ p {
 }
 
 #corona {
+	background-color: $beige-lighter;
+	padding-top: 0;
+
+	@include until($tablet) {
+		margin-right: -.75rem;
+	}
+	
 	ul {
 		margin: 2rem 0;
 	}
@@ -466,3 +473,4 @@ p {
 		margin-left: 1rem;
 	}
 }
+
