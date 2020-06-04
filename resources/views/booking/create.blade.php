@@ -19,7 +19,7 @@
 		<div class="column section is-7">
 
 		@if(Session::has('message'))
-			<div class="success">
+			<div class="box is-size-4">
 			{{{ Session::get('message') }}}
 			</div>
 		@endif
