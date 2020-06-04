@@ -61,6 +61,7 @@
 				</div>
 
 				<div class="field">
+					<div class="select is-multiple">
 					{!! Form::label('stylist', 'Your Stylist', ['class' => 'label']) !!}
 					{!! Form::select('stylist', array(
 						'Izzy' => 'Izzy',
@@ -71,9 +72,11 @@
 						'Abi'=> 'Abi',
 						'David'=> 'David',
 						'Unknown'=> 'Unknown'
-						), old('stylist'), ['placeholder' => 'Select Stylist', 'class'=> 'select']) !!}
+						), old('stylist'), ['placeholder' => 'Select Stylist']) !!}
 					{!! $errors->first('stylist', '<div class="has-text-danger">:message</div>') !!}
+					</div>
 				</div>
+				<br>
 				
 				<div class="field">
 				{!! Form::submit('Submit', ['class' => 'button']) !!}
