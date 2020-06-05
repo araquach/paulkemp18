@@ -26,7 +26,7 @@ class BookingFormRequest extends FormRequest
         return [
             'first_name' => 'required',
             'last_name' => 'required',
-            'mobile' => 'required',
+            'mobile' => 'required | unique:bookings',
             'stylist' => 'required'
         ];
     }
