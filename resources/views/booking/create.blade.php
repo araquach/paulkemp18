@@ -3,11 +3,13 @@
 @section('head')
 
 @include('layouts.partials.head', [
-		'description' => '',
-		'ogtitle' => '',
-		'ogdescription' => '',
-		'ogimage' => url('/') . '',
-		'title' => 'Jakata Salon - Register Your Details - Hairdressers in Warrington'
+		'description' => 'We\'re getting closer and closer to our reopening date and we can\'t wait!! We are not taking booking until we have a confirmed date as it\'s still a bit up in the air at the moment.',
+		'ogtitle' => 'Register for your appointment',
+		'ogdescription' => 'We\'re getting closer and closer to our reopening date and we can\'t wait!! We are not taking booking until we have a confirmed date as it\'s still a bit up in the air at the moment.',
+		'ogimage' => url('/') . '/images/corona/register.jpg',
+		'ogimagewidth' => '1200',
+		'ogimageheight' => '628',
+		'title' => 'Paul Kemp Hairdressing - Register Your Details - Hairdressers in Warrington'
 	])
 
 @stop
