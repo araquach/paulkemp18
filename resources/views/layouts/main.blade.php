@@ -69,8 +69,8 @@
 											<a class="button is-primary" href="{!! URL::to('contact') !!}">
 												<strong>Contact Us</strong>
 											</a>
-											<a class="button is-light" href="{!! URL::to('booking') !!}">
-												Book Now
+											<a class="button is-light" href="{!! URL::to('bookings') !!}">
+												Bookings
 											</a>
 										</div>
 									</div>
