@@ -459,6 +459,10 @@ p {
 	background-color: $beige-lighter;
 	padding-top: 0;
 
+	h3 {
+		margin-bottom: .8rem;
+	}
+
 	@include until($tablet) {
 		margin-right: -.75rem;
 	}

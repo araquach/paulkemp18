@@ -19,17 +19,51 @@
 <div id="corona">
     <div class="columns">
 		<div class="section column is-7">
-            <h1 class="title is-1">COVID-19 Update</h1>
-            <h2 class="subtitle is-3">Updated 27th May 2020</h2>
-            <p><strong>Can you believe it has been 9 whole weeks since we closed our doors?!</strong></p>
-        <p>We hope everybody had a good bank holiday weekend and that you are all doing well and are as excited to get your hair done as we are to do it!</p>
-        <p><strong>Here's our latest update...</strong></p>
-        <p>As it stands we have a potential reopening date of the 4th July. This could change as it isn’t set in stone. We are not currently taking any bookings until we have our confirmed dates and our staff rota’s in place. We are unsure yet what our guidelines will be on working within the salon so we may have to re-jig things.</p>
-        <p>In the mean time we will be shortly posting a page where you can register to be contacted for an appointment for when we do open the diary so we can get everyone booked in. We can see who has missed appointments and you will be contacted accordingly, but by all means please add your name to the list to confirm you want to get in as we understand some people may wish to wait still and see what the situation is like closer to the time.</p>
-        <p><em>Please bare with us and know we will do our best to get everyone in in the shortest time possible, but we are expecting high demand upon reopening. With potential restricted hours per stylist we will do our upmost to accommodate you.</em></p>
-        <p>Thanks so much to all of our clients for being so patient and understanding that this situation is out of all of our hands. We cannot wait to get back to doing what we love best!</p> 
-        <p><strong>Please revisit this page for updates and to find out when our registration form is live.</strong></p>
-        <h3 class="title is-5">We hope to see you all very soon, we miss you! xx</h3>
+            <h1 class="title is-1">COVID-19 </h1>
+            <h2 class="title is-3">Guidelines for your appointment</h2>
+            <h2 class="subtitle is-6">Updated 24th June 2020</h2>
+            <p class="is-size-5">As you can all imagine we have had to make some changes to our procedures during your next visit to the salon. 
+            We are trying to make it as safe as possible for our clients and staff and come up with ‘covid friendly’ measures, following the government guidelines</p>
+            <p class="has-text-danger">Please ensure you read the following guielines before you come in for your appointment</p>
+            <h3 class="title is-4">If you are unwell</h3>
+            <p>If you have a high temperature, a persistent cough, any loss of smell of taste please let us know and cancel your appointment.</p>
+            <h3 class="title is-4">Arriving to your appointment</h3>
+            <p>Please arrive to the salon at the time of your appointment. We will not be using the waiting area initially so if we are running late for you you will be notified in due course. 
+            You may still be able to come and take a seat in your stylists area so don’t worry.</p>
+            <p>Each stylist is going to be allocated an area of the salon. 
+            They will use these chairs to minimise different people having contact with all areas of the salon. We are also minimising the amount of stylists we have in on any given day so that we can maintain a safe distance at all times.</p>
+            <h3 class="title is-4">Please come to your appointment alone</h3>
+            <p>We can no longer allow people to bring anyone with them during their appointment so that we can limit the number of people in the salon at any given time. 
+            We totally understand that for some people childcare is an issue and we are very sorry that we can not accommodate for this at the moment. 
+            We are open evenings and weekends and hope that this will provide adequate spaces to get everyone in.</p>
+            <p><em>Unfortunately as we are requiring people to come to their appointment alone we are unable to cater for children at this time who need to be accompanied by their parents.
+            We hope that once the initial rush has died down and the salon has less footfall this will quickly change. We really hope you understand this isn’t an easy decision for us to make as we love being a welcoming salon for all the family. 
+            But with trying to minimise the number of people coming through the salon we are having to make some short term changes. We hope that this will be no longer than 2 to 3 weeks after opening and please keep in touch with us regarding this issue as we hope this will be a short term fix!</em></p>
+            <h3 class="title is-4">Please arrive at your appointment with clean hair</h3>
+            <p>Due to the current situation with COVID-19 we will not be able to carry out any dry cuts. We must wash all clients hair prior to cutting to increase levels on cleanliness. </p>
+            <p>We also ask anyone who has a colour to make sure your hair is freshly washed prior to your appointment. 
+            If you arrive with unclean hair we will have to wash it and this will reduce our appointment time with you and will also incur a fee.</p>
+            <h3 class="title is-4">Surcharge</h3>
+            <p>You may find that there will be a surcharge on your first appointment
+            As everybody’s hair is way overdue we may have to charge slightly more due to using more colour and taking more time. 
+            We do hope you understand we are not trying to over charge. Colour is one of our biggest costs and we're going to be using 2-3 times more product this visit.</p>
+            <h3 class="title is-4">Complimentary PPE</h3>
+            <p>We are providing masks for everyone. Please feel free to bring your own but we have them readily available.</p>
+            <h3 class="title is-4">Refreshments & Magazines</h3>
+            <p>We won’t be serving any drinks or offering magazines for a while. This is a way for us to minimise any extra contact. We again realise this is all part of the experience of being in the salon and are hoping that this will only be a very short term measure as we see how things progress over the coming weeks. 
+            Please bring your own bottled refreshments though by all means. <strong>However government guidelines say you cannot bring food.</strong></p>
+            <h3 class="title is-4">Hand Sanitiser</h3>
+            <p>We will provide hand sanitiser.
+            We will have this on the front desk and will ask you to wash your hands upon your arrival.</p>
+            <h3 class="title is-4">Cancellation Policy</h3>
+            <p>As we have extremely long lists of people to get through we are having to introduce a cancellation policy. This will mean we require <strong>48 hours notice</strong> prior to cancelling an appointment, <span class="has-text-danger">if less than 48 hours or not giving any notice we will have to charge 50% of the appointment time. </span>
+            So please if you can let us know as soon as possible for any cancellations we will greatly appreciate it at this crazy time.</p>
+            <h3 class="title is-4">Please bear with us</h3>
+            <p>We are so grateful for all of our clients wanting to get appointments when we reopen but please do bear with us whilst we try and accommodate everyone. 
+            We are having to shift some of our stylists to keep the environment safe for you all but we also want to get everyone in as quickly as we can.</p> 
+            <p>You may have to wait a couple of weeks to get in with some of our busier stylists as they are having to initially accommodate all of those who have missed their appointments due to lockdown. 
+            <em>We hope you all understand how busy this time is for all of us.</em></p>
+            <p class="title is-4"><strong>We can’t wait to see you all and transform your locks!</strong></p>
         </div>
         <div class="column">
             <figure class="image is-hidden-mobile">
