@@ -50,11 +50,11 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-6 is-size-4-mobile">COVID-19 Latest Update</p>
+                <p class="title is-6 is-size-4-mobile">COVID-19 Guidelines for your appointment</p>
               </div>
             </div>
             <div class="content is-size-7 is-size-5-mobile">
-            Can you believe it has been 9 whole weeks since we closed our doors?! As it stands we have a potential reopening date of the 4th July&hellip;
+            Find out the new guidelines for your next visit to the salon here&hellip;
             </div>
           </div>
         </div>
