@@ -107,6 +107,7 @@
 								</a>
 							</div>
 						</div>
+						<p class="is-size-7 has-text-centered">Find us in the directory of <a href='http://www.warrington.co.uk/hairdressers/' class="directory-link">Warrington Hairdressers</a></p>
 					</footer>
 				</div>
 			</div>
