@@ -32,7 +32,6 @@
 			<p>Our normal booking systems are still closed until next week. If you are wanting an appointment please register here and we'll be in touch within a day or two.</p>
 			<p>We will not be opening our online bookings or taking telephone bookings until we re-open. Thanks for your patience</p>
 			<p class="is-size-4">If you are wanting to book an appointment, please fill in the form below to ensure we've got your correct information</p>
-			<p>Please fill in as much information as possible in the form below, we will get back to you as soon as we can</p>
 
 			<ul>
 				@foreach($errors->all() as $error)
