@@ -36,9 +36,8 @@
 									<a class="navbar-item is-size-4-mobile" href="{!! URL::to('team') !!}">
 										Team
 									</a>
-
-									<a class="navbar-item is-size-4-mobile" href="{!! URL::to('blog') !!}">
-										Blog
+									<a class="navbar-item is-size-4-mobile" href="{!! URL::to('offers') !!}">
+										Offers
 									</a>
 
 									<div class="navbar-item has-dropdown is-hoverable">
@@ -47,11 +46,11 @@
 										</a>
 
 										<div class="navbar-dropdown">
+											<a class="navbar-item is-size-4-mobile" href="{!! URL::to('blog') !!}">
+												Blog
+											</a>
 											<a class="navbar-item is-size-4-mobile" href="{!! URL::to('recruitment') !!}">
 												Recruitment
-											</a>
-											<a class="navbar-item is-size-4-mobile" href="{!! URL::to('offers') !!}">
-												Offers
 											</a>
 											<a class="navbar-item is-size-4-mobile" href="{!! URL::to('men') !!}">
 												Men
