@@ -33,11 +33,12 @@
 					<img src="{{ asset('images/offer/david.png') }}" alt="David Randles">
 				</div>
 				<section class="column is-8">
-				  	<h2 class="title is-3">Special Offer with our newest member of the team</h2>
-				  	<p>Our latest stylist David is looking to take on new clients.</p>
-				  	<p class="is-size-4"><strong>A Colour & Cut for just £50</strong></p>
-				  	<p>Book in with David and let him transform you!</p>
-					<small class="is-size-7">For New Clients - not with any other offer - additional costs apply for dark to light and crazy colours<br>Skin test required 48hrs before any colour service</small>
+				  	<h2 class="title is-3">Special Limited offer with David</h2>
+				  	<p>Our super-talented stylist is looking to take on new clients.</p>
+				  	<p class="is-size-4"><strong>25% off your first Visit</strong></p>
+				  	<p>A Colour & Cut from just £50</p>
+					<p>Find out more here ></p>
+					<small class="is-size-7">For New Clients - not with any other offer<br>Skin test required 48hrs before any colour service</small>
 				</section>
 			</div>
 		</div>
@@ -51,29 +52,14 @@
 					<section class="column is-8">
 						<h2 class="title is-3">25% off your first visit to Abi</h2>
 						<p>Abi is an awesome stylist and a member of the GHD Style Squad!</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £70</strong></p>
-						<p>Click for more info</p>
+						<p class="is-size-4"><strong>A Colour & Cut from just £60</strong></p>
+						<p>Click for more info ></p>
 						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
 					</section>
 				</div>
 			</div>
 		</a>
-		<a href="{{ URL::to('offers/brad') }}">
-			<div  class="box">
-				<div class="columns">
-					<div class="column">
-						<img src="{{ asset('images/offer/individual/brad.png') }}" alt="Brad">
-					</div>
-					<section class="column is-8">
-						<h2 class="title is-3">25% off your first visit to Brad</h2>
-						<p>Brad has loads of experience and is a seriously skilled hairdresser</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £70</strong></p>
-						<p>Click for more info</p>
-						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
-					</section>
-				</div>
-			</div>
-		</a>
+		
 		<!-- <a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">
 				<div class="columns">
