@@ -23,9 +23,25 @@
 	<section id="offers" class="section">
 		<div class="columns">
 			<div class="column is-9">
-				<h1 class="title is-2 has-text-primary">Special Offers</h1>
+				<h1 class="title is-2 has-text-primary">Latest Special Offers</h1>
 			</div>
 		</div>
+		<a href="{{ URL::to('offers/abi') }}">
+			<div class="box">
+				<div class="columns">
+					<div class="column">
+						<img src="{{ asset('images/offer/individual/abi.png') }}" alt="Abi">
+					</div>
+					<section class="column is-8">
+						<h2 class="title is-3">25% off your first visit to Abi</h2>
+						<p>Abi is an awesome stylist and a member of the GHD Style Squad!</p>
+						<p class="is-size-4"><strong>A Colour & Cut from just £60</strong></p>
+						<p>Click for more info ></p>
+						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
+					</section>
+				</div>
+			</div>
+		</a>
 		<a href="{{ URL::to('offers/david') }}">
 		<div class="box">
 			<div class="columns">
@@ -43,22 +59,7 @@
 			</div>
 		</div>
 		</a>
-		<a href="{{ URL::to('offers/abi') }}">
-			<div class="box">
-				<div class="columns">
-					<div class="column">
-						<img src="{{ asset('images/offer/individual/abi.png') }}" alt="Abi">
-					</div>
-					<section class="column is-8">
-						<h2 class="title is-3">25% off your first visit to Abi</h2>
-						<p>Abi is an awesome stylist and a member of the GHD Style Squad!</p>
-						<p class="is-size-4"><strong>A Colour & Cut from just £60</strong></p>
-						<p>Click for more info ></p>
-						<small class="is-size-7">For New Clients - not with any other offer <br>Skin test required 48hrs before any colour service</small>
-					</section>
-				</div>
-			</div>
-		</a>
+	
 		
 		<!-- <a href="{{ URL::to('offers/sarah') }}">
 			<div class="box">

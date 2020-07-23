@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'Check out this amazing offer with David',
+	'description' => 'Check out this amazing introductory offer with David',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'A special offer with our latest addition to the team - David',
-	'ogdescription' => 'Looking for a new stylist? David is our latest skilled stylist to join the team',
-	'ogimage' => url('/') . '/images/offer/individual/david_montage_fb.jpg',
+	'ogtitle' => '25% off your first visit to our ultra talented stylist David',
+	'ogdescription' => 'Looking for a new stylist? Book in with David for a free consultation to see what he can do for you!',
+	'ogimage' => url('/') . '/images/offer/individual/david_montage_2_fb.jpg',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
 	'title' => 'Paul Kemp Hairdressing - Offer with David - Hairdressers in Warrington'
@@ -32,13 +32,13 @@
 	</div>
 
 	<figure class="image">
-		{{ Html::image('/images/offer/individual/david_montage_2.png') }}
+		{{ Html::image('/images/offer/individual/david_montage.png') }}
 	</figure>
 
 	<div class="columns">
 		<div class="column is-8">
 			<div class="section">
-				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas David comes up with then book in to get <strong>25% off</strong> your first visit</p>
+				<p class="is-size-5"><strong>Come in for a FREE consultation and if you like the ideas David comes up with then get 25% off yyour first visit to hime</p>
 				<p class="is-size-4"><strong>Call 01925 444488 to book</strong><br>
 				or use our online booking (link at top of page)</p>
 				<p>Just mention the offer at the time of your visit</p>
