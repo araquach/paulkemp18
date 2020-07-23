@@ -25,7 +25,7 @@ Route::get('/offers', 'PagesController@offers');
 // Route::get('/prices', 'PagesController@prices');
 Route::get('/apprenticeprices', 'PagesController@apprenticePrices');
 Route::get('/salon', 'PagesController@salon');
-Route::get('/booking', 'PagesController@booking');
+Route::get('/bookings', 'PagesController@booking');
 Route::get('/kebelo', 'PagesController@offerBrad');
 Route::get('/team', 'PagesController@team');
 Route::get('/team/{staff}', 'PagesController@teamInd');
@@ -33,8 +33,8 @@ Route::get('/newstaff', 'PagesController@newstaff');
 Route::get('/kate', 'PagesController@leaver');
 Route::get('/base', 'PagesController@base');
 
-Route::get('/bookings', 'BookingController@create');
-Route::post('/bookings', 'BookingController@store');
+// Route::get('/bookings', 'BookingController@create');
+// Route::post('/bookings', 'BookingController@store');
 
 Route::get('/reviews/{stylist?}', 'PagesController@reviews');
 

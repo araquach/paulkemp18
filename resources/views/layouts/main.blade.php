@@ -70,7 +70,7 @@
 												<strong>Contact Us</strong>
 											</a>
 											<a class="button is-light" href="{!! URL::to('bookings') !!}">
-												Bookings
+												Book Now
 											</a>
 										</div>
 									</div>

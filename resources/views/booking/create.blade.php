@@ -28,11 +28,10 @@
 
 			<h1 class="title is-2 has-text-primary">Register for your appointment</h1>	
 
-			<p class="is-size-4">It's confirmed - we'll definitely be re-opening on Saturday 4th July!</p>
-			<p>Each team member will be contacting their own clients to arrange bookings about a week or two before our opening date. Anybody who was already booked in will be contacted first. We will be working really hard to make sure everyone gets an appointment that suits them in the quickest possible time.</p>
-			<p>We will not be opening our online bookings or taking telephone bookings until we re-open.</p>
+			<p class="is-size-4">We're back up and running and we're close to getting on top of our backlog of clients.</p>
+			<p>Our normal booking systems are still closed until next week. If you are wanting an appointment please register here and we'll be in touch within a day or two.</p>
+			<p>We will not be opening our online bookings or taking telephone bookings until we re-open. Thanks for your patience</p>
 			<p class="is-size-4">If you are wanting to book an appointment, please fill in the form below to ensure we've got your correct information</p>
-			<p>Please fill in as much information as possible in the form below, we will get back to you as soon as we can</p>
 
 			<ul>
 				@foreach($errors->all() as $error)
