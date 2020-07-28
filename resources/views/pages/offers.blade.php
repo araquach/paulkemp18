@@ -5,8 +5,8 @@
 @include('layouts.partials.head', [
 	'description' => 'New Client Offfers',
 	'keywords' => 'hair offers, hairdressing offers, salon offers, Paul Kemp Hairdressing offers',
-	'ogtitle' => 'New Client Offers',
-	'ogdescription' => 'Tale advantage of 25% off with selected team members this month',
+	'ogtitle' => 'Post lock-down offers',
+	'ogdescription' => 'Take advantage of 25% off with selected team members this month',
 	'ogimage' => url('/') . '/images/offer/corona_offers.png',
 	'ogimagewidth' => '1200',
 	'ogimageheight' => '628',
